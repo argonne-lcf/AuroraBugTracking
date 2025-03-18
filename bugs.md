@@ -21,7 +21,7 @@
 
 ## A2
 
-A new GPU framework. ETA?
+A new GPU framework is required. I have been available internally at Intel. ETA? WA is to use less OpenMP thread, so doing less copy.
 
 ## A3
 
