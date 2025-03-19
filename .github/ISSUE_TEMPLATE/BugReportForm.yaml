@@ -30,8 +30,7 @@ body:
     attributes:
       label: Vendor/ALCF/other tickets/IDs
       description: Enter ticket numbers, Jira hyperlinks, etc..
-      placeholder: Tell us what you see!
-      value: "e.g. [pmodels/mpich#7333](https://github.com/pmodels/mpich/issues/7333)"
+      placeholder: e.g. [pmodels/mpich#7333](https://github.com/pmodels/mpich/issues/7333)
     validations:
       required: false
   - type: input
