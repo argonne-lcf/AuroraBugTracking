@@ -69,7 +69,7 @@ body:
       label: Screenshots
       description: If applicable, add screenshots to help explain your problem.
       placeholder: Tell us what you see!
-      value: ""
+      value: "screenshots here"
     validations:
       required: false
   - type: textarea
