@@ -5,7 +5,7 @@ labels: ["bug", "triage"]
 body:
   - type: markdown
     id: status
-    attributres:
+    attributes:
       label: Bug Status
       description: Enter status of the bug
       value: tmp
