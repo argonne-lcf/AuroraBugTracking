@@ -8,6 +8,7 @@ body:
     attributres:
       label: Bug Status
       description: Enter status of the bug
+      value: tmp
   - type: dropdown
     id: priority
     attributes:
