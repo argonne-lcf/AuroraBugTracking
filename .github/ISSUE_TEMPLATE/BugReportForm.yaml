@@ -10,6 +10,14 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
   - type: input
+    id: POC
+    attributes:
+      label: Point of Contact
+      description: Who is the point of contact for this bug?
+      placeholder: ex. Tim Williams
+    validations:
+      required: true
+  - type: input
     id: contact
     attributes:
       label: Contact Details
