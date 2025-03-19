@@ -2,8 +2,12 @@ name: Aurora Bug Report
 description: File a bug report.
 title: "[Bug]: "
 labels: ["bug", "triage"]
-status: status
 body:
+  - type: markdown
+    id: status
+    attributres:
+      label: Bug Status
+      description: Enter status of the bug
   - type: dropdown
     id: priority
     attributes:
