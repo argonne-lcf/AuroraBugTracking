@@ -25,6 +25,14 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
+  - type: input
+    id: reproducer-path
+    attributes:
+      label: Reproducer Path
+      description: Where is the code to reproduce the bug?
+      placeholder: ex. /home/zippy/reproducers/xgc42
+    validations:
+      required: true
   - type: textarea
     id: describe-the-bug
     attributes:
@@ -34,28 +42,38 @@ body:
       value: "A bug happened!"
     validations:
       required: true
+  - type: textarea
+    id: to-reproduce
+    attributes:
+      label: How to reproduce?
+      description: Steps to reproduce the bug.
+      placeholder: |
+        1. Go to '...'
+        2. Edit '....'
+        3. Run '....'
+        4. See error in output: '....'
+    validations:
+      required: false
   - type: dropdown
     id: priority
     attributes:
       label: Priority
       description: What is the priority of this bug?
       options:
-        - low (Default)
-        - medium
+        - low
+        - medium (Default)
         - high
       default: 1
     validations:
       required: true
-  - type: dropdown
-    id: browsers
+  - type: input
+    id: eta
     attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+      label: ETA
+      description: When is a fix for the bug expected?
+      placeholder: ex. 12/31/2029, Q1 2026
+    validations:
+      required: false
   - type: textarea
     id: logs
     attributes:
