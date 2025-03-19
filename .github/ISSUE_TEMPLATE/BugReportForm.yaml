@@ -28,14 +28,15 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: version
+    id: priority
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Priority
+      description: What is the priority of this bug?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-      default: 0
+        - low (Default)
+        - medium
+        - high
+      default: 1
     validations:
       required: true
   - type: dropdown
