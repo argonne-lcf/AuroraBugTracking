@@ -6,8 +6,9 @@ body:
   - type: input
     id: status
     attributes:
+      label: Bug Status
       description: Enter status of the bug
-      value: tmp
+      placeholder: ex. Open -- WA available
   - type: dropdown
     id: priority
     attributes:
