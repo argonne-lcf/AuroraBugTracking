@@ -1,6 +1,6 @@
 name: Aurora Bug Report Form
 description: File a bug report.
-title: ""
+title: " "
 labels: []
 assignees:
   - octocat
