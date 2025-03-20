@@ -45,8 +45,8 @@ body:
     id: describe-the-bug
     attributes:
       label: Description
-      description: A clear and concise description of what the bug is.
-      placeholder: A bug happened!
+      description: A clear and concise one-line description of what the bug is. Use Additional Details part of form to add more.
+      placeholder: Short, one-line description.
     validations:
       required: true
   - type: textarea
@@ -80,9 +80,9 @@ body:
   - type: textarea
     id: additional-context
     attributes:
-      label: Additional Context
-      description: Add any other context about the problem here.
-      placeholder: Additional problem context
+      label: Additional Details
+      description: Add any other details or context about the problem here.
+      placeholder: Additional problem details/context. This can be verbose.
     validations:
       required: false
   - type: dropdown
