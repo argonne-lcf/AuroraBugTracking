@@ -4,7 +4,7 @@
 | A1 | Bcast gets faster when turning off XPMEM | https://github.com/pmodels/mpich/issues/7334 | In the issue | Ye Luo | Open -- WA available |
 | A2 | Lot of H2D copy produce CPU I9 error and incorect value | None | Full QMCPACK | Ye Luo | Open |  X | 
 | A3 | Multithreadaed Data-transfer can cause page-fault | None | Full QMCPACK | Ye Luo | Open -- WA available |  X | 
-
+| [3](https://github.com/argonne-lcf/AuroraBugTracking/issues/3) | The linker fails to find the object code for a function declared and implemented in a different .cpp source file. | Jira forthcoming | /home/zippy/smalltests/aurora/xgc42/fails | Tim Williams | Open -- WA available |  | |
 
 
 # More Info
