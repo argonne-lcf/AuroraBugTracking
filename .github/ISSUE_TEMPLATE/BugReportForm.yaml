@@ -92,11 +92,11 @@ body:
       description: What is the priority of this bug?
       options:
         - low
-        - medium (Default)
+        - medium
         - high
       default: 1
     validations:
-      required: true
+      required: false
   - type: input
     id: eta
     attributes:
