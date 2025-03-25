@@ -105,7 +105,7 @@ body:
       default: 1
     validations:
       required: false
-  - type: input
+  - type: textarea
     id: eta
     attributes:
       label: ETA
