@@ -93,18 +93,14 @@ body:
       placeholder: Additional problem details/context. This can be verbose.
     validations:
       required: false
-  - type: dropdown
+  - type: checkbox
     id: priority
     attributes:
-      label: Priority
-      description: What is the priority of this bug?
+      label: Is this a priority/blocking bug?
+      description: Only check if you know what this means
       options:
-        - low
-        - medium
-        - high
-      default: 1
-    validations:
-      required: false
+        - label: Priority
+          required: false
   - type: textarea
     id: eta
     attributes:
