@@ -93,7 +93,7 @@ body:
       placeholder: Additional problem details/context. This can be verbose.
     validations:
       required: false
-  - type: checkbox
+  - type: checkboxes
     id: priority
     attributes:
       label: Is this a priority/blocking bug?
