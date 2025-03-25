@@ -41,6 +41,14 @@ body:
       placeholder: ex. /home/zippy/reproducers/xgc42
     validations:
       required: true
+  - type: input
+    id: status
+    attributes:
+      label: Status
+      description: Status of the bug?
+      placeholder: ex. Open -- WA available
+    validations:
+      required: true
   - type: textarea
     id: describe-the-bug
     attributes:
