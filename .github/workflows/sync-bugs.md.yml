@@ -1,0 +1,73 @@
+name: Sync Issues to Bugs.md
+
+on:
+  schedule:
+    # Run at 2am CDT (UTC-5)
+    - cron: '0 7 * * *'  # 7am UTC = 2am CDT
+
+jobs:
+  sync-bugs:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: read
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup GitHub CLI
+        run: |
+          type -p curl >/dev/null || (sudo apt update && sudo apt install curl -y)
+          curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg \
+          && sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg \
+          && echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
+          && sudo apt update \
+          && sudo apt install gh -y
+
+      - name: Authenticate with GitHub
+        run: gh auth login --with-token <<< "${{ secrets.GITHUB_TOKEN }}"
+
+      - name: Fetch and Process Issues
+        run: |
+          # Create a temporary file for the new table content
+          echo "| Internal ID |  Description | Vendor ID | Reproducer Path | PoC | Status | Priority | ETA" > bugs_table_new.md
+          echo "| --- | --- | --- | --- | --- | --- | --- |--- |" >> bugs_table_new.md
+
+          # Fetch all issues
+          gh issue list --json number,title,body,labels --limit 1000 | while read -r issue; do
+            # Extract fields from the issue body using yq (installed in next step)
+            poc=$(echo "$issue" | yq -r '.body | fromjson | .POC')
+            vendor_tickets=$(echo "$issue" | yq -r '.body | fromjson | ."vendor-other-tickets"')
+            reproducer_path=$(echo "$issue" | yq -r '.body | fromjson | ."reproducer-path"')
+            status=$(echo "$issue" | yq -r '.body | fromjson | .status')
+            description=$(echo "$issue" | yq -r '.body | fromjson | ."describe-the-bug"')
+            priority=$(echo "$issue" | yq -r '.body | fromjson | .priority')
+            eta=$(echo "$issue" | yq -r '.body | fromjson | .eta')
+            
+            # Format the row
+            echo "| A$issue_number | $description | $vendor_tickets | $reproducer_path | $poc | $status | $priority | $eta |" >> bugs_table_new.md
+          done
+
+      - name: Install yq
+        run: |
+          sudo wget -qO /usr/local/bin/yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
+          sudo chmod a+x /usr/local/bin/yq
+
+      - name: Update bugs.md
+        run: |
+          # Read the existing bugs.md file
+          content=$(cat bugs.md)
+          
+          # Replace the table section with the new table
+          new_content=$(echo "$content" | sed -e '/^| Internal ID/,/^| ---/c\ '"$(cat bugs_table_new.md)"'')
+          
+          # Write back to bugs.md
+          echo "$new_content" > bugs.md
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add bugs.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update bugs.md with latest issues" && git push) 
