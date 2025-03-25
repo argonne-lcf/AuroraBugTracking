@@ -44,13 +44,21 @@ jobs:
           gh issue list --json number,title,body,labels --limit 1000 | jq -c '.[]' | while read -r issue; do
             # Extract fields from the issue body using yq
             number=$(echo "$issue" | jq -r '.number')
-            poc=$(echo "$issue" | jq -r '.body' | yq -r '.POC')
-            vendor_tickets=$(echo "$issue" | jq -r '.body' | yq -r '."vendor-other-tickets"')
-            reproducer_path=$(echo "$issue" | jq -r '.body' | yq -r '."reproducer-path"')
-            status=$(echo "$issue" | jq -r '.body' | yq -r '.status')
-            description=$(echo "$issue" | jq -r '.body' | yq -r '."describe-the-bug"')
-            priority=$(echo "$issue" | jq -r '.body' | yq -r '.priority')
-            eta=$(echo "$issue" | jq -r '.body' | yq -r '.eta')
+            
+            # Create a temporary file for the body content
+            echo "$issue" | jq -r '.body' > body.tmp
+            
+            # Extract fields from the body using yq
+            poc=$(yq -r '.POC' body.tmp)
+            vendor_tickets=$(yq -r '."vendor-other-tickets"' body.tmp)
+            reproducer_path=$(yq -r '."reproducer-path"' body.tmp)
+            status=$(yq -r '.status' body.tmp)
+            description=$(yq -r '."describe-the-bug"' body.tmp)
+            priority=$(yq -r '.priority' body.tmp)
+            eta=$(yq -r '.eta' body.tmp)
+            
+            # Clean up temporary file
+            rm body.tmp
             
             # Format the row
             echo "| A$number | $description | $vendor_tickets | $reproducer_path | $poc | $status | $priority | $eta |" >> bugs_table_new.md
