@@ -1,4 +1,4 @@
-name: Sync Issues to Bugs.md
+name: Sync Issues to Table
 
 on:
   schedule:
@@ -12,7 +12,7 @@ jobs:
     permissions:
       contents: write
       issues: read
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -43,10 +43,10 @@ jobs:
             # Extract number and URL using jq directly
             number=$(jq -r '.number' <<< "$issue")
             url=$(jq -r '.url' <<< "$issue")
-            
+
             # Get the body content
             body=$(jq -r '.body' <<< "$issue")
-            
+
             # Extract fields from the markdown body
             poc=$(extract_field "$body" "Point of Contact")
             vendor_tickets=$(extract_field "$body" "Vendor/ALCF/other tickets/IDs")
@@ -55,7 +55,7 @@ jobs:
             description=$(extract_field "$body" "Description")
             priority=$(extract_field "$body" "Priority")
             eta=$(extract_field "$body" "ETA")
-            
+
             # Format the row with markdown link
             echo "| [A$number]($url) | $description | $vendor_tickets | $reproducer_path | $poc | $status | $priority | $eta |" >> bugs_table_new.md
           done
@@ -71,7 +71,7 @@ jobs:
             p==1 && /^| A[0-9]+/ { next }
             { if (p) print }
           ' bugs.md > bugs.md.tmp
-          
+
           # Insert the new table at the beginning
           cat bugs_table_new.md bugs.md.tmp > bugs.md.new
           mv bugs.md.new bugs.md
@@ -82,4 +82,4 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add bugs.md
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update bugs.md with latest issues" && git push) 
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update bugs.md with latest issues" && git push)
