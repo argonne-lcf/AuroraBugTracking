@@ -29,6 +29,11 @@ jobs:
       - name: Authenticate with GitHub
         run: gh auth login --with-token <<< "${{ secrets.GITHUB_TOKEN }}"
 
+      - name: Install yq
+        run: |
+          sudo wget -qO /usr/local/bin/yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
+          sudo chmod a+x /usr/local/bin/yq
+
       - name: Fetch and Process Issues
         run: |
           # Create a temporary file for the new table content
@@ -37,7 +42,7 @@ jobs:
 
           # Fetch all issues
           gh issue list --json number,title,body,labels --limit 1000 | while read -r issue; do
-            # Extract fields from the issue body using yq (installed in next step)
+            # Extract fields from the issue body using yq
             poc=$(echo "$issue" | yq -r '.body | fromjson | .POC')
             vendor_tickets=$(echo "$issue" | yq -r '.body | fromjson | ."vendor-other-tickets"')
             reproducer_path=$(echo "$issue" | yq -r '.body | fromjson | ."reproducer-path"')
@@ -50,21 +55,22 @@ jobs:
             echo "| A$issue_number | $description | $vendor_tickets | $reproducer_path | $poc | $status | $priority | $eta |" >> bugs_table_new.md
           done
 
-      - name: Install yq
-        run: |
-          sudo wget -qO /usr/local/bin/yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
-          sudo chmod a+x /usr/local/bin/yq
-
       - name: Update bugs.md
         run: |
-          # Read the existing bugs.md file
-          content=$(cat bugs.md)
+          # Create a temporary file for the new content
+          awk '
+            BEGIN { p=1 }
+            /^# More Info/ { p=0 }
+            p==1 && /^| Internal ID/ { next }
+            p==1 && /^| ---/ { next }
+            p==1 && /^| A[0-9]+/ { next }
+            { if (p) print }
+          ' bugs.md > bugs.md.tmp
           
-          # Replace the table section with the new table
-          new_content=$(echo "$content" | sed -e '/^| Internal ID/,/^| ---/c\ '"$(cat bugs_table_new.md)"'')
-          
-          # Write back to bugs.md
-          echo "$new_content" > bugs.md
+          # Insert the new table at the beginning
+          cat bugs_table_new.md bugs.md.tmp > bugs.md.new
+          mv bugs.md.new bugs.md
+          rm bugs.md.tmp
 
       - name: Commit and push if changed
         run: |
