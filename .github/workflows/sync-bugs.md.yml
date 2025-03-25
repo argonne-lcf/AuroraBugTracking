@@ -45,17 +45,17 @@ jobs:
             # Extract fields from the issue body using yq
             number=$(echo "$issue" | jq -r '.number')
             
-            # Create a temporary file for the body content
-            echo "$issue" | jq -r '.body' > body.tmp
+            # Create a temporary file for the body content and process it
+            echo "$issue" | jq -r '.body' | sed 's/\\n/\n/g' > body.tmp
             
             # Extract fields from the body using yq
-            poc=$(yq -r '.POC' body.tmp)
-            vendor_tickets=$(yq -r '."vendor-other-tickets"' body.tmp)
-            reproducer_path=$(yq -r '."reproducer-path"' body.tmp)
-            status=$(yq -r '.status' body.tmp)
-            description=$(yq -r '."describe-the-bug"' body.tmp)
-            priority=$(yq -r '.priority' body.tmp)
-            eta=$(yq -r '.eta' body.tmp)
+            poc=$(yq -r '.POC' body.tmp 2>/dev/null || echo "")
+            vendor_tickets=$(yq -r '."vendor-other-tickets"' body.tmp 2>/dev/null || echo "")
+            reproducer_path=$(yq -r '."reproducer-path"' body.tmp 2>/dev/null || echo "")
+            status=$(yq -r '.status' body.tmp 2>/dev/null || echo "")
+            description=$(yq -r '."describe-the-bug"' body.tmp 2>/dev/null || echo "")
+            priority=$(yq -r '.priority' body.tmp 2>/dev/null || echo "")
+            eta=$(yq -r '.eta' body.tmp 2>/dev/null || echo "")
             
             # Clean up temporary file
             rm body.tmp
