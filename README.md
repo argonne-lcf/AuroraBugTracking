@@ -44,19 +44,19 @@ The bug tracking tables are automatically synchronized using GitHub Actions.
 
 The synchronization runs automatically every night at 9am UTC. You can also trigger it manually:
 - Through the GitHub Actions Web UI
-- Via command line: `gh run list --workflow=sync-issues-to-table.yml`
+- Via command line: `gh workflow run "Sync issues to table"`
 
-To monitor the last 20 submitted workflow runs from the command line:
+To monitor a summary of the last 20 submitted workflow runs from the command line:
 ```bash
 GH_FORCE_TTY=100% watch -c gh run list # --workflow=sync-issues-to-table.yml
 ```
 This assumes that your `watch` installation and terminal support the rich-formatted, color-enabled output from `gh` (e.g. `procps-ng watch` on Linux, not BSD `watch` on macOS).
 
-To watch a more detailed breakdown of most recently-launched workflow run:
+To watch a more detailed breakdown (only while it is executing) of most recently-launched workflow run:
 ```bash
 gh run watch -i 1 $(gh run list --workflow=sync-issues-to-table.yml --json databaseId --jq '.[0].databaseId')
 ```
-
+<!-- gh run view --job=$(gh run view $(gh run list --workflow=sync-issues-to-table.yml --json databaseId --jq '.[0].databaseId') --json jobs --jq '.jobs[0].databaseId')  -->
 To view a summary of the most recently-launched workflow run in your browser:
 ```bash
 gh run view $(gh run list --workflow=sync-issues-to-table.yml --json databaseId --jq '.[0].databaseId') -w
