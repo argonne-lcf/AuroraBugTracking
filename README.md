@@ -46,6 +46,22 @@ The synchronization runs automatically every night at 9am UTC. You can also trig
 - Through the GitHub Actions Web UI
 - Via command line: `gh run list --workflow=sync-issues-to-table.yml`
 
+To monitor the last 20 submitted workflow runs from the command line:
+```bash
+GH_FORCE_TTY=100% watch -c gh run list # --workflow=sync-issues-to-table.yml
+```
+This assumes that your `watch` installation and terminal support the rich-formatted, color-enabled output from `gh` (e.g. `procps-ng watch` on Linux, not BSD `watch` on macOS).
+
+To watch a more detailed breakdown of most recently-launched workflow run:
+```bash
+gh run watch -i 1 $(gh run list --workflow=sync-issues-to-table.yml --json databaseId --jq '.[0].databaseId')
+```
+
+To view a summary of the most recently-launched workflow run in your browser:
+```bash
+gh run view $(gh run list --workflow=sync-issues-to-table.yml --json databaseId --jq '.[0].databaseId') -w
+```
+
 ## License
 
 This project is maintained by Argonne National Laboratory. Contact repository maintainers for usage guidelines.
