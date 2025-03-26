@@ -7,6 +7,9 @@
 - [ ] auto-include `bugs.md` table as a Snippet in a https://github.com/argonne-lcf/user-guides page for a prettier rendering of the table for viewers, e.g. at the bottom of https://docs.alcf.anl.gov/aurora/known-issues/
   - Would be able to make it sortable (priority, ID, "last updated date") via JavaScript: https://squidfunk.github.io/mkdocs-material/reference/data-tables/#sortable-tables
   - Still would likely need to update its inclusion in the user-guides semi-manually via `git submodule update`
+  - Need to add column wrap/sizing changes:
+<img width="1107" alt="image" src="https://github.com/user-attachments/assets/9d8ab2ff-212b-4d21-b961-910d453c5e3d" />
+ 
 - [ ] add some minimal PR template or warning to only edit `bugs_manual.md`
 - [ ] add "last updated" date column to tables, sort by date?
 - [ ] stuff all `bugs_*.md`, `POC.md` in some subdir, remove links from README.md, so that `bugs.md` gets the main focus for viewers? 
