@@ -2,7 +2,8 @@
 
 This repository serves as a public, centralized bug tracking system for ALCF Aurora at Argonne National Laboratory. It provides a structured way to document, track, and manage issues related to the system.
 
-- [`bugs.md`](bugs.md) - Main bug tracking document containing a comprehensive table summarizing all current (and recently closed?) reported issues on Aurora
+> [!IMPORTANT]
+> The main bug tracking table is available in [`bugs.md`](bugs.md). This comprehensive reference summarizes all currently-known (and recently resolved?) bugs on Aurora. 
 
 ## Other files
 
