@@ -40,6 +40,22 @@ Issues are categorized by priority:
 - :warning: Medium
 - :information_source: Low
 
+## Auto-Generation Process
+
+The bug tracking tables are automatically synchronized using GitHub Actions. 
+
+<!-- The process works as follows:
+
+1. A GitHub Action parses all open and closed Issues in the repository
+2. Generates a formatted table from the Issues
+3. Merges this with the manually-curated table in [`bugs_manual.md`](bugs_manual.md)
+4. Updates [`bugs.md`](bugs.md) with the combined results
+--> 
+
+The synchronization runs automatically every night at 9am UTC. You can also trigger it manually:
+- Through the GitHub Actions Web UI
+- Via command line: `gh run list --workflow=sync-issues-to-table.yml`
+
 ## License
 
 This project is maintained by Argonne National Laboratory. Contact repository maintainers for usage guidelines.
