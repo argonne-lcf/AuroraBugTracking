@@ -6,8 +6,8 @@ This repository serves as a centralized bug tracking system for ALCF Aurora at A
 
 ## Other files
 
-- [`bugs_auto.md`](bugs_auto.md) - Summary table of bugs, automatically generated from all Issues (open and closed) in this repository. All updates, lengthy details, discussions, and related artifacts (e.g. screenshots) for a given bug should be included at its linked Issue (first column in table).
-- [`bugs_manual.md`](bugs_manual.md) - Manually maintained table of bug reports (with no corresponding Issue). When discussing one of these bugs and/or including more information, add the content in a `##` section below the table. Any changes to this file should be made via Pull Requests. Ideally, these reports would eventually be replaced by Issues and removed from this file. 
+- [`bugs_auto.md`](bugs_auto.md) - Summary table of bugs, automatically generated from all Issues (open and closed) in this repository. All updates, lengthy details, discussions, and related artifacts (e.g. screenshots) for a given bug should be included at its linked Issue, the first column in the table.
+- [`bugs_manual.md`](bugs_manual.md) - Manually maintained table of other bug reports (with no corresponding Issue). When discussing one of these bugs and/or including more information, add the content in a `##` section below the table. Any changes to this file should be made via Pull Requests. Ideally, these reports would eventually be replaced by Issues and removed from this file. 
 - [`POC.md`](POC.md) - Directory of Aurora subject matter experts, especially related to bug reporting.
 
 ## Bug Report Table Format
@@ -18,27 +18,13 @@ Each bug report in the any of the Markdown tables should include the following i
 - Vendor ID (if applicable)
 - Reproducer Path (on `/lus/flare/`)
 - PoC (Point of Contact)
-- Status
-- Priority
+- Status (Open, Closed, Workaround Available (WA), etc.)
+- Priority (:rotating_light: High, :warning: Medium, :information_source: Low)
 - ETA (for a bugfix or workaround)
 
 For auto-generated rows, this content is parsed from our current [Bug Report Form template](https://github.com/argonne-lcf/AuroraBugTracking-test/issues/new?template=BugReportForm.yaml). Note, an Issue's title is not parsed at all when generating the table in [`bugs_auto.md`](bugs_auto.md). 
 
 Rows in [`bugs_manual.md`](bugs_manual.md) are assigned Internal IDs prefixed with an `A`, e.g. `A1`, `A2`, ... When manually adding a bug report, self-assign the next available ID.
-
-## Status Categories
-
-Bugs can have many statues, including, but not limited to the following:
-- Open
-- Closed
-- Workaround Available (WA)
-
-## Priority Levels
-
-Issues are categorized by priority:
-- :rotating_light: High
-- :warning: Medium
-- :information_source: Low
 
 ## Auto-Generation Process
 
