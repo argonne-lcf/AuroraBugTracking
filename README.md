@@ -42,7 +42,7 @@ The bug tracking tables are automatically synchronized using GitHub Actions.
 4. Updates [`bugs.md`](bugs.md) with the combined results
 --> 
 
-The synchronization runs automatically every night at 9am UTC. You can also trigger it manually:
+The synchronization runs automatically whenever an Issue is opened and/or edited, and every night at 9am UTC. You can also trigger it manually:
 - Through the GitHub Actions Web UI
 - Via command line: `gh workflow run "Sync issues to table"`
 
