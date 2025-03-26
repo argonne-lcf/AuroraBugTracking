@@ -1,4 +1,4 @@
-name: Sync bugs to table
+name: Sync issues to table
 
 on:
   schedule:
