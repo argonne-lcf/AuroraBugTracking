@@ -42,9 +42,9 @@ jobs:
 
           # Fetch all issues and process them
           # (could filter by --label=bug-to-track and/or --state=open)
-          gh issue list --state=all --json number,body,url --limit 1000 | jq -c '.[]' | while read -r issue; do
+          gh issue list --state=all --json number,body,url --limit 1000 --jq '.[]' | while read -r issue; do
             # TODO: consider gh --template flag with Go https://cli.github.com/manual/gh_help_formatting
-            # and/or --jq flag directly?
+            # and/or --jq flag directly calling map() etc. jquery?
             number=$(jq -r '.number' <<< "$issue")
             url=$(jq -r '.url' <<< "$issue")
             body=$(jq -r '.body' <<< "$issue")

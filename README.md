@@ -13,20 +13,20 @@ This repository serves as a public, centralized bug tracking system for ALCF Aur
 
 ## Bug Report Table Format
 
-Each bug report in the any of the Markdown tables should include the following information; 
+Each bug report in the any of the Markdown tables should include the following information:
 - Internal ID
 - Description
 - Vendor ID (if applicable)
 - Reproducer Path (on `/lus/flare/`)
 - PoC (Point of Contact)
 - Status (Open, Closed, Workaround Available (WA), etc.)
-- Priority (🚨 High, ⚠️ Medium, ℹ️ Low)
+- Priority Bug (🚨 Yes, ℹ️  No)
 - ETA (for a bugfix or workaround)
 
-For auto-generated rows, this content is parsed from our current [Bug Report Form template](https://github.com/argonne-lcf/AuroraBugTracking-test/issues/new?template=BugReportForm.yaml). Note, an Issue's title is not parsed at all when generating the table in [`bugs_auto.md`](bugs_auto.md). 
+For auto-generated rows, this content is parsed from our current [Bug Report Form template](https://github.com/argonne-lcf/AuroraBugTracking/issues/new?template=BugReportForm.yaml). Note, an Issue's title is not parsed at all when generating the table in [`bugs_auto.md`](bugs_auto.md). 
 
 > [!WARNING]
-> Issues opened via the [Blank issue](https://github.com/argonne-lcf/AuroraBugTracking-test/issues/new) template will likely break this auto-parsing process
+> Issues opened via the [Blank issue](https://github.com/argonne-lcf/AuroraBugTracking/issues/new) template will likely break this auto-parsing process
 
 Rows in [`bugs_manual.md`](bugs_manual.md) are assigned Internal IDs prefixed with an `A`, e.g. `A1`, `A2`, ... When manually adding a bug report, self-assign the next available ID.
 
