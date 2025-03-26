@@ -1,0 +1,13 @@
+# to-do / design questions and decisions 
+
+- [ ] update hardcoded URLs (to https://github.com/argonne-lcf/AuroraBugTracking-test) in README if this stuff gets merged upstream
+- [ ] Do we remove Closed Issues from the tables?
+- [ ] stop the cron job trigger for the GH action, if we trust the Issue open/edit trigger
+- [ ] Disable Blank Issues entirely? That would make the GH Action much more robust
+- [ ] auto-include `bugs.md` table as a Snippet in a https://github.com/argonne-lcf/user-guides page for a prettier rendering of the table for viewers, e.g. at the bottom of https://docs.alcf.anl.gov/aurora/known-issues/
+  - Would be able to make it sortable (priority, ID, "last updated date") via JavaScript: https://squidfunk.github.io/mkdocs-material/reference/data-tables/#sortable-tables
+  - Still would likely need to update its inclusion in the user-guides semi-manually via `git submodule update`
+- [ ] add some minimal PR template or warning to only edit `bugs_manual.md`
+- [ ] add "last updated" date column to tables, sort by date?
+- [ ] stuff all `bugs_*.md`, `POC.md` in some subdir, remove links from README.md, so that `bugs.md` gets the main focus for viewers? 
+- [ ] and/or change the GH Action to write the combined table directly to the README.md instead of bugs.md? So people landing on the repo see the table right away, front and center
