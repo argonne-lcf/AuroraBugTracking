@@ -1,6 +1,8 @@
 name: Sync issues to table
 
 on:
+  issues:
+    types: [opened, edited]  # closed, deleted, reopened, transferred
   schedule:
     # Run at 2am CST (UTC-6) 3am CDT (UTC-5)
     - cron: '0 8 * * *'
