@@ -1,10 +1,10 @@
-name: Sync Issues to Table
+name: Sync Issues to Markdown Table
 
 on:
   schedule:
     # Run at 2am CDT (UTC-5)
-    - cron: '0 7 * * *'  # 7am UTC = 2am CDT
-  workflow_dispatch:  # Allows manual triggering
+    - cron: '0 7 * * *'
+  workflow_dispatch:
 
 jobs:
   sync-bugs:
@@ -57,10 +57,10 @@ jobs:
             eta=$(extract_field "$body" "ETA")
 
             # Format the row with markdown link
-            echo "| [A$number]($url) | $description | $vendor_tickets | $reproducer_path | $poc | $status | $priority | $eta |" >> bugs_table_new.md
+            echo "| [$number]($url) | $description | $vendor_tickets | $reproducer_path | $poc | $status | $priority | $eta |" >> bugs_table_new.md
           done
 
-      - name: Update bugs.md
+      - name: Update Markdown file
         run: |
           # Create a temporary file for the new content
           awk '
