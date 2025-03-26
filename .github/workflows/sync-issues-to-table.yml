@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  sync-bugs:
+  sync-issues-to-table:
     runs-on: ubuntu-latest
     permissions:
       contents: write
