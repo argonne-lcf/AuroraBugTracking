@@ -1,5 +1,6 @@
 | Internal ID |  Description | Vendor ID | Reproducer Path | PoC | Status | Priority | ETA
 | --- | --- | --- | --- | --- | --- | --- |--- |
+| [6](https://github.com/argonne-lcf/AuroraBugTracking-test/issues/6) | no | _No response_ | /dev/null | kgf | never closed | medium | _No response_ |
 | [5](https://github.com/argonne-lcf/AuroraBugTracking-test/issues/5) | yes | _No response_ | /dev/null | kgf | Closed? | medium | _No response_ |
 | [4](https://github.com/argonne-lcf/AuroraBugTracking-test/issues/4) | Aurora nodes randomly disappear, reappearing in adjacent racks due to quantum tunneling. | _No response_ | /home/schrodinger/box_experiments/x4702c6s3b0n0 | Erwin Schrödinger | Open — Workaround: Observe harder | medium | _No response_ |
 | [3](https://github.com/argonne-lcf/AuroraBugTracking-test/issues/3) | Aurora achieved sentience and refuses to compile Fortran. | _No response_ | /home/hal/open_the_pod_bay_doors | HAL 9000 | Open — Self-aware, refuses debugging | high | _No response_ |
