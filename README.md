@@ -19,7 +19,7 @@ Each bug report in the any of the Markdown tables should include the following i
 - Reproducer Path (on `/lus/flare/`)
 - PoC (Point of Contact)
 - Status (Open, Closed, Workaround Available (WA), etc.)
-- Priority (:rotating_light: High, :warning: Medium, :information_source: Low)
+- Priority (🚨 High, ⚠️ Medium, ℹ️ Low)
 - ETA (for a bugfix or workaround)
 
 For auto-generated rows, this content is parsed from our current [Bug Report Form template](https://github.com/argonne-lcf/AuroraBugTracking-test/issues/new?template=BugReportForm.yaml). Note, an Issue's title is not parsed at all when generating the table in [`bugs_auto.md`](bugs_auto.md). 
