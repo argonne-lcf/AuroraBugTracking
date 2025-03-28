@@ -1,0 +1,77 @@
+name: Sync issues to table
+
+on:
+  issues:
+    types: [opened, edited]  # closed, deleted, reopened, transferred
+  schedule:
+    # Run at 2am CST (UTC-6) 3am CDT (UTC-5)
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync-issues-to-table:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch and process issues
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Create a temporary file for the new table content
+          echo "| Internal ID |  Description | Vendor ID | Reproducer Path | PoC | Status | Priority | ETA" > bugs_auto_new.md
+          echo "| --- | --- | --- | --- | --- | --- | --- |--- |" >> bugs_auto_new.md
+
+          # Function to extract field from markdown body
+          extract_field() {
+            local body="$1"
+            local field="$2"
+            echo "$body" | awk -v field="$field" '
+              BEGIN { found=0; content="" }
+              $0 ~ "^### " field { found=1; next }
+              found && $0 ~ "^### " { exit }
+              found && NF > 0 { content=content $0 "\n" }
+              END { printf "%s", content }
+            ' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//'
+          }
+
+          # Fetch all issues and process them
+          # (could filter by --label=bug-to-track and/or --state=open)
+          gh issue list --state=all --json number,body,url --limit 1000 --jq '.[]' | while read -r issue; do
+            # TODO: consider gh --template flag with Go https://cli.github.com/manual/gh_help_formatting
+            # and/or --jq flag directly calling map() etc. jquery?
+            number=$(jq -r '.number' <<< "$issue")
+            url=$(jq -r '.url' <<< "$issue")
+            body=$(jq -r '.body' <<< "$issue")
+
+            poc=$(extract_field "$body" "Point of Contact")
+            vendor_tickets=$(extract_field "$body" "Vendor/ALCF/other tickets/IDs")
+            reproducer_path=$(extract_field "$body" "Reproducer Path")
+            status=$(extract_field "$body" "Status")
+            description=$(extract_field "$body" "Description")
+            priority=$(extract_field "$body" "Priority")
+            eta=$(extract_field "$body" "ETA")
+
+            # Formatting the first column ID number with a Markdown link to the matching GH issue
+            # (will these always be ordered by Issue ID#, in reverse?)
+            echo "| [$number]($url) | $description | $vendor_tickets | $reproducer_path | $poc | $status | $priority | $eta |" >> bugs_auto_new.md
+          done
+
+      - name: Update and combine Markdown files
+        run: |
+          # Insert the new auto-generated table at the beginning of the combined table
+          cat bugs_auto_new.md <(tail -n +3 bugs_manual.md) > bugs.md
+          mv bugs_auto_new.md bugs_auto.md
+          #rm bugs.md.tmp
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add bugs.md bugs_auto.md
+          git diff --staged --quiet || (git commit -m "Update bugs*.md with latest issues" && git push)

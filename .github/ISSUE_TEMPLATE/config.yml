@@ -1,0 +1,7 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 'Warning: Automated Issue Parsing'
+    about: |
+      Blank issues are not allowed, since they will not work with the
+      GitHub Action parser that produces the Markdown summary table
+      Please do not modify any of the \#\#\# headings in the Issue body.
