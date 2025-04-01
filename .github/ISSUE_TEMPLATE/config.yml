@@ -5,4 +5,5 @@ contact_links:
       Highly recommended to use the Bug Report Form template.
       Please do not modify any of the \#\#\# headings in the resulting Issue body.
       Issues filed with the blank template are discouraged, since they are unlikely
-      to be compatible with the GitHub Action parser that produces the Markdown summary table.
+      to be compatible with the GitHub Action parser that produces the Markdown summary
+      table. Use "do-not-parse" Label on incorrectly-formatted Issues.
