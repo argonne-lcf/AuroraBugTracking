@@ -54,7 +54,7 @@ jobs:
             reproducer_path=$(extract_field "$body" "Reproducer Path")
             status=$(extract_field "$body" "Status")
             description=$(extract_field "$body" "Description")
-            priority=$(extract_field "$body" "Priority")
+            priority=$(if extract_field "$body" "Is this a priority/blocking bug?" | grep -q "\[x\]"; then echo "🚨"; else echo ""; fi)
             eta=$(extract_field "$body" "ETA")
 
             # Formatting the first column ID number with a Markdown link to the matching GH issue
