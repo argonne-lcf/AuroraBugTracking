@@ -50,7 +50,7 @@ body:
         - Fix in progress
         - Still investigating
         - Unknown
-      default: Open
+      default: 0
     validations:
       required: true
   - type: textarea
