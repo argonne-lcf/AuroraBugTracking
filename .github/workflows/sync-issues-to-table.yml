@@ -75,7 +75,6 @@ jobs:
           cat bugs_open.md >> bugs.md
           echo -e "\n## Closed Issues\n" >> bugs.md
           cat bugs_closed.md >> bugs.md
-
       - name: Commit and push if changed
         run: |
           git config --local user.email "action@github.com"
