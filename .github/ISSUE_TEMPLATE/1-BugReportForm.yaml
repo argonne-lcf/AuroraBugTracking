@@ -1,9 +1,6 @@
 name: Aurora Bug Report Form
 description: File a bug report.
-title: "title"
-labels: []
-assignees:
-  - octocat
+#labels: []
 body:
   - type: markdown
     attributes:
@@ -115,4 +112,3 @@ body:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
-
