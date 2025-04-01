@@ -4,6 +4,7 @@
 
 | Internal ID |  Description | Vendor ID | Reproducer Path | PoC | Status | Priority | ETA
 | --- | --- | --- | --- | --- | --- | --- |--- |
+| [12](https://github.com/argonne-lcf/AuroraBugTracking/issues/12) | `CXI alloc failed on cxi0: request exceeds ACs limits` | _No response_ | None | Not Thomas | Open |  | _No response_ |
 | [9](https://github.com/argonne-lcf/AuroraBugTracking/issues/9) | Multithreaded data-transfer can cause page-fault | N/A | Full QMCPACK | Ye Luo | Open--- WA available |  | _No response_ |
 | [8](https://github.com/argonne-lcf/AuroraBugTracking/issues/8) | Lots of H2D copies produce CPU I9 error and incorrect value | N/A | Full QMCPACK | Ye Luo | Open | 🚨 | ? |
 | [7](https://github.com/argonne-lcf/AuroraBugTracking/issues/7) | MPI_Bcast gets faster when turning off XPMEM | https://github.com/pmodels/mpich/issues/7334 | see Issue on MPICH GitHub repo | Ye Luo | Open--- WA available |  | _No response_ |
