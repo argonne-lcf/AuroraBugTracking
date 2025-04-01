@@ -14,4 +14,4 @@
 
 | Internal ID |  Description | Vendor ID | Reproducer Path | PoC | Status | Priority | ETA
 | --- | --- | --- | --- | --- | --- | --- |--- |
-| [3](https://github.com/argonne-lcf/AuroraBugTracking/issues/3) | The linker fails to find the object code for a function declared and implemented in a different .cpp source file. | CMPLRLLVM-66496 | /home/zippy/smalltests/aurora/xgc42/fails | Tim Williams | Open -- WA available |  |  |
+| [3](https://github.com/argonne-lcf/AuroraBugTracking/issues/3) | The linker fails to find the object code for a function declared and implemented in a different .cpp source file. | CMPLRLLVM-66496 | /home/zippy/smalltests/aurora/xgc42/fails | Tim Williams | Closed -- Application source code bug |  |  |
