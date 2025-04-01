@@ -24,8 +24,8 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           # Create a temporary file for the new table content
-          echo "| Internal ID |  Description | Vendor ID | Reproducer Path | PoC | Status | Priority | ETA" > bugs_auto_new.md
-          echo "| --- | --- | --- | --- | --- | --- | --- |--- |" >> bugs_auto_new.md
+          echo "| Internal ID |  Description | Vendor ID | Reproducer Path | PoC | Status | Priority | ETA" > bugs.md
+          echo "| --- | --- | --- | --- | --- | --- | --- |--- |" >> bugs.md
 
           # Function to extract field from markdown body
           extract_field() {
@@ -59,19 +59,12 @@ jobs:
 
             # Formatting the first column ID number with a Markdown link to the matching GH issue
             # (will these always be ordered by Issue ID#, in reverse?)
-            echo "| [$number]($url) | $description | $vendor_tickets | $reproducer_path | $poc | $status | $priority | $eta |" >> bugs_auto_new.md
+            echo "| [$number]($url) | $description | $vendor_tickets | $reproducer_path | $poc | $status | $priority | $eta |" >> bugs.md
           done
-
-      - name: Update and combine Markdown files
-        run: |
-          # Insert the new auto-generated table at the beginning of the combined table
-          cat bugs_auto_new.md <(tail -n +3 bugs_manual.md) > bugs.md
-          mv bugs_auto_new.md bugs_auto.md
-          #rm bugs.md.tmp
 
       - name: Commit and push if changed
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add bugs.md bugs_auto.md
-          git diff --staged --quiet || (git commit -m "Update bugs*.md with latest issues" && git push)
+          git add bugs.md
+          git diff --staged --quiet || (git commit -m "Update bugs.md with latest issues" && git push)
