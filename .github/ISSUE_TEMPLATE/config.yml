@@ -1,9 +1,10 @@
 blank_issues_enabled: true
 contact_links:
   - name: 'Warning: Automated Issue Parsing'
+    url: https://alcf.anl.gov/support-center
     about: |
       Highly recommended to use the Bug Report Form template.
       Please do not modify any of the \#\#\# headings in the resulting Issue body.
       Issues filed with the blank template are discouraged, since they are unlikely
       to be compatible with the GitHub Action parser that produces the Markdown summary
-      table. Use "do-not-parse" Label on incorrectly-formatted Issues.
+      table. Use 'do-not-parse' Label on incorrectly-formatted Issues.

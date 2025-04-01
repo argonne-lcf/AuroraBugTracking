@@ -8,6 +8,7 @@ This repository serves as a public, centralized bug tracking system for ALCF Aur
 ## Other files
 
 - [`POC.md`](POC.md) - Directory of Aurora subject matter experts, especially related to bug reporting.
+- [`TODO.md`](TODO.md) - Potential changes to this repository setup
 
 ## Bug Report Table Format
 
@@ -15,7 +16,7 @@ Each bug report in the Markdown table includes the following information:
 - Internal ID
 - Description
 - Vendor ID (if applicable)
-- Reproducer Path (on `/lus/flare/`)
+- Reproducer Path (on `/lus/flare/`, or URL)
 - PoC (Point of Contact)
 - Status (Open, Closed, Workaround Available (WA), etc.)
 - Priority Bug (🚨 Yes, ℹ️  No)
