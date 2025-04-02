@@ -70,10 +70,10 @@ jobs:
           process_issues "closed" "bugs_closed.md"
 
           # Combine the tables into bugs.md with section headings
-          echo "# Aurora Bug Tracking" > bugs.md
-          echo -e "\n## Open Issues\n" >> bugs.md
+          #echo "# Aurora Bug Tracking" > bugs.md
+          echo -e "\n### Open Issues\n" >> bugs.md
           cat bugs_open.md >> bugs.md
-          echo -e "\n## Closed Issues\n" >> bugs.md
+          echo -e "\n### Closed Issues\n" >> bugs.md
           cat bugs_closed.md >> bugs.md
       - name: Commit and push if changed
         run: |
