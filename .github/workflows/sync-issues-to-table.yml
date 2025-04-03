@@ -52,6 +52,7 @@ jobs:
 
             # Fetch and process issues
             gh issue list --state="$state" --json number,title,body,url,labels,createdAt,updatedAt,closedAt --limit 1000 | jq -c '.[] | select(.labels | map(.name) | index("do-not-parse") | not)' | while read -r issue; do
+              # TODO: add --json labels, author, assignees (especially labels) to new table columns?
               number=$(jq -r '.number' <<< "$issue")
               url=$(jq -r '.url' <<< "$issue")
               title=$(jq -r '.title' <<< "$issue")

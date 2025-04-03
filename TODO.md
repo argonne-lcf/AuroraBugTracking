@@ -24,3 +24,11 @@
   - [ ] Understand and/or test what happens if we add/remove table columns (AKA Issue fields) from the Issue template and Table in the future
 - [ ] Test robustness of the Issue body parsing of fields (newlines, screenshots/files in Description, ...) , especially for future edits of Issues, when the editor is completely unconstrained by the YAML template format
 - [x] Need Issue Label(s) like `about-bug-tracker` or `do-not-file` and/or `ignore` etc. for people to report issues or suggestions with this repository itself (or "draft" Issues etc. that dont conform to the template), and make the parser ignore them during processing Issues
+- [ ] Optimize Status dropdown choices (currently 8x) in Issue template
+- [ ] decide how/if to communicate this repository to broader ALCF user community (Users Slack, emails to Catalysts/INCITE/ALCC/..., weekly facility update email, user-guides integration, ...)
+  - [ ] how should ALCF staff vs. users handle reporting Aurora issues here vs. and/or support@alcf.anl.gov'
+  > current matter of discussion. Maybe there should always be a support ticket if something comes from a user. Any bug that is likely a problem caused by system SW/HW problems such as oneAPI or MPICH bugs should go into AuroraBugsTracking, though, if we expect to work on it with Intel/HPE. A support ticket number can be entered as one of the “Vendor” bug IDs. Currently viewing AuroraBugsTracking as mostly for internal ALCF reference (Catalysts or other ALCF teams working with relevant applications), but more sophisticated or hands-on users may want to use it, too--- hence why we are making the repo public and visible+advertised on `users-guide`
+  - [ ] Update the following descriptions of this `AuroraBugTracking` to make the instructions clear, once we decide: `README.md`, https://github.com/argonne-lcf/user-guides/blob/8cab9d95111d14826069d01328a7fc6ab2d799ce/docs/aurora/known-issues.md?plain=1#L205
+  - [ ] Hide/delete this `TODO.md` file once adoption picks up. Delete/move content most of the technical formatting/workflow content in `README.md`. Move the table to README?
+  - [ ] Delete `POC.md` if not maintaining it
+  
