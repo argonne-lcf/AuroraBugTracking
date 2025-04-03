@@ -6,17 +6,19 @@
 - [x] FYI, no ability to Delete Issues based on argonne-lcf GitHub Org settings, even though members have Admin permissions
 - [ ] cleanup `gh` json parser; consider replacing as much as possible with `gh --template` flag with Go templates: https://cli.github.com/manual/gh_help_formatting
   - and/or use `--jq` flag directly?
-- [ ] stop the cron job trigger for the GH action, if we trust the Issue open/edit trigger
-- [ ] Disable Blank Issues entirely? That would make the GH Action much more robust
-- [ ] auto-include `bugs.md` table as a Snippet in a https://github.com/argonne-lcf/user-guides page for a prettier rendering of the table for viewers, e.g. at the bottom of https://docs.alcf.anl.gov/aurora/known-issues/
-  - Would be able to make it sortable (priority, ID, "last updated date") via JavaScript: https://squidfunk.github.io/mkdocs-material/reference/data-tables/#sortable-tables
-  - Still would likely need to update its inclusion in the user-guides semi-manually via `git submodule update`
-  - Need to add column wrap/sizing changes:
+- [ ] stop the cron job trigger for the GH action? now that we are using the Issue Open/Edit trigger
+- [-] Disable Blank Issues entirely? That would make the GH Action much more robust
+- [x] auto-include `bugs.md` table as a Snippet in a https://github.com/argonne-lcf/user-guides page for a prettier rendering of the table for viewers, e.g. at the bottom of https://docs.alcf.anl.gov/aurora/known-issues/
+  - [x] Would be able to make it sortable (priority, ID, "last updated date") via JavaScript: https://squidfunk.github.io/mkdocs-material/reference/data-tables/#sortable-tables
+  - [ ] Still would likely need to update its inclusion in the user-guides semi-manually via `git submodule update`. Add a new GitHub Action on the `user-guides` repo to do this via cron?
+  - [ ] Create a separate set of tables here (e.g. in `bugs_export.md`?) that omit certain columns that are irrelevant to the copy included in `user-guides` (POC, reproducer path, priority, ...)
+  - [ ] **OR**, extend this parser to get every Issue body field (and metadata) and dump it into a `.csv`, which then gets used by https://github.com/timvink/mkdocs-table-reader-plugin to create a filtered table in `user-guides`
+  - [ ] Need to add column wrap/sizing changes:
 <img width="1107" alt="image" src="https://github.com/user-attachments/assets/9d8ab2ff-212b-4d21-b961-910d453c5e3d" />
  
 - [ ] add some minimal PR template
 - [ ] **add "last updated" date column to tables, sort by date?**
-- [ ] stuff all `bugs_*.md`, `POC.md` in some subdir, remove links from README.md, so that `bugs.md` gets the main focus for viewers? 
+- [ ] stuff all `bugs*.md`, `POC.md` in some subdir, remove links from README.md, so that `bugs.md` gets the main focus for viewers? 
 - [ ] and/or change the GH Action to write the combined table directly to the `README.md` instead of `bugs.md`? So people landing on the repo see the table right away, front and center
 - [ ] automatically update `.body` ---> `.md` table parser `extract_field()` in [Action YAML](../.github/workflows/sync-issues-to-table.yml) from [Bug Report Form template](https://github.com/argonne-lcf/AuroraBugTracking/issues/new?template=BugReportForm.yaml) whenever the template changes
   - [ ] Understand and/or test what happens if we add/remove table columns (AKA Issue fields) from the Issue template and Table in the future
