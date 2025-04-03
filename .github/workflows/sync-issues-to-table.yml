@@ -41,16 +41,32 @@ jobs:
             local state="$1"
             local output_file="$2"
 
-            # Create table header
-            echo "| Internal ID |  Description | Vendor ID | Reproducer Path | PoC | Status | Priority | ETA" > "$output_file"
-            echo "| --- | --- | --- | --- | --- | --- | --- |--- |" >> "$output_file"
+            # Create table header based on state
+            if [ "$state" = "closed" ]; then
+              echo "| Internal ID | Description | Vendor ID | Reproducer Path | PoC | Status | Priority | ETA | Date Opened | Closed Date |" > "$output_file"
+              echo "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |" >> "$output_file"
+            else
+              echo "| Internal ID | Description | Vendor ID | Reproducer Path | PoC | Status | Priority | ETA | Date Opened | Last Updated |" > "$output_file"
+              echo "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |" >> "$output_file"
+            fi
 
             # Fetch and process issues
-            gh issue list --state="$state" --json number,title,body,url,labels --limit 1000 | jq -c '.[] | select(.labels | map(.name) | index("do-not-parse") | not)' | while read -r issue; do
+            gh issue list --state="$state" --json number,title,body,url,labels,createdAt,updatedAt,closedAt --limit 1000 | jq -c '.[] | select(.labels | map(.name) | index("do-not-parse") | not)' | while read -r issue; do
               number=$(jq -r '.number' <<< "$issue")
               url=$(jq -r '.url' <<< "$issue")
               title=$(jq -r '.title' <<< "$issue")
               body=$(jq -r '.body' <<< "$issue")
+              created_at=$(jq -r '.createdAt' <<< "$issue")
+              updated_at=$(jq -r '.updatedAt' <<< "$issue")
+              closed_at=$(jq -r '.closedAt' <<< "$issue")
+
+              # Format dates
+              created_at=$(date -d "$created_at" +"%Y-%m-%d")
+              if [ "$state" = "closed" ] && [ "$closed_at" != "null" ]; then
+                last_updated=$(date -d "$closed_at" +"%Y-%m-%d")
+              else
+                last_updated=$(date -d "$updated_at" +"%Y-%m-%d")
+              fi
 
               poc=$(extract_field "$body" "Point of Contact")
               vendor_tickets=$(extract_field "$body" "Vendor/ALCF/other tickets/IDs")
@@ -59,7 +75,7 @@ jobs:
               priority=$(if extract_field "$body" "Is this a priority/blocking bug?" | grep -q "\[x\]"; then echo "🚨"; else echo ""; fi)
               eta=$(extract_field "$body" "ETA")
 
-              echo "| [$number]($url) | $title | $vendor_tickets | $reproducer_path | $poc | $status | $priority | $eta |" >> "$output_file"
+              echo "| [$number]($url) | $title | $vendor_tickets | $reproducer_path | $poc | $status | $priority | $eta | $created_at | $last_updated |" >> "$output_file"
             done
           }
 
