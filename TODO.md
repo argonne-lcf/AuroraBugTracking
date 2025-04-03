@@ -6,7 +6,7 @@
 - [x] FYI, no ability to Delete Issues based on argonne-lcf GitHub Org settings, even though members have Admin permissions
 - [ ] cleanup `gh` json parser; consider replacing as much as possible with `gh --template` flag with Go templates: https://cli.github.com/manual/gh_help_formatting
   - and/or use `--jq` flag directly?
-- [ ] stop the cron job trigger for the GH action? now that we are using the Issue Open/Edit trigger
+- [ ] stop the cron job trigger for the GH action, now that we are using the Issue Open/Edit trigger?
 - [-] Disable Blank Issues entirely? That would make the GH Action much more robust
 - [x] auto-include `bugs.md` table as a Snippet in a https://github.com/argonne-lcf/user-guides page for a prettier rendering of the table for viewers, e.g. at the bottom of https://docs.alcf.anl.gov/aurora/known-issues/
   - [x] Would be able to make it sortable (priority, ID, "last updated date") via JavaScript: https://squidfunk.github.io/mkdocs-material/reference/data-tables/#sortable-tables
@@ -17,7 +17,8 @@
 <img width="1107" alt="image" src="https://github.com/user-attachments/assets/9d8ab2ff-212b-4d21-b961-910d453c5e3d" />
  
 - [ ] add some minimal PR template
-- [ ] **add "last updated" date column to tables, sort by date?**
+- [ ] **Automatically update the Status dropdown in the Issue body text when the Issue is closed?** Otherwise, we might end up with tons of Closed table rows with inaccurate "Open" status cells
+- [x] add "last updated" date column to tables, etc.? Makes this more sortable on `user-guides` copy with JacaScript plugin (date opened, closed, last updated / Issue Number / PoC / Status (WA available vs not) )
 - [ ] stuff all `bugs*.md`, `POC.md` in some subdir, remove links from README.md, so that `bugs.md` gets the main focus for viewers? 
 - [ ] and/or change the GH Action to write the combined table directly to the `README.md` instead of `bugs.md`? So people landing on the repo see the table right away, front and center
 - [ ] automatically update `.body` ---> `.md` table parser `extract_field()` in [Action YAML](../.github/workflows/sync-issues-to-table.yml) from [Bug Report Form template](https://github.com/argonne-lcf/AuroraBugTracking/issues/new?template=BugReportForm.yaml) whenever the template changes
@@ -25,6 +26,7 @@
 - [ ] Test robustness of the Issue body parsing of fields (newlines, screenshots/files in Description, ...) , especially for future edits of Issues, when the editor is completely unconstrained by the YAML template format
 - [x] Need Issue Label(s) like `about-bug-tracker` or `do-not-file` and/or `ignore` etc. for people to report issues or suggestions with this repository itself (or "draft" Issues etc. that dont conform to the template), and make the parser ignore them during processing Issues
 - [ ] Optimize Status dropdown choices (currently 8x) in Issue template
+- [ ] consider adding GH Issue labels, author, assignedTo fields as columns in the tables? especially labels?
 - [ ] decide how/if to communicate this repository to broader ALCF user community (Users Slack, emails to Catalysts/INCITE/ALCC/..., weekly facility update email, user-guides integration, ...)
   - [ ] how should ALCF staff vs. users handle reporting Aurora issues here vs. and/or support@alcf.anl.gov'
   > current matter of discussion. Maybe there should always be a support ticket if something comes from a user. Any bug that is likely a problem caused by system SW/HW problems such as oneAPI or MPICH bugs should go into AuroraBugsTracking, though, if we expect to work on it with Intel/HPE. A support ticket number can be entered as one of the “Vendor” bug IDs. Currently viewing AuroraBugsTracking as mostly for internal ALCF reference (Catalysts or other ALCF teams working with relevant applications), but more sophisticated or hands-on users may want to use it, too--- hence why we are making the repo public and visible+advertised on `users-guide`
