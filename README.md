@@ -23,7 +23,7 @@ The two Markdown tables are automatically generated from GitHub issues and conta
 - **Priority**: 🚨 if marked as priority
 - **ETA**: Expected resolution date
 - **Date Opened**: When the issue was created
-- **Last Updated/Closed Date**: When the issue was last modified (changed title or edited text body for open issues) or closed (for closed issues). Note, a new/deleted/edited comment on an open Issue will also modify its "Last Updated" date.
+- **Last Updated/Closed Date**: When the issue was last modified (changed title or edited text body for open issues) or closed (for closed issues). Note, a new/deleted/edited comment on an open Issue will also modify its "Last Updated" date, but deleting a comment will never rollback the date.
 <!--- KGF: cannot find documentation of gh CLI's updatedAt JSON field precise details. Also consider adding GH Issue labels, author, assignedTo fields to the tables? -->
 
 This content is parsed from our current [Bug Report Form template](https://github.com/argonne-lcf/AuroraBugTracking/issues/new?template=1-BugReportForm.yaml); changes to that template require changing the GitHub Action parser logic.
