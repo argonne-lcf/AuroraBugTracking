@@ -22,7 +22,7 @@ Each bug report in the Markdown table includes the following information:
 - Priority Bug (🚨 Yes, ℹ️  No)
 - ETA (for a bugfix or workaround)
 
-This content is parsed from our current [Bug Report Form template](https://github.com/argonne-lcf/AuroraBugTracking/issues/new?template=BugReportForm.yaml). Note, an Issue's title is not parsed at all when generating the table in [`bugs.md`](bugs.md).
+This content is parsed from our current [Bug Report Form template](https://github.com/argonne-lcf/AuroraBugTracking/issues/new?template=1-BugReportForm.yaml). Note, an Issue's title is not parsed at all when generating the table in [`bugs.md`](bugs.md).
 
 > [!WARNING]
 > Issues opened via the [Blank issue](https://github.com/argonne-lcf/AuroraBugTracking/issues/new) template will likely break this auto-parsing process
