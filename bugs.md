@@ -3,6 +3,7 @@
 
 | Internal ID |  Description | Vendor ID | Reproducer Path | PoC | Status | Priority | ETA
 | --- | --- | --- | --- | --- | --- | --- |--- |
+| [13](https://github.com/argonne-lcf/AuroraBugTracking/issues/13) | Since ~20 Jan, unable to run even a single timestep of XGC at 4096 nodes. When it doesn't die from ping/RPC errors, it hangs. | _No response_ | xgc-es-cpp-gpu app, ES_ITER test case | Tim Williams | Open | 🚨 | _No response_ |
 | [12](https://github.com/argonne-lcf/AuroraBugTracking/issues/12) | `CXI alloc failed on cxi0: request exceeds ACs limits` | _No response_ | None | Not Thomas | Open |  | _No response_ |
 | [9](https://github.com/argonne-lcf/AuroraBugTracking/issues/9) | Multithreaded data-transfer can cause page-fault | N/A | Full QMCPACK | Ye Luo | Open--- WA available |  | _No response_ |
 | [8](https://github.com/argonne-lcf/AuroraBugTracking/issues/8) | Lots of H2D copies produce CPU I9 error and incorrect value | N/A | Full QMCPACK | Ye Luo | Open | 🚨 | ? |
