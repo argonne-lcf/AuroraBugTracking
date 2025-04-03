@@ -10,19 +10,23 @@ This repository serves as a public, centralized bug tracking system for ALCF Aur
 - [`POC.md`](POC.md) - Directory of Aurora subject matter experts, especially related to bug reporting.
 - [`TODO.md`](TODO.md) - Potential changes to this repository setup
 
-## Bug Report Table Format
+## Table Format
 
-Each bug report in the Markdown table includes the following information:
-- Internal ID
-- Description
-- Vendor ID (if applicable)
-- Reproducer Path (on `/lus/flare/`, or URL)
-- PoC (Point of Contact)
-- Status (Open, Closed, Workaround Available (WA), etc.)
-- Priority Bug (🚨 Yes, ℹ️  No)
-- ETA (for a bugfix or workaround)
+The two Markdown tables are automatically generated from GitHub issues and contain the following columns:
 
-This content is parsed from our current [Bug Report Form template](https://github.com/argonne-lcf/AuroraBugTracking/issues/new?template=1-BugReportForm.yaml). Note, an Issue's title is not parsed at all when generating the table in [`bugs.md`](bugs.md).
+- **Internal ID**: GitHub issue number with link
+- **Description**: Issue title
+- **Vendor ID**: Links to related tickets in other bug-tracking systems (vendor JIRA, other GitHub repo, etc.)
+- **Reproducer Path**: Location of code to reproduce the bug (e.g. on `/lus/flare/` or a URL)
+- **PoC**: Point of Contact
+- **Status**: Current status of the bug (final status for closed issues)
+- **Priority**: 🚨 if marked as priority
+- **ETA**: Expected resolution date
+- **Date Opened**: When the issue was created
+- **Last Updated/Closed Date**: When the issue was last modified (for open issues) or closed (for closed issues). Note, a new comment on an Issue will bump the "Last Updated" date, but will not start the GitHub Action "edited Issue" trigger.
+<!--- KGF: cannot find documentation of gh CLI's updatedAt JSON field precise details. Also consider adding GH Issue labels, author, assignedTo fields to the tables? -->
+
+This content is parsed from our current [Bug Report Form template](https://github.com/argonne-lcf/AuroraBugTracking/issues/new?template=1-BugReportForm.yaml); changes to that template require changing the GitHub Action parser logic.
 
 > [!WARNING]
 > Issues opened via the [Blank issue](https://github.com/argonne-lcf/AuroraBugTracking/issues/new) template will likely break this auto-parsing process
