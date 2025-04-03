@@ -1,6 +1,7 @@
 name: Aurora Bug Report Form
 description: File a bug report.
 #labels: []
+# GH Issue titles currently limited to 256 characters
 body:
   - type: markdown
     attributes:
@@ -26,7 +27,7 @@ body:
     id: vendor-other-tickets
     attributes:
       label: Vendor/ALCF/other tickets/IDs
-      description: Enter ticket numbers, Jira hyperlinks, etc..
+      description: Enter ticket numbers, Jira hyperlinks, GitHub Issue URLs from other repos, etc...
       placeholder: e.g. [pmodels/mpich#7333](https://github.com/pmodels/mpich/issues/7333)
     validations:
       required: false
@@ -34,7 +35,7 @@ body:
     id: reproducer-path
     attributes:
       label: Reproducer Path
-      description: Where is the code to reproduce the bug?
+      description: Where is the code to reproduce the bug? filepath on Flare, URL, etc...
       placeholder: ex. /home/zippy/reproducers/xgc42
     validations:
       required: true
@@ -59,47 +60,30 @@ body:
   - type: textarea
     id: describe-the-bug
     attributes:
-      label: Description
-      description: A clear and concise one-line description of what the bug is. Use Additional Details part of form to add more.
-      placeholder: Short, one-line description.
-    validations:
-      required: true
-  - type: textarea
-    id: to-reproduce
-    attributes:
-      label: How to reproduce?
-      description: Steps to reproduce the bug.
+      label: Details
+      description: Concise description of what the bug is, followed by additional details and context if useful.
       placeholder: |
+        More detailed description.
+
+        If reproducer is described here:
         1. Go to '...'
         2. Edit '....'
         3. Run '....'
         4. See error in output: '....'
+
+        Screenshots, if applicable
+        <details>
+        <summary>Before</summary>
+
+        <!-- Add your screenshots here via paste and ![]() image link/include syntax -->
+        </details>
+
+        Relevant log output:
+        ```shell
+        ```
+
     validations:
-      required: false
-  - type: textarea
-    id: expected-behavior
-    attributes:
-      label: Expected Behavior
-      description: A clear and concise description of what you expected to happen.
-      placeholder: I expected a pony.
-    validations:
-      required: false
-  - type: textarea
-    id: screenshots
-    attributes:
-      label: Screenshots
-      description: If applicable, add screenshots to help explain your problem.
-      placeholder: Use paperclip button below to paste screenshots
-    validations:
-      required: false
-  - type: textarea
-    id: additional-context
-    attributes:
-      label: Additional Details
-      description: Add any other details or context about the problem here.
-      placeholder: Additional problem details/context. This can be verbose.
-    validations:
-      required: false
+      required: true
   - type: checkboxes
     id: priority
     attributes:
@@ -116,9 +100,3 @@ body:
       placeholder: ex. 12/31/2029, Q1 2026
     validations:
       required: false
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
