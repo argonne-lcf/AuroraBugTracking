@@ -17,6 +17,6 @@
 
 ### Closed Issues
 
-| Internal ID | Description | Vendor ID | Reproducer Path | PoC | Status | Priority | ETA | Date Opened | Closed Date |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [3](https://github.com/argonne-lcf/AuroraBugTracking/issues/3) | Linker error found by XGC | CMPLRLLVM-66496 | /home/zippy/smalltests/aurora/xgc42/fails | Tim Williams | Closed (Application source code bug) |  |  | 2025-03-19 | 2025-03-28 |
+| Internal ID | Description | Vendor ID | Reproducer Path | PoC | Status | Priority | Date Opened | Closed Date |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [3](https://github.com/argonne-lcf/AuroraBugTracking/issues/3) | Linker error found by XGC | CMPLRLLVM-66496 | /home/zippy/smalltests/aurora/xgc42/fails | Tim Williams | Closed (Application source code bug) |  | 2025-03-19 | 2025-03-28 |
