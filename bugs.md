@@ -8,7 +8,7 @@
 RITM0404147
 RITM0404148
 RITM0405730 | /lus/flare/projects/LatticeFlavor/lehner | Xiao-Yong Jin | Open |  | _No response_ | 2025-04-04 | 2025-04-04 |
-| [17](https://github.com/argonne-lcf/AuroraBugTracking/issues/17) | hang with MPI pipelining | https://github.com/pmodels/mpich/issues/7139#issuecomment-2635541714 | Build and run commands are in the MPICH issue. | James Osborn | Open (WA available) |  | _No response_ | 2025-04-03 | 2025-04-03 |
+| [17](https://github.com/argonne-lcf/AuroraBugTracking/issues/17) | hang with MPI pipelining | https://github.com/pmodels/mpich/issues/7139#issuecomment-2635541714 | Build and run commands are in the MPICH issue. | James Osborn | Open (WA available) |  | _No response_ | 2025-04-03 | 2025-04-05 |
 | [16](https://github.com/argonne-lcf/AuroraBugTracking/issues/16) | Catastrophic memory error in context lmp_aurora_kokkos | _No response_ | public LAMMPS | Chris Knight | Open |  | N/A | 2025-04-03 | 2025-04-03 |
 | [13](https://github.com/argonne-lcf/AuroraBugTracking/issues/13) | XGC hangs at scale | _No response_ | xgc-es-cpp-gpu app, ES_ITER test case | Tim Williams | Open | 🚨 | _No response_ | 2025-04-03 | 2025-04-03 |
 | [12](https://github.com/argonne-lcf/AuroraBugTracking/issues/12) | CXI alloc failed on cxi1: request exceeds ACs limits | _No response_ | None | Not Thomas | Open |  | _No response_ | 2025-04-01 | 2025-04-04 |
