@@ -45,8 +45,8 @@ jobs:
 
             # Create table header based on state
             if [ "$state" = "closed" ]; then
-              echo "| Internal ID | Description | Vendor ID | Reproducer Path | PoC | Status | Priority | ETA | Date Opened | Closed Date |" > "$output_file"
-              echo "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |" >> "$output_file"
+              echo "| Internal ID | Description | Vendor ID | Reproducer Path | PoC | Status | Priority | Date Opened | Closed Date |" > "$output_file"
+              echo "| --- | --- | --- | --- | --- | --- | --- | --- | --- |" >> "$output_file"
             else
               echo "| Internal ID | Description | Vendor ID | Reproducer Path | PoC | Status | Priority | ETA | Date Opened | Last Updated |" > "$output_file"
               echo "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |" >> "$output_file"
@@ -78,7 +78,11 @@ jobs:
               priority=$(if extract_field "$body" "Is this a priority/blocking bug?" | grep -q "\[x\]"; then echo "🚨"; else echo ""; fi)
               eta=$(extract_field "$body" "ETA")
 
-              echo "| [$number]($url) | $title | $vendor_tickets | $reproducer_path | $poc | $status | $priority | $eta | $created_at | $last_updated |" >> "$output_file"
+              if [ "$state" = "closed" ]; then
+                echo "| [$number]($url) | $title | $vendor_tickets | $reproducer_path | $poc | $status | $priority | $created_at | $last_updated |" >> "$output_file"
+              else
+                echo "| [$number]($url) | $title | $vendor_tickets | $reproducer_path | $poc | $status | $priority | $eta | $created_at | $last_updated |" >> "$output_file"
+              fi
             done
           }
 
