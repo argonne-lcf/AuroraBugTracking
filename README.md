@@ -5,10 +5,8 @@ This repository serves as a public, centralized bug tracking system for ALCF Aur
 > [!IMPORTANT]
 > The main bug tracking table is available in [`bugs.md`](bugs.md). This comprehensive reference summarizes all currently-known and recently-closed bugs on Aurora.
 
-## Other files
-
-- [`POC.md`](POC.md) - Directory of Aurora subject matter experts, especially related to bug reporting.
-- [`TODO.md`](TODO.md) - Potential changes to this repository setup
+Other files:
+- [`TODO.md`](TODO.md) - open questions and potential future changes to this repository setup
 
 ## Table Format
 
