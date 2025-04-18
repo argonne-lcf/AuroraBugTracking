@@ -3,7 +3,6 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Status | Priority | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [21](https://github.com/argonne-lcf/AuroraBugTracking/issues/21) | Error during write with Quantum ESPRESSO | _No response_ | see .zip file attached below, also /lus/flare/projects/matml_aesp_CNDA/dir_io_QE_crash | Filippo Simini | Open | 🚨 | _No response_ | 2025-04-17 | 2025-04-17 |
 | [20](https://github.com/argonne-lcf/AuroraBugTracking/issues/20) | Issue with gpu-bind for mpiexec under ZE_FLAT_DEVICE_HIERARCHY=FLAT mode | _No response_ | See below | Abhishek, Nathan, Khalid | Open |  | _No response_ | 2025-04-16 | 2025-04-16 |
 | [19](https://github.com/argonne-lcf/AuroraBugTracking/issues/19) | Severe CPU memory growth in MPICH | _No response_ | /flare/catalyst/world_shared/zippy/reproducers/issue19 | Tim Williams | Open |  | _No response_ | 2025-04-04 | 2025-04-07 |
 | [18](https://github.com/argonne-lcf/AuroraBugTracking/issues/18) | Ping failures and hangs with production runs using GPT/GRID | ANL-251, RITM0404147, RITM0404148, RITM0405730 | /lus/flare/projects/LatticeFlavor/lehner | Xiao-Yong Jin | Open |  | _No response_ | 2025-04-04 | 2025-04-05 |
@@ -21,4 +20,5 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Status | Priority | Date Opened | Closed Date |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [21](https://github.com/argonne-lcf/AuroraBugTracking/issues/21) | Error during write with Quantum ESPRESSO | _No response_ | see .zip file attached below, also /lus/flare/projects/matml_aesp_CNDA/dir_io_QE_crash | Filippo Simini | Open | 🚨 | 2025-04-17 | 2025-04-18 |
 | [3](https://github.com/argonne-lcf/AuroraBugTracking/issues/3) | Linker error found by XGC | CMPLRLLVM-66496 | /home/zippy/smalltests/aurora/xgc42/fails | Tim Williams | Closed (Application source code bug) |  | 2025-03-19 | 2025-03-28 |
