@@ -12,7 +12,7 @@
 | [13](https://github.com/argonne-lcf/AuroraBugTracking/issues/13) | XGC hangs at scale | _No response_ | xgc-es-cpp-gpu app, ES_ITER test case | Tim Williams | Open | 🚨 | _No response_ | 2025-04-03 | 2025-04-03 |
 | [12](https://github.com/argonne-lcf/AuroraBugTracking/issues/12) | CXI alloc failed on cxi1: request exceeds ACs limits | _No response_ | None | Not Thomas | Open |  | _No response_ | 2025-04-01 | 2025-04-07 |
 | [9](https://github.com/argonne-lcf/AuroraBugTracking/issues/9) | Multithreaded data-transfer can cause page-fault | N/A | Full QMCPACK | Ye Luo | Open (WA available) |  | _No response_ | 2025-04-01 | 2025-04-03 |
-| [8](https://github.com/argonne-lcf/AuroraBugTracking/issues/8) | Lots of H2D copies produce CPU I9 error and incorrect value | N/A | Full QMCPACK | Ye Luo | Open | 🚨 | ? | 2025-04-01 | 2025-04-03 |
+| [8](https://github.com/argonne-lcf/AuroraBugTracking/issues/8) | Lots of H2D copies produce CPU I9 error and incorrect value | N/A | Full QMCPACK | Ye Luo | Open | 🚨 | ? | 2025-04-01 | 2025-04-24 |
 
 ### Closed Issues
 
