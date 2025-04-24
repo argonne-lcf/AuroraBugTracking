@@ -3,7 +3,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Status | Priority | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [22](https://github.com/argonne-lcf/AuroraBugTracking/issues/22) | SYCL In-order queue broken | NEO-14641 | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/dpcpp/in-order | Thomas Applencourt | Open (WA available) |  | _No response_ | 2025-04-23 | 2025-04-23 |
+| [22](https://github.com/argonne-lcf/AuroraBugTracking/issues/22) | SYCL In-order queue broken | NEO-14641 | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/dpcpp/in-order | Thomas Applencourt | Open (WA available) |  | _No response_ | 2025-04-23 | 2025-04-24 |
 | [20](https://github.com/argonne-lcf/AuroraBugTracking/issues/20) | Issue with gpu-bind for mpiexec under ZE_FLAT_DEVICE_HIERARCHY=FLAT mode | _No response_ | See below | Abhishek, Nathan, Khalid | Open |  | _No response_ | 2025-04-16 | 2025-04-23 |
 | [19](https://github.com/argonne-lcf/AuroraBugTracking/issues/19) | Severe CPU memory growth in MPICH | _No response_ | /flare/catalyst/world_shared/zippy/reproducers/issue19 | Tim Williams | Open |  | _No response_ | 2025-04-04 | 2025-04-07 |
 | [18](https://github.com/argonne-lcf/AuroraBugTracking/issues/18) | Ping failures and hangs with production runs using GPT/GRID | ANL-251, RITM0404147, RITM0404148, RITM0405730 | /lus/flare/projects/LatticeFlavor/lehner | Xiao-Yong Jin | Open |  | _No response_ | 2025-04-04 | 2025-04-18 |
