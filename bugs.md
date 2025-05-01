@@ -3,6 +3,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Status | Priority | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [24](https://github.com/argonne-lcf/AuroraBugTracking/issues/24) | Noticeably more "ping failed" than before the 2025.1 SDK + 1099.12 UMD/KMD upgrade |  |  |  |  |  |  | 2025-05-01 | 2025-05-01 |
 | [23](https://github.com/argonne-lcf/AuroraBugTracking/issues/23) | Apps stop running after Apr 29 upgrade due to libstdc++ dependency | _No response_ | See details | Ye Luo | Open |  | _No response_ | 2025-04-30 | 2025-04-30 |
 | [22](https://github.com/argonne-lcf/AuroraBugTracking/issues/22) | SYCL In-order queue broken | NEO-14641 | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/dpcpp/in-order | Thomas Applencourt | Open (WA available) |  | _No response_ | 2025-04-23 | 2025-04-25 |
 | [20](https://github.com/argonne-lcf/AuroraBugTracking/issues/20) | Issue with gpu-bind for mpiexec under ZE_FLAT_DEVICE_HIERARCHY=FLAT mode | _No response_ | See below | Abhishek, Nathan, Khalid | Open |  | _No response_ | 2025-04-16 | 2025-04-23 |
