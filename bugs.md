@@ -5,7 +5,6 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [25](https://github.com/argonne-lcf/AuroraBugTracking/issues/25) | Compile fail in Lattice App | Brian reproduced and confirms fixed in 2025.1 | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/dpcpp/bug_cgpt_icpx | Xiao-Yong Jin | Open | 🚨 | Brian confirms fixed in 2025.1 | 2025-05-01 | 2025-05-02 |
 | [24](https://github.com/argonne-lcf/AuroraBugTracking/issues/24) | Noticeably more "ping failed" than before the 2025.1 SDK + 1099.12 UMD/KMD upgrade |  |  |  |  |  |  | 2025-05-01 | 2025-05-01 |
-| [23](https://github.com/argonne-lcf/AuroraBugTracking/issues/23) | Apps stop running after Apr 29 upgrade due to libstdc++ dependency | _No response_ | See details | Ye Luo | Open |  | _No response_ | 2025-04-30 | 2025-05-06 |
 | [22](https://github.com/argonne-lcf/AuroraBugTracking/issues/22) | SYCL In-order queue broken | NEO-14641 | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/dpcpp/in-order | Thomas Applencourt | Open (WA available) |  | _No response_ | 2025-04-23 | 2025-04-25 |
 | [20](https://github.com/argonne-lcf/AuroraBugTracking/issues/20) | Issue with gpu-bind for mpiexec under ZE_FLAT_DEVICE_HIERARCHY=FLAT mode | _No response_ | See below | Abhishek, Nathan, Khalid | Open |  | _No response_ | 2025-04-16 | 2025-04-23 |
 | [19](https://github.com/argonne-lcf/AuroraBugTracking/issues/19) | Severe CPU memory growth in MPICH | _No response_ | /flare/catalyst/world_shared/zippy/reproducers/issue19 | Tim Williams | Open |  | _No response_ | 2025-04-04 | 2025-04-24 |
@@ -21,6 +20,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Status | Priority | Date Opened | Closed Date |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [23](https://github.com/argonne-lcf/AuroraBugTracking/issues/23) | Apps stop running after Apr 29 upgrade due to libstdc++ dependency | _No response_ | See details | Ye Luo | Open |  | 2025-04-30 | 2025-05-06 |
 | [21](https://github.com/argonne-lcf/AuroraBugTracking/issues/21) | Error during write with Quantum ESPRESSO | _No response_ | see .zip file attached below, also /lus/flare/projects/matml_aesp_CNDA/dir_io_QE_crash | Filippo Simini | Open | 🚨 | 2025-04-17 | 2025-04-18 |
 | [7](https://github.com/argonne-lcf/AuroraBugTracking/issues/7) | MPI_Bcast gets faster when turning off XPMEM | [pmodels/mpich#7334](https://github.com/pmodels/mpich/issues/7334) | see Issue on MPICH GitHub repo | Ye Luo | Open (WA available) |  | 2025-04-01 | 2025-04-24 |
 | [6](https://github.com/argonne-lcf/AuroraBugTracking/issues/6) | MPICH memory allocation slows down at scale | [pmodels/mpich#7333](https://github.com/pmodels/mpich/issues/7333) | see MPICH issue | Ye Luo | Open (WA available) | 🚨 | 2025-04-01 | 2025-04-24 |
