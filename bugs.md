@@ -3,6 +3,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Status | Priority | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [26](https://github.com/argonne-lcf/AuroraBugTracking/issues/26) | IGC internal error with 1099.12 UMD | _No response_ | I was doing the same run as QMCPACK SOW runs in the reframe | Ye Luo | Open | 🚨 | _No response_ | 2025-05-06 | 2025-05-06 |
 | [25](https://github.com/argonne-lcf/AuroraBugTracking/issues/25) | Compile fail in Lattice App | Brian reproduced and confirms fixed in 2025.1 | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/dpcpp/bug_cgpt_icpx | Xiao-Yong Jin | Open | 🚨 | Brian confirms fixed in 2025.1 | 2025-05-01 | 2025-05-02 |
 | [24](https://github.com/argonne-lcf/AuroraBugTracking/issues/24) | Noticeably more "ping failed" than before the 2025.1 SDK + 1099.12 UMD/KMD upgrade |  |  |  |  |  |  | 2025-05-01 | 2025-05-01 |
 | [22](https://github.com/argonne-lcf/AuroraBugTracking/issues/22) | SYCL In-order queue broken | NEO-14641 | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/dpcpp/in-order | Thomas Applencourt | Open (WA available) |  | _No response_ | 2025-04-23 | 2025-04-25 |
