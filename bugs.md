@@ -3,6 +3,10 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Status | Priority | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [27](https://github.com/argonne-lcf/AuroraBugTracking/issues/27) | Build failures on PVC with Cutlass | GSD-11099, https://github.com/codeplaysoftware/cutlass-sycl/issues/329 | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/dpcpp/cutlass-sycl | Abhi | Open | 🚨 | From Brian:
+It builds with agama 1133.  Looks like 1099.12 and 1099.17 have the issue.
+Either need a 1077 or older (which you don’t have) or beyond 1099.
+At the moment then, we have no workaround for this, even though it's fixed internally. | 2025-05-07 | 2025-05-07 |
 | [26](https://github.com/argonne-lcf/AuroraBugTracking/issues/26) | L0 memcpy bug | _No response_ | I was doing the same run as QMCPACK SOW runs in the reframe | Ye Luo | Open | 🚨 | _No response_ | 2025-05-06 | 2025-05-07 |
 | [25](https://github.com/argonne-lcf/AuroraBugTracking/issues/25) | Compile fail in Lattice App | Brian reproduced and confirms fixed in 2025.1 | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/dpcpp/bug_cgpt_icpx | Xiao-Yong Jin | Open | 🚨 | Brian confirms fixed in 2025.1 | 2025-05-01 | 2025-05-02 |
 | [24](https://github.com/argonne-lcf/AuroraBugTracking/issues/24) | Noticeably more "ping failed" than before the 2025.1 SDK + 1099.12 UMD/KMD upgrade |  |  |  |  |  |  | 2025-05-01 | 2025-05-01 |
