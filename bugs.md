@@ -18,7 +18,6 @@ At the moment then, we have no workaround for this, even though it's fixed inter
 | [16](https://github.com/argonne-lcf/AuroraBugTracking/issues/16) | Catastrophic memory error in context lmp_aurora_kokkos | _No response_ | public LAMMPS | Chris Knight | Open |  | N/A | 2025-04-03 | 2025-04-03 |
 | [13](https://github.com/argonne-lcf/AuroraBugTracking/issues/13) | XGC hangs at scale | _No response_ | xgc-es-cpp-gpu app, ES_ITER test case | Tim Williams | Open | 🚨 | _No response_ | 2025-04-03 | 2025-04-03 |
 | [12](https://github.com/argonne-lcf/AuroraBugTracking/issues/12) | CXI alloc failed on cxi1: request exceeds ACs limits | _No response_ | None | Not Thomas | Open |  | _No response_ | 2025-04-01 | 2025-04-07 |
-| [9](https://github.com/argonne-lcf/AuroraBugTracking/issues/9) | Multithreaded data-transfer can cause page-fault | N/A | Full QMCPACK | Ye Luo | Open (WA available) |  | _No response_ | 2025-04-01 | 2025-04-03 |
 | [8](https://github.com/argonne-lcf/AuroraBugTracking/issues/8) | Lots of H2D copies produce CPU I9 error and incorrect value | N/A | Full QMCPACK | Ye Luo | Open | 🚨 | ? | 2025-04-01 | 2025-04-24 |
 
 ### Closed Issues
@@ -27,6 +26,7 @@ At the moment then, we have no workaround for this, even though it's fixed inter
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [23](https://github.com/argonne-lcf/AuroraBugTracking/issues/23) | Apps stop running after Apr 29 upgrade due to libstdc++ dependency | _No response_ | See details | Ye Luo | Open |  | 2025-04-30 | 2025-05-06 |
 | [21](https://github.com/argonne-lcf/AuroraBugTracking/issues/21) | Error during write with Quantum ESPRESSO | _No response_ | see .zip file attached below, also /lus/flare/projects/matml_aesp_CNDA/dir_io_QE_crash | Filippo Simini | Open | 🚨 | 2025-04-17 | 2025-04-18 |
+| [9](https://github.com/argonne-lcf/AuroraBugTracking/issues/9) | Multithreaded data-transfer can cause page-fault | N/A | Full QMCPACK | Ye Luo | Open (WA available) |  | 2025-04-01 | 2025-05-08 |
 | [7](https://github.com/argonne-lcf/AuroraBugTracking/issues/7) | MPI_Bcast gets faster when turning off XPMEM | [pmodels/mpich#7334](https://github.com/pmodels/mpich/issues/7334) | see Issue on MPICH GitHub repo | Ye Luo | Open (WA available) |  | 2025-04-01 | 2025-04-24 |
 | [6](https://github.com/argonne-lcf/AuroraBugTracking/issues/6) | MPICH memory allocation slows down at scale | [pmodels/mpich#7333](https://github.com/pmodels/mpich/issues/7333) | see MPICH issue | Ye Luo | Open (WA available) | 🚨 | 2025-04-01 | 2025-04-24 |
 | [4](https://github.com/argonne-lcf/AuroraBugTracking/issues/4) | Incorrect results in receive buffer in GPU memory | [MPICH 7312](https://github.com/pmodels/mpich/pull/7312) | grid application (lattice QCD) | Patrick Steinbrecher, Tim Williams | Open (WA available) | 🚨 | 2025-03-25 | 2025-04-24 |
