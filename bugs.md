@@ -3,6 +3,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Status | Priority | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [29](https://github.com/argonne-lcf/AuroraBugTracking/issues/29) | Significant slowdown with LAMMPS in first run, subsequent runs much faster | _No response_ | /flare/catalyst/proj_shared/knight/projects/ExtremeCarbon/snap-carbon-scaling/1B/ | Christopher Knight | Open |  | _No response_ | 2025-05-09 | 2025-05-09 |
 | [27](https://github.com/argonne-lcf/AuroraBugTracking/issues/27) | Build failures on PVC with Cutlass | GSD-11099, https://github.com/codeplaysoftware/cutlass-sycl/issues/329 | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/dpcpp/cutlass-sycl | Abhi | Open | 🚨 | From Brian:
 It builds with agama 1133.  Looks like 1099.12 and 1099.17 have the issue.
 Either need a 1077 or older (which you don’t have) or beyond 1099.
