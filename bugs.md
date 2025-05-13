@@ -3,8 +3,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Status | Priority | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [30](https://github.com/argonne-lcf/AuroraBugTracking/issues/30) | Copy 2D/3D are broken (zeCommandListAppendMemoryCopyRegion) | _No response_ | https://github.com/rpereira-dev/ze-zoo | Romain PEREIRA
-Thomas APPLENCOURT | Open |  | _No response_ | 2025-05-10 | 2025-05-12 |
+| [30](https://github.com/argonne-lcf/AuroraBugTracking/issues/30) | Copy 2D/3D are broken (zeCommandListAppendMemoryCopyRegion) | _No response_ | https://github.com/rpereira-dev/ze-zoo | Romain PEREIRA and Thomas APPLENCOURT | Open |  | _No response_ | 2025-05-10 | 2025-05-13 |
 | [29](https://github.com/argonne-lcf/AuroraBugTracking/issues/29) | Significant slowdown with LAMMPS in first run, subsequent runs much faster | _No response_ | /flare/catalyst/proj_shared/knight/projects/ExtremeCarbon/snap-carbon-scaling/1B/ | Christopher Knight | Open |  | _No response_ | 2025-05-09 | 2025-05-09 |
 | [27](https://github.com/argonne-lcf/AuroraBugTracking/issues/27) | Build failures on PVC with Cutlass | GSD-11099, https://github.com/codeplaysoftware/cutlass-sycl/issues/329 | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/dpcpp/cutlass-sycl | Abhi | Open | 🚨 | agama 1133 | 2025-05-07 | 2025-05-13 |
 | [26](https://github.com/argonne-lcf/AuroraBugTracking/issues/26) | L0 memcpy bug | GSD-11142 | I was doing the same run as QMCPACK SOW runs in the reframe | Ye Luo | Open | 🚨 | _No response_ | 2025-05-06 | 2025-05-13 |
