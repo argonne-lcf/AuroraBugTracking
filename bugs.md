@@ -10,7 +10,7 @@ Thomas APPLENCOURT | Open |  | _No response_ | 2025-05-10 | 2025-05-12 |
 It builds with agama 1133.  Looks like 1099.12 and 1099.17 have the issue.
 Either need a 1077 or older (which you don’t have) or beyond 1099.
 At the moment then, we have no workaround for this, even though it's fixed internally. | 2025-05-07 | 2025-05-07 |
-| [26](https://github.com/argonne-lcf/AuroraBugTracking/issues/26) | L0 memcpy bug | _No response_ | I was doing the same run as QMCPACK SOW runs in the reframe | Ye Luo | Open | 🚨 | _No response_ | 2025-05-06 | 2025-05-07 |
+| [26](https://github.com/argonne-lcf/AuroraBugTracking/issues/26) | L0 memcpy bug | GSD-11142 | I was doing the same run as QMCPACK SOW runs in the reframe | Ye Luo | Open | 🚨 | _No response_ | 2025-05-06 | 2025-05-13 |
 | [25](https://github.com/argonne-lcf/AuroraBugTracking/issues/25) | Compile fail in Lattice App | Brian reproduced and confirms fixed in 2025.1 | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/dpcpp/bug_cgpt_icpx | Xiao-Yong Jin | Open | 🚨 | Brian confirms fixed in 2025.1 | 2025-05-01 | 2025-05-02 |
 | [24](https://github.com/argonne-lcf/AuroraBugTracking/issues/24) | Noticeably more "ping failed" than before the 2025.1 SDK + 1099.12 UMD/KMD upgrade |  |  |  |  |  |  | 2025-05-01 | 2025-05-01 |
 | [22](https://github.com/argonne-lcf/AuroraBugTracking/issues/22) | SYCL In-order queue broken | NEO-14641 | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/dpcpp/in-order | Thomas Applencourt | Open (WA available) |  | _No response_ | 2025-04-23 | 2025-04-25 |
