@@ -3,7 +3,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Status | Priority | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [34](https://github.com/argonne-lcf/AuroraBugTracking/issues/34) | pytorch DDP with CCL_BCAST=<"double_tree, direct, naive, maybe others?"> | _No response_ | In issue | Nathan Nichols | Open |  | _No response_ | 2025-05-15 | 2025-05-15 |
+| [34](https://github.com/argonne-lcf/AuroraBugTracking/issues/34) | Runtime Error: pytorch DDP with CCL_BCAST=<"double_tree, direct, naive, maybe others?"> | _No response_ | In issue | Nathan Nichols | Open |  | _No response_ | 2025-05-15 | 2025-05-15 |
 | [33](https://github.com/argonne-lcf/AuroraBugTracking/issues/33) | Crash when calling too many MPI_Probe | https://github.com/pmodels/mpich/issues/7427 | https://github.com/pmodels/mpich/issues/7427 | David--Cléris Timothée | Open |  | _No response_ | 2025-05-15 | 2025-05-15 |
 | [32](https://github.com/argonne-lcf/AuroraBugTracking/issues/32) | PETSc segfaults in sparse matrix calls | JIRA IGDB-6516 | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/mkl/csr_gemv_usm/ | Junchao Zhang | Open |  | _No response_ | 2025-05-15 | 2025-05-15 |
 | [31](https://github.com/argonne-lcf/AuroraBugTracking/issues/31) | GAMESS segfaults with -O0 | GSD-10393 | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/openmp/gamess_O0_page_fault | Colleen Bertoni | Open | 🚨 | _No response_ | 2025-05-14 | 2025-05-15 |
