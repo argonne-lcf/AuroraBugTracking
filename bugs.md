@@ -3,7 +3,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Status | Priority | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [37](https://github.com/argonne-lcf/AuroraBugTracking/issues/37) | xpu-smi reports "N/A" for GPU Utilization | RITM0428460 | any run of xpu-smi | Kyle Felker / Colleen Bertoni | Open |  | _No response_ | 2025-05-22 | 2025-05-22 |
+| [37](https://github.com/argonne-lcf/AuroraBugTracking/issues/37) | xpu-smi reports "N/A" for GPU Utilization | RITM0428460, ANL-279 | any run of xpu-smi | Kyle Felker / Colleen Bertoni | Open |  | _No response_ | 2025-05-22 | 2025-05-22 |
 | [36](https://github.com/argonne-lcf/AuroraBugTracking/issues/36) | Interruptible hangs in applications | _No response_ | /lus/flare/projects/Aurora_deployment/xyjin/W/test_example_detar.skel | Xiao-Yong Jin | Open | 🚨 | _No response_ | 2025-05-15 | 2025-05-15 |
 | [35](https://github.com/argonne-lcf/AuroraBugTracking/issues/35) | Avoid outputs exceeding few KBs to stdout/stderr from MPI ranks | RITM0425437 First issue | Large MPI writes to stdout | Servesh Muralidharan | Open (WA available) |  | _No response_ | 2025-05-15 | 2025-05-15 |
 | [34](https://github.com/argonne-lcf/AuroraBugTracking/issues/34) | Runtime Error: pytorch DDP with CCL_BCAST=<"double_tree, direct, naive, maybe others?"> | _No response_ | In issue | Nathan Nichols | Open |  | _No response_ | 2025-05-15 | 2025-05-15 |
