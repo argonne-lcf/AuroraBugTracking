@@ -33,7 +33,10 @@ jobs:
               BEGIN { found=0; content="" }
               $0 ~ "^### " field { found=1; next }
               found && $0 ~ "^### " { exit }
-              found && NF > 0 { content=content $0 "\n" }
+              found && NF > 0 { 
+                if (content != "") content = content " "
+                content = content $0 
+              }
               END { printf "%s", content }
             ' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//'
           }
