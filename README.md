@@ -26,6 +26,9 @@ The two Markdown tables are automatically generated from GitHub issues and conta
 
 This content is parsed from our current [Bug Report Form template](https://github.com/argonne-lcf/AuroraBugTracking/issues/new?template=1-BugReportForm.yaml); changes to that template require changing the GitHub Action parser logic.
 
+> [!TIP]
+> Multiline fields will be joined by spaces when parsed. For fields like "Point of Contact" and "Vendor ID" that may have multiple entries, it is best to join them with commas on a single line. Markdown table cells do not natively support multiline strings
+
 > [!WARNING]
 > Issues opened via the [Blank issue](https://github.com/argonne-lcf/AuroraBugTracking/issues/new) template will likely break this auto-parsing process
 
