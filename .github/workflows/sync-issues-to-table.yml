@@ -48,11 +48,11 @@ jobs:
 
             # Create table header based on state
             if [ "$state" = "closed" ]; then
-              echo "| Internal ID | Description | Vendor ID | Reproducer Path | PoC | Status | Priority | Date Opened | Closed Date |" > "$output_file"
+              echo "| Internal ID | Description | Vendor ID | Reproducer Path | PoC | Status | Priority? | Date Opened | Closed Date |" > "$output_file"
               echo "| --- | --- | --- | --- | --- | --- | --- | --- | --- |" >> "$output_file"
             else
-              echo "| Internal ID | Description | Vendor ID | Reproducer Path | PoC | Status | Priority | ETA | Date Opened | Last Updated |" > "$output_file"
-              echo "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |" >> "$output_file"
+              echo "| Internal ID | Description | Vendor ID | Reproducer Path | PoC | Status | Priority? | Pre-production? | ETA | Date Opened | Last Updated |" > "$output_file"
+              echo "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |" >> "$output_file"
             fi
 
             # Fetch and process issues
@@ -65,6 +65,7 @@ jobs:
               created_at=$(jq -r '.createdAt' <<< "$issue")
               updated_at=$(jq -r '.updatedAt' <<< "$issue")
               closed_at=$(jq -r '.closedAt' <<< "$issue")
+              labels=$(jq -r '.labels | map(.name) | join(",")' <<< "$issue")
 
               # Format dates
               created_at=$(date -d "$created_at" +"%Y-%m-%d")
@@ -80,11 +81,17 @@ jobs:
               status=$(extract_field "$body" "Status")
               priority=$(if extract_field "$body" "Is this a priority/blocking bug?" | grep -q "\[x\]"; then echo "🚨"; else echo ""; fi)
               eta=$(extract_field "$body" "ETA")
+              
+              # Check for pre-production label
+              pre_prod=""
+              if echo "$labels" | grep -q "environment:pre-production"; then
+                pre_prod="🧪"
+              fi
 
               if [ "$state" = "closed" ]; then
                 echo "| [$number]($url) | $title | $vendor_tickets | $reproducer_path | $poc | $status | $priority | $created_at | $last_updated |" >> "$output_file"
               else
-                echo "| [$number]($url) | $title | $vendor_tickets | $reproducer_path | $poc | $status | $priority | $eta | $created_at | $last_updated |" >> "$output_file"
+                echo "| [$number]($url) | $title | $vendor_tickets | $reproducer_path | $poc | $status | $priority | $pre_prod | $eta | $created_at | $last_updated |" >> "$output_file"
               fi
             done
           }
