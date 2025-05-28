@@ -30,7 +30,10 @@ This content is parsed from our current [Bug Report Form template](https://githu
 > Multiline fields will be joined by spaces when parsed. For fields like "Point of Contact" and "Vendor ID" that may have multiple entries, it is best to join them with commas on a single line. Markdown table cells do not natively support multiline strings
 
 > [!WARNING]
-> Issues opened via the [Blank issue](https://github.com/argonne-lcf/AuroraBugTracking/issues/new) template will likely break this auto-parsing process
+> Issues opened via the [Blank issue](https://github.com/argonne-lcf/AuroraBugTracking/issues/new) template will likely break this auto-parsing process (and likely several rows of the [`bugs.md`](bugs.md) table). Add the `do-not-parse` Label to any incorrectly-formatted Issues, meta-Issues about this repo, or in general for Issues that shouldn't be summarized in the Markdown table
+
+> [!IMPORTANT]
+> Any extra content at the end of the Issue will be added to the final header's column in the table, i.e. "ETA". Best to add content that doesn't match the template in the "Details" section (not parsed), or in a follow-up comment on the Issue
 
 ## Auto-Generation Process
 
