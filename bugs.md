@@ -3,6 +3,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Status | Priority? | Pre-production? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [39](https://github.com/argonne-lcf/AuroraBugTracking/issues/39) | Feature requires for Aurora runtime to include debugging symbols | _No response_ | feature request | Ye Luo | Open |  |  | _No response_ | 2025-05-29 | 2025-05-29 |
 | [38](https://github.com/argonne-lcf/AuroraBugTracking/issues/38) | One application in GRID consistently hangs | _No response_ | /lus/flare/projects/Aurora_deployment/xyjin/W/test_grid_g5r5_paboyle | Xiao-Yong Jin | Open | 🚨 |  | _No response_ | 2025-05-27 | 2025-05-29 |
 | [37](https://github.com/argonne-lcf/AuroraBugTracking/issues/37) | xpu-smi reports "N/A" for GPU Utilization | RITM0428460, ANL-279 | any run of xpu-smi | Kyle Felker / Colleen Bertoni | Open |  |  | _No response_ | 2025-05-22 | 2025-05-22 |
 | [36](https://github.com/argonne-lcf/AuroraBugTracking/issues/36) | (Occasional Interruptible) hangs in applications | _No response_ | /lus/flare/projects/Aurora_deployment/xyjin/W/test_example_detar.skel | Xiao-Yong Jin | Open | 🚨 |  | _No response_ | 2025-05-15 | 2025-05-27 |
