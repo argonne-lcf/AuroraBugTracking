@@ -3,6 +3,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Status | Priority? | Pre-production? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [40](https://github.com/argonne-lcf/AuroraBugTracking/issues/40) | Need SYSMAN support for all modes in recent releases | related: GSD-11104 | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/l0/leak_zesMemoryGetState | Thomas Applencourt | Open | 🚨 |  | _No response_ | 2025-05-30 | 2025-05-30 |
 | [39](https://github.com/argonne-lcf/AuroraBugTracking/issues/39) | Feature request for Aurora runtime to include debugging symbols | _No response_ | feature request | Ye Luo | Open |  |  | _No response_ | 2025-05-29 | 2025-05-29 |
 | [38](https://github.com/argonne-lcf/AuroraBugTracking/issues/38) | One application in GRID consistently hangs | _No response_ | /lus/flare/projects/Aurora_deployment/xyjin/W/test_grid_g5r5_paboyle | Xiao-Yong Jin | Open | 🚨 |  | _No response_ | 2025-05-27 | 2025-05-29 |
 | [37](https://github.com/argonne-lcf/AuroraBugTracking/issues/37) | xpu-smi reports "N/A" for GPU Utilization | RITM0428460, ANL-279 | any run of xpu-smi | Kyle Felker / Colleen Bertoni | Open |  |  | _No response_ | 2025-05-22 | 2025-05-22 |
