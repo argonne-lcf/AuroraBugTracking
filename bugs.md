@@ -31,8 +31,8 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Status | Priority? | Date Opened | Closed Date |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [28](https://github.com/argonne-lcf/AuroraBugTracking/issues/28) | Cmake failures with SYCL | _No response_ | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/dpcpp/ | Abhishek Bagusetty | Open |  | 2025-05-09 | 2025-05-09 |
-| [24](https://github.com/argonne-lcf/AuroraBugTracking/issues/24) | Noticeably more "ping failed" than before the 2025.1 SDK + 1099.12 UMD/KMD upgrade |  |  |  |  |  | 2025-05-01 | 2025-05-16 |
+| [28](https://github.com/argonne-lcf/AuroraBugTracking/issues/28) | CMake failures with SYCL | _No response_ | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/dpcpp/ | Abhishek Bagusetty | Open |  | 2025-05-09 | 2025-05-09 |
+| [24](https://github.com/argonne-lcf/AuroraBugTracking/issues/24) | Noticeably more "ping failed" than before the 2025.1 SDK + 1099.12 UMD/KMD upgrade | JIRA is:  HPCS-15331 | N/A | Xiao-Yong Jin Colleen Bertoni | Closed (Resolved by upstream fix) |  | 2025-05-01 | 2025-05-16 |
 | [23](https://github.com/argonne-lcf/AuroraBugTracking/issues/23) | Apps stop running after Apr 29 upgrade due to libstdc++ dependency | _No response_ | See details | Ye Luo | Open |  | 2025-04-30 | 2025-05-06 |
 | [21](https://github.com/argonne-lcf/AuroraBugTracking/issues/21) | Error during write with Quantum ESPRESSO | _No response_ | see .zip file attached below, also /lus/flare/projects/matml_aesp_CNDA/dir_io_QE_crash | Filippo Simini | Open | 🚨 | 2025-04-17 | 2025-04-18 |
 | [9](https://github.com/argonne-lcf/AuroraBugTracking/issues/9) | Multithreaded data-transfer can cause page-fault | N/A | Full QMCPACK | Ye Luo | Open (WA available) |  | 2025-04-01 | 2025-05-08 |
