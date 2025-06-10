@@ -3,7 +3,6 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Status | Priority? | Pre-production? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [42](https://github.com/argonne-lcf/AuroraBugTracking/issues/42) | Linking fails with old build environment | _No response_ | /lus/flare/projects/PHASTA_aesp_CNDA/jrwrigh/petsc_build_test | Kris Rowe | Open |  |  | _No response_ | 2025-06-06 | 2025-06-09 |
 | [41](https://github.com/argonne-lcf/AuroraBugTracking/issues/41) | torch.compile segfaults for >2 tiles | MLSL-3728 | `/flare/Aurora_deployment/vsastry/torch_compile` | Varuni Sastry | Open |  |  | _No response_ | 2025-06-06 | 2025-06-10 |
 | [40](https://github.com/argonne-lcf/AuroraBugTracking/issues/40) | Need SYSMAN support for all modes in recent releases | HPCS-15366, related: GSD-11104 | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/l0/leak_zesMemoryGetState | Thomas Applencourt | Open | 🚨 |  | _No response_ | 2025-05-30 | 2025-05-30 |
 | [39](https://github.com/argonne-lcf/AuroraBugTracking/issues/39) | Feature request for Aurora runtime to include debugging symbols | _No response_ | feature request | Ye Luo | Open |  |  | _No response_ | 2025-05-29 | 2025-05-29 |
@@ -33,6 +32,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Status | Priority? | Date Opened | Closed Date |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [42](https://github.com/argonne-lcf/AuroraBugTracking/issues/42) | Linking fails with old build environment | _No response_ | /lus/flare/projects/PHASTA_aesp_CNDA/jrwrigh/petsc_build_test | Kris Rowe | Open |  | 2025-06-06 | 2025-06-10 |
 | [28](https://github.com/argonne-lcf/AuroraBugTracking/issues/28) | CMake failures with SYCL | _No response_ | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/dpcpp/ | Abhishek Bagusetty | Open |  | 2025-05-09 | 2025-05-09 |
 | [24](https://github.com/argonne-lcf/AuroraBugTracking/issues/24) | Noticeably more "ping failed" than before the 2025.1 SDK + 1099.12 UMD/KMD upgrade | JIRA is:  HPCS-15331 | N/A | Xiao-Yong Jin Colleen Bertoni | Closed (Resolved by upstream fix) |  | 2025-05-01 | 2025-05-16 |
 | [23](https://github.com/argonne-lcf/AuroraBugTracking/issues/23) | Apps stop running after Apr 29 upgrade due to libstdc++ dependency | _No response_ | See details | Ye Luo | Open |  | 2025-04-30 | 2025-05-06 |
