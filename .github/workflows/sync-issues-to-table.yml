@@ -105,7 +105,7 @@ jobs:
           # Combine the tables into bugs.md with section headings
           #echo "# Aurora Bug Tracking" > bugs.md
           echo -e "[Link to tables in user-guides](https://docs.alcf.anl.gov/aurora/known-issues/#aurora-bug-tracking-repository-and-table)\n" > bugs.md
-          echo -e "\n### Open Issues\n" >> bugs.md
+          echo -e "### Open Issues\n" >> bugs.md
           cat bugs_open.md >> bugs.md
           echo -e "\n### Closed Issues\n" >> bugs.md
           cat bugs_closed.md >> bugs.md
