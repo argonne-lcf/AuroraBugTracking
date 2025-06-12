@@ -3,6 +3,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Status | Priority? | Pre-production? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [45](https://github.com/argonne-lcf/AuroraBugTracking/issues/45) | DDT issues since Aurora upgrade | _No response_ | /lus/flare/projects/catalyst/world_shared/zippy/ddt | Tim Williams | Open |  |  | _No response_ | 2025-06-12 | 2025-06-12 |
 | [44](https://github.com/argonne-lcf/AuroraBugTracking/issues/44) | QMCPACK segfault in libomp | _No response_ | Not yet created | Ye Luo | Open |  |  | _No response_ | 2025-06-12 | 2025-06-12 |
 | [43](https://github.com/argonne-lcf/AuroraBugTracking/issues/43) | CMake can't find `MKL::MKL_SYCL` with MPI wrapper compilers | _No response_ | https://github.com/thilinarmtb/onemkl_cmake_mpi_bug | Thilina Ratnayaka, Colleen Bertoni | Open |  |  | _No response_ | 2025-06-11 | 2025-06-12 |
 | [41](https://github.com/argonne-lcf/AuroraBugTracking/issues/41) | torch.compile segfaults for >2 tiles | MLSL-3728 | `/flare/Aurora_deployment/vsastry/torch_compile` | Varuni Sastry | Open |  |  | _No response_ | 2025-06-06 | 2025-06-12 |
