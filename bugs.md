@@ -3,7 +3,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Status | Priority? | Pre-production? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [43](https://github.com/argonne-lcf/AuroraBugTracking/issues/43) | CMake can't find `MKL::MKL_SYCL` with MPI wrapper compilers on Aurora | _No response_ | https://github.com/thilinarmtb/onemkl_cmake_mpi_bug | Thilina Ratnayaka, Colleen Bertoni | Open |  |  | _No response_ | 2025-06-11 | 2025-06-12 |
+| [43](https://github.com/argonne-lcf/AuroraBugTracking/issues/43) | CMake can't find `MKL::MKL_SYCL` with MPI wrapper compilers | _No response_ | https://github.com/thilinarmtb/onemkl_cmake_mpi_bug | Thilina Ratnayaka, Colleen Bertoni | Open |  |  | _No response_ | 2025-06-11 | 2025-06-12 |
 | [41](https://github.com/argonne-lcf/AuroraBugTracking/issues/41) | torch.compile segfaults for >2 tiles | MLSL-3728 | `/flare/Aurora_deployment/vsastry/torch_compile` | Varuni Sastry | Open |  |  | _No response_ | 2025-06-06 | 2025-06-10 |
 | [40](https://github.com/argonne-lcf/AuroraBugTracking/issues/40) | Need SYSMAN support for all modes in recent releases | HPCS-15366, related: GSD-11104 | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/l0/leak_zesMemoryGetState | Thomas Applencourt | Open, Intel agreed to support all modes. Waiting to confirm. | 🚨 |  | _No response_ | 2025-05-30 | 2025-06-11 |
 | [39](https://github.com/argonne-lcf/AuroraBugTracking/issues/39) | Feature request for Aurora runtime to include debugging symbols | ANL-286 | feature request | Ye Luo | Open |  |  | _No response_ | 2025-05-29 | 2025-06-11 |
