@@ -48,11 +48,11 @@ jobs:
 
             # Create table header based on state
             if [ "$state" = "closed" ]; then
-              echo "| Internal ID | Description | Vendor ID | Reproducer Path | PoC | Status | Priority? | Date Opened | Closed Date |" > "$output_file"
-              echo "| --- | --- | --- | --- | --- | --- | --- | --- | --- |" >> "$output_file"
+              echo "| Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | Date Opened | Closed Date |" > "$output_file"
+              echo "| --- | --- | --- | --- | --- | --- | --- | --- |" >> "$output_file"
             else
-              echo "| Internal ID | Description | Vendor ID | Reproducer Path | PoC | Status | Priority? | Pre-production? | ETA | Date Opened | Last Updated |" > "$output_file"
-              echo "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |" >> "$output_file"
+              echo "| Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | Pre-production? | ETA | Date Opened | Last Updated |" > "$output_file"
+              echo "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |" >> "$output_file"
             fi
 
             # Fetch and process issues
@@ -89,9 +89,9 @@ jobs:
               fi
 
               if [ "$state" = "closed" ]; then
-                echo "| [$number]($url) | $title | $vendor_tickets | $reproducer_path | $poc | $status | $priority | $created_at | $last_updated |" >> "$output_file"
+                echo "| [$number]($url) | $title | $vendor_tickets | $reproducer_path | $poc | $priority | $created_at | $last_updated |" >> "$output_file"
               else
-                echo "| [$number]($url) | $title | $vendor_tickets | $reproducer_path | $poc | $status | $priority | $pre_prod | $eta | $created_at | $last_updated |" >> "$output_file"
+                echo "| [$number]($url) | $title | $vendor_tickets | $reproducer_path | $poc | $priority | $pre_prod | $eta | $created_at | $last_updated |" >> "$output_file"
               fi
             done
           }
