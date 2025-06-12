@@ -1,4 +1,4 @@
-[Well-formatted tables in user-guides](https://docs.alcf.anl.gov/aurora/known-issues/#aurora-bug-tracking-repository-and-table)
+[User-guides copy of tables (sortable and optimized for wide content)](https://docs.alcf.anl.gov/aurora/bugs-table/)
 
 ### Open Issues
 
