@@ -33,9 +33,9 @@ jobs:
               BEGIN { found=0; content="" }
               $0 ~ "^### " field { found=1; next }
               found && $0 ~ "^### " { exit }
-              found && NF > 0 { 
+              found && NF > 0 {
                 if (content != "") content = content " "
-                content = content $0 
+                content = content $0
               }
               END { printf "%s", content }
             ' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//'
@@ -81,7 +81,7 @@ jobs:
               status=$(extract_field "$body" "Status")
               priority=$(if extract_field "$body" "Is this a priority/blocking bug?" | grep -q "\[x\]"; then echo "🚨"; else echo ""; fi)
               eta=$(extract_field "$body" "ETA")
-              
+
               # Check for pre-production label
               pre_prod=""
               if echo "$labels" | grep -q "environment:pre-production"; then
@@ -104,6 +104,7 @@ jobs:
 
           # Combine the tables into bugs.md with section headings
           #echo "# Aurora Bug Tracking" > bugs.md
+          echo -e "[Link to tables in user-guides](https://docs.alcf.anl.gov/aurora/known-issues/#aurora-bug-tracking-repository-and-table)\n" > bugs.md
           echo -e "\n### Open Issues\n" > bugs.md
           cat bugs_open.md >> bugs.md
           echo -e "\n### Closed Issues\n" >> bugs.md
