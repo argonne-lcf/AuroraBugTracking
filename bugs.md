@@ -1,6 +1,5 @@
 [Link to tables in user-guides](https://docs.alcf.anl.gov/aurora/known-issues/#aurora-bug-tracking-repository-and-table)
 
-
 ### Open Issues
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | Pre-production? | ETA | Date Opened | Last Updated |
