@@ -50,9 +50,9 @@ body:
         - Open (WA available)
         - Fix in progress
         - Still investigating
-        - Closed (Application source code bug)
-        - Closed (Resolved by upstream fix)
-        - Closed (other)
+        # - Closed (Application source code bug)
+        # - Closed (Resolved by upstream fix)
+        # - Closed (other)
         - Unknown
       default: 0
     validations:
