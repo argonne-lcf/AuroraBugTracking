@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | Pre-production? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [48](https://github.com/argonne-lcf/AuroraBugTracking/issues/48) | Zombie Processes | GSD-11266 | none yet | Servesh M | 🚨 |  | _No response_ | 2025-06-25 | 2025-06-25 |
 | [47](https://github.com/argonne-lcf/AuroraBugTracking/issues/47) | Non standard MPI knobs suggested for performance | ANL-291 | N/A | Servesh M |  |  | _No response_ | 2025-06-23 | 2025-06-23 |
 | [45](https://github.com/argonne-lcf/AuroraBugTracking/issues/45) | DDT issues since Aurora upgrade | _No response_ | /lus/flare/projects/catalyst/world_shared/zippy/ddt | Tim Williams |  |  | _No response_ | 2025-06-12 | 2025-06-12 |
 | [44](https://github.com/argonne-lcf/AuroraBugTracking/issues/44) | QMCPACK segfault in libomp | _No response_ | Not yet created | Ye Luo | 🚨 |  | _No response_ | 2025-06-12 | 2025-06-25 |
