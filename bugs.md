@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | Pre-production? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [50](https://github.com/argonne-lcf/AuroraBugTracking/issues/50) | OpenMP Thread binding | _No response_ | https://github.com/rpereira-dev/ze-zoo/blob/main/omp-bind.cc | Romain PEREIRA |  |  | _No response_ | 2025-07-02 | 2025-07-02 |
 | [49](https://github.com/argonne-lcf/AuroraBugTracking/issues/49) | [E3SM] MPICH bug related to collectives tunning | https://github.com/pmodels/mpich/issues/7456 | https://github.com/pmodels/mpich/issues/7456 | Abhi | 🚨 |  | _No response_ | 2025-06-27 | 2025-06-27 |
 | [48](https://github.com/argonne-lcf/AuroraBugTracking/issues/48) | Zombie Processes | GSD-11266 | none yet | Servesh M | 🚨 |  | _No response_ | 2025-06-25 | 2025-06-25 |
 | [47](https://github.com/argonne-lcf/AuroraBugTracking/issues/47) | Non standard MPI knobs suggested for performance | ANL-291 | N/A | Servesh M |  |  | _No response_ | 2025-06-23 | 2025-06-27 |
