@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | Pre-production? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [51](https://github.com/argonne-lcf/AuroraBugTracking/issues/51) | [SYCL] Bug from SYCL peer_access | _No response_ | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/dpcpp/sycl_peer_access | Abhi |  |  | _No response_ | 2025-07-02 | 2025-07-02 |
 | [49](https://github.com/argonne-lcf/AuroraBugTracking/issues/49) | [E3SM] MPICH bug related to collectives tunning | https://github.com/pmodels/mpich/issues/7456 | https://github.com/pmodels/mpich/issues/7456 | Abhi | 🚨 |  | _No response_ | 2025-06-27 | 2025-06-27 |
 | [48](https://github.com/argonne-lcf/AuroraBugTracking/issues/48) | Zombie Processes | GSD-11266 | none yet | Servesh M | 🚨 |  | _No response_ | 2025-06-25 | 2025-06-25 |
 | [47](https://github.com/argonne-lcf/AuroraBugTracking/issues/47) | Non standard MPI knobs suggested for performance | ANL-291 | N/A | Servesh M |  |  | _No response_ | 2025-06-23 | 2025-06-27 |
