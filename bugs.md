@@ -39,6 +39,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | Date Opened | Closed Date |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [50](https://github.com/argonne-lcf/AuroraBugTracking/issues/50) | OpenMP Thread binding | _No response_ | See bellow | Romain PEREIRA |  | 2025-07-02 | 2025-07-02 |
 | [42](https://github.com/argonne-lcf/AuroraBugTracking/issues/42) | Linking fails with old build environment | _No response_ | /lus/flare/projects/PHASTA_aesp_CNDA/jrwrigh/petsc_build_test | Kris Rowe |  | 2025-06-06 | 2025-06-10 |
 | [40](https://github.com/argonne-lcf/AuroraBugTracking/issues/40) | Need SYSMAN support for all modes in recent releases | HPCS-15366, related: GSD-11104 | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/l0/leak_zesMemoryGetState | Thomas Applencourt | 🚨 | 2025-05-30 | 2025-06-17 |
 | [28](https://github.com/argonne-lcf/AuroraBugTracking/issues/28) | CMake failures with SYCL | _No response_ | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/dpcpp/ | Abhishek Bagusetty |  | 2025-05-09 | 2025-05-09 |
