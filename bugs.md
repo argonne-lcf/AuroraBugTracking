@@ -4,7 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | Pre-production? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [52](https://github.com/argonne-lcf/AuroraBugTracking/issues/52) | compiler segfaults linking warpx binary | _No response_ | /lus/flare/projects/catalyst/world_shared/zippy/reproducers/issue52/warpx | Tim Williams | 🚨 |  | _No response_ | 2025-07-07 | 2025-07-08 |
+| [52](https://github.com/argonne-lcf/AuroraBugTracking/issues/52) | compiler segfaults linking warpx binary | GSD-11357 | /lus/flare/projects/catalyst/world_shared/zippy/reproducers/issue52/warpx | Tim Williams | 🚨 |  | _No response_ | 2025-07-07 | 2025-07-08 |
 | [51](https://github.com/argonne-lcf/AuroraBugTracking/issues/51) | [SYCL] Bug from SYCL peer_access | _No response_ | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/dpcpp/sycl_peer_access | Abhi |  |  | Fixed internally with 2025.2 | 2025-07-02 | 2025-07-08 |
 | [49](https://github.com/argonne-lcf/AuroraBugTracking/issues/49) | [E3SM] MPICH bug related to collectives tunning | https://github.com/pmodels/mpich/issues/7456 | https://github.com/pmodels/mpich/issues/7456 | Abhi | 🚨 |  | _No response_ | 2025-06-27 | 2025-06-27 |
 | [48](https://github.com/argonne-lcf/AuroraBugTracking/issues/48) | Zombie Processes | GSD-11266 | none yet | Servesh M | 🚨 |  | _No response_ | 2025-06-25 | 2025-06-25 |
