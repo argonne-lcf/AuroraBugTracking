@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | Pre-production? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [55](https://github.com/argonne-lcf/AuroraBugTracking/issues/55) | Linking in LZ causes changes in signal handling | _No response_ | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/l0/signal_handler/ | Thomas Applencourt, Colleen Bertoni |  |  | _No response_ | 2025-07-22 | 2025-07-22 |
 | [54](https://github.com/argonne-lcf/AuroraBugTracking/issues/54) | oneCCL zeMemGetAddressRange error with alltoallv and zero-sized buffers | oneCCL GitHub Issue: https://github.com/uxlfoundation/oneCCL/issues/174, MLSL-3764 | See instructions on oneCCL GitHub Issue: https://github.com/uxlfoundation/oneCCL/issues/174 | Riccardo Balin |  |  | Unknown at the moment | 2025-07-18 | 2025-07-21 |
 | [52](https://github.com/argonne-lcf/AuroraBugTracking/issues/52) | compiler segfaults linking warpx binary | GSD-11357 | /lus/flare/projects/catalyst/world_shared/zippy/reproducers/issue52/warpx | Tim Williams | 🚨 |  | 2025.2 + 1146.10 | 2025-07-07 | 2025-07-18 |
 | [51](https://github.com/argonne-lcf/AuroraBugTracking/issues/51) | [SYCL] Bug from SYCL peer_access | _No response_ | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/dpcpp/sycl_peer_access | Abhi |  |  | Fixed internally with 2025.2 | 2025-07-02 | 2025-07-08 |
