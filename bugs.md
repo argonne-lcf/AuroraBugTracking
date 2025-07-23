@@ -36,7 +36,7 @@
 | [19](https://github.com/argonne-lcf/AuroraBugTracking/issues/19) | Severe CPU memory growth in MPICH | _No response_ | /flare/catalyst/world_shared/zippy/reproducers/issue19 | Tim Williams |  |  | _No response_ | 2025-04-04 | 2025-07-23 |
 | [18](https://github.com/argonne-lcf/AuroraBugTracking/issues/18) | Ping failures and hangs with production runs using GPT/GRID | ANL-251, RITM0404147, RITM0404148, RITM0405730 | /lus/flare/projects/LatticeFlavor/lehner | Xiao-Yong Jin |  |  | _No response_ | 2025-04-04 | 2025-04-18 |
 | [17](https://github.com/argonne-lcf/AuroraBugTracking/issues/17) | hang with MPI pipelining | https://github.com/pmodels/mpich/issues/7373 | Build and run commands are in the MPICH issue. | James Osborn |  |  | _No response_ | 2025-04-03 | 2025-04-08 |
-| [16](https://github.com/argonne-lcf/AuroraBugTracking/issues/16) | Catastrophic memory error in context lmp_aurora_kokkos | _No response_ | public LAMMPS | Chris Knight |  |  | N/A | 2025-04-03 | 2025-04-03 |
+| [16](https://github.com/argonne-lcf/AuroraBugTracking/issues/16) | Catastrophic memory error in context lmp_aurora_kokkos | _No response_ | public LAMMPS | Chris Knight |  |  | N/A | 2025-04-03 | 2025-07-23 |
 | [13](https://github.com/argonne-lcf/AuroraBugTracking/issues/13) | XGC hangs at scale | _No response_ | xgc-es-cpp-gpu app, ES_ITER test case | Tim Williams | 🚨 |  | _No response_ | 2025-04-03 | 2025-04-03 |
 | [12](https://github.com/argonne-lcf/AuroraBugTracking/issues/12) | CXI alloc failed on cxi1: request exceeds ACs limits | _No response_ | None | Not Thomas |  |  | _No response_ | 2025-04-01 | 2025-04-07 |
 
