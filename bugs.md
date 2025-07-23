@@ -15,7 +15,6 @@
 | [48](https://github.com/argonne-lcf/AuroraBugTracking/issues/48) | Zombie Processes | GSD-11266 | none yet | Servesh M | 🚨 |  | _No response_ | 2025-06-25 | 2025-07-09 |
 | [47](https://github.com/argonne-lcf/AuroraBugTracking/issues/47) | Non standard MPI knobs suggested for performance | ANL-291 | N/A | Servesh M |  |  | _No response_ | 2025-06-23 | 2025-06-27 |
 | [45](https://github.com/argonne-lcf/AuroraBugTracking/issues/45) | DDT issues since Aurora upgrade | _No response_ | /lus/flare/projects/catalyst/world_shared/zippy/ddt | Tim Williams |  |  | _No response_ | 2025-06-12 | 2025-07-11 |
-| [44](https://github.com/argonne-lcf/AuroraBugTracking/issues/44) | QMCPACK segfault in libomp | _No response_ | Not yet created | Ye Luo | 🚨 |  | _No response_ | 2025-06-12 | 2025-06-25 |
 | [43](https://github.com/argonne-lcf/AuroraBugTracking/issues/43) | CMake can't find `MKL::MKL_SYCL` with MPI wrapper compilers | _No response_ | https://github.com/thilinarmtb/onemkl_cmake_mpi_bug | Thilina Ratnayaka, Colleen Bertoni |  |  | improvements will be part of the next oneMKL release, 2025.3. | 2025-06-11 | 2025-06-25 |
 | [41](https://github.com/argonne-lcf/AuroraBugTracking/issues/41) | torch.compile segfaults for >2 tiles | MLSL-3728 | `/flare/Aurora_deployment/vsastry/torch_compile` | Varuni Sastry |  |  | _No response_ | 2025-06-06 | 2025-06-12 |
 | [39](https://github.com/argonne-lcf/AuroraBugTracking/issues/39) | Feature request for Aurora runtime to include debugging symbols | ANL-286, HPCS-15374 | feature request | Ye Luo |  |  | _No response_ | 2025-05-29 | 2025-06-26 |
@@ -36,7 +35,6 @@
 | [19](https://github.com/argonne-lcf/AuroraBugTracking/issues/19) | Severe CPU memory growth in MPICH | _No response_ | /flare/catalyst/world_shared/zippy/reproducers/issue19 | Tim Williams |  |  | _No response_ | 2025-04-04 | 2025-07-23 |
 | [18](https://github.com/argonne-lcf/AuroraBugTracking/issues/18) | Ping failures and hangs with production runs using GPT/GRID | ANL-251, RITM0404147, RITM0404148, RITM0405730 | /lus/flare/projects/LatticeFlavor/lehner | Xiao-Yong Jin |  |  | _No response_ | 2025-04-04 | 2025-04-18 |
 | [17](https://github.com/argonne-lcf/AuroraBugTracking/issues/17) | hang with MPI pipelining | https://github.com/pmodels/mpich/issues/7373 | Build and run commands are in the MPICH issue. | James Osborn |  |  | _No response_ | 2025-04-03 | 2025-04-08 |
-| [16](https://github.com/argonne-lcf/AuroraBugTracking/issues/16) | Catastrophic memory error in context lmp_aurora_kokkos | _No response_ | public LAMMPS | Chris Knight |  |  | N/A | 2025-04-03 | 2025-07-23 |
 | [13](https://github.com/argonne-lcf/AuroraBugTracking/issues/13) | XGC hangs at scale | _No response_ | xgc-es-cpp-gpu app, ES_ITER test case | Tim Williams | 🚨 |  | _No response_ | 2025-04-03 | 2025-04-03 |
 | [12](https://github.com/argonne-lcf/AuroraBugTracking/issues/12) | CXI alloc failed on cxi1: request exceeds ACs limits | _No response_ | None | Not Thomas |  |  | _No response_ | 2025-04-01 | 2025-04-07 |
 
@@ -46,6 +44,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [53](https://github.com/argonne-lcf/AuroraBugTracking/issues/53) | IFX Compiler reads and stores floating point values from a text file at single-precision | _No response_ | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/ifx/fp_precision | Victor Anisimov | 🚨 | 2025-07-09 | 2025-07-10 |
 | [50](https://github.com/argonne-lcf/AuroraBugTracking/issues/50) | OpenMP Thread binding | _No response_ | See bellow | Romain PEREIRA |  | 2025-07-02 | 2025-07-02 |
+| [44](https://github.com/argonne-lcf/AuroraBugTracking/issues/44) | QMCPACK segfault in libomp | _No response_ | Not yet created | Ye Luo | 🚨 | 2025-06-12 | 2025-07-23 |
 | [42](https://github.com/argonne-lcf/AuroraBugTracking/issues/42) | Linking fails with old build environment | _No response_ | /lus/flare/projects/PHASTA_aesp_CNDA/jrwrigh/petsc_build_test | Kris Rowe |  | 2025-06-06 | 2025-06-10 |
 | [40](https://github.com/argonne-lcf/AuroraBugTracking/issues/40) | Need SYSMAN support for all modes in recent releases | HPCS-15366, related: GSD-11104 | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/l0/leak_zesMemoryGetState | Thomas Applencourt | 🚨 | 2025-05-30 | 2025-06-17 |
 | [35](https://github.com/argonne-lcf/AuroraBugTracking/issues/35) | Avoid outputs exceeding few KBs to stdout/stderr from MPI ranks | RITM0425437 First issue | Large MPI writes to stdout | Servesh Muralidharan |  | 2025-05-15 | 2025-07-23 |
@@ -53,6 +52,7 @@
 | [24](https://github.com/argonne-lcf/AuroraBugTracking/issues/24) | Noticeably more "ping failed" than before the 2025.1 SDK + 1099.12 UMD/KMD upgrade | JIRA is:  HPCS-15331 | N/A | Xiao-Yong Jin Colleen Bertoni |  | 2025-05-01 | 2025-05-16 |
 | [23](https://github.com/argonne-lcf/AuroraBugTracking/issues/23) | Apps stop running after Apr 29 upgrade due to libstdc++ dependency | _No response_ | See details | Ye Luo |  | 2025-04-30 | 2025-05-06 |
 | [21](https://github.com/argonne-lcf/AuroraBugTracking/issues/21) | Error during write with Quantum ESPRESSO | _No response_ | see .zip file attached below, also /lus/flare/projects/matml_aesp_CNDA/dir_io_QE_crash | Filippo Simini | 🚨 | 2025-04-17 | 2025-04-18 |
+| [16](https://github.com/argonne-lcf/AuroraBugTracking/issues/16) | Catastrophic memory error in context lmp_aurora_kokkos | _No response_ | public LAMMPS | Chris Knight |  | 2025-04-03 | 2025-07-23 |
 | [9](https://github.com/argonne-lcf/AuroraBugTracking/issues/9) | Multithreaded data-transfer can cause page-fault | N/A | Full QMCPACK | Ye Luo |  | 2025-04-01 | 2025-05-08 |
 | [8](https://github.com/argonne-lcf/AuroraBugTracking/issues/8) | Lots of H2D copies produce CPU I9 error and incorrect value | N/A | Full QMCPACK | Ye Luo | 🚨 | 2025-04-01 | 2025-05-28 |
 | [7](https://github.com/argonne-lcf/AuroraBugTracking/issues/7) | MPI_Bcast gets faster when turning off XPMEM | [pmodels/mpich#7334](https://github.com/pmodels/mpich/issues/7334) | see Issue on MPICH GitHub repo | Ye Luo |  | 2025-04-01 | 2025-04-24 |
