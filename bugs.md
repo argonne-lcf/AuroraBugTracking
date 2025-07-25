@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | Pre-production? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [59](https://github.com/argonne-lcf/AuroraBugTracking/issues/59) | [ISHMEM] | https://github.com/oneapi-src/ishmem/issues/10 | https://github.com/oneapi-src/ishmem/issues/10 | Abhi |  |  | _No response_ | 2025-07-25 | 2025-07-25 |
 | [58](https://github.com/argonne-lcf/AuroraBugTracking/issues/58) | kokkos inclusive and exclusive scan giving incorrect answers for 1146.10 | CMPLRLLVM-69285 | source/reproducers/dpcpp/kokkos_optimization_scan | Daniel Arndt |  |  | _No response_ | 2025-07-23 | 2025-07-25 |
 | [57](https://github.com/argonne-lcf/AuroraBugTracking/issues/57) | GPU segfault in gtensor_bench with 2025.2 | CMPLRLIBS-35326 | source/applications/gtensor_bench | Colleen Bertoni |  |  | 2025.3 | 2025-07-22 | 2025-07-23 |
 | [56](https://github.com/argonne-lcf/AuroraBugTracking/issues/56) | RSBench-SYCL incorrect answers with 1146.10 | GSD-11247 | source/applications/RSBench/ | John Tramm, Colleen Bertoni |  |  | LTS2 branch as part of IGC 2.15 series update | 2025-07-22 | 2025-07-25 |
