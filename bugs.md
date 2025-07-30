@@ -4,7 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | Pre-production? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [60](https://github.com/argonne-lcf/AuroraBugTracking/issues/60) | ext_oneapi_memcpy2d is significantly slower with implicit scaling than explicit | _No response_ | source/reproducers/dpcpp/ext_oneapi_memcpy2d_perf | Natalie Beams |  |  | _No response_ | 2025-07-29 | 2025-07-29 |
+| [60](https://github.com/argonne-lcf/AuroraBugTracking/issues/60) | ext_oneapi_memcpy2d is significantly slower with implicit scaling than explicit | CMPLRLLVM-69398 | source/reproducers/dpcpp/ext_oneapi_memcpy2d_perf | Natalie Beams |  |  | _No response_ | 2025-07-29 | 2025-07-30 |
 | [59](https://github.com/argonne-lcf/AuroraBugTracking/issues/59) | [ISHMEM] Unit test fails with ishmem 1.4.0 | https://github.com/oneapi-src/ishmem/issues/10 | https://github.com/oneapi-src/ishmem/issues/10 and source/applications/ishmem_sos | Abhi |  |  | _No response_ | 2025-07-25 | 2025-07-28 |
 | [58](https://github.com/argonne-lcf/AuroraBugTracking/issues/58) | kokkos inclusive and exclusive scan giving incorrect answers for 1146.10 | CMPLRLLVM-69285 | source/reproducers/dpcpp/kokkos_optimization_scan | Daniel Arndt | 🚨 |  | _No response_ | 2025-07-23 | 2025-07-25 |
 | [57](https://github.com/argonne-lcf/AuroraBugTracking/issues/57) | GPU segfault in gtensor_bench with 2025.2 | CMPLRLIBS-35326 | source/applications/gtensor_bench | Colleen Bertoni |  |  | 2025.3 | 2025-07-22 | 2025-07-23 |
