@@ -6,7 +6,6 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [61](https://github.com/argonne-lcf/AuroraBugTracking/issues/61) | Failing unit tests on PVCs with 2025.2 oneAPI SDK -- is it expected? | https://github.com/uxlfoundation/oneMath/issues/703 | https://github.com/uxlfoundation/oneMath/issues/703 | Colleen Bertoni |  |  | _No response_ | 2025-07-30 | 2025-07-30 |
 | [60](https://github.com/argonne-lcf/AuroraBugTracking/issues/60) | ext_oneapi_memcpy2d is significantly slower with implicit scaling than explicit | CMPLRLLVM-69398 | source/reproducers/dpcpp/ext_oneapi_memcpy2d_perf | Natalie Beams |  |  | _No response_ | 2025-07-29 | 2025-07-30 |
-| [59](https://github.com/argonne-lcf/AuroraBugTracking/issues/59) | [ISHMEM] Unit test fails with ishmem 1.4.0 | https://github.com/oneapi-src/ishmem/issues/10 | https://github.com/oneapi-src/ishmem/issues/10 and source/applications/ishmem_sos | Abhi |  |  | _No response_ | 2025-07-25 | 2025-07-31 |
 | [58](https://github.com/argonne-lcf/AuroraBugTracking/issues/58) | kokkos inclusive and exclusive scan giving incorrect answers for 1146.10 | CMPLRLLVM-69285 | source/reproducers/dpcpp/kokkos_optimization_scan | Daniel Arndt | 🚨 |  | _No response_ | 2025-07-23 | 2025-07-30 |
 | [57](https://github.com/argonne-lcf/AuroraBugTracking/issues/57) | GPU segfault in gtensor_bench with 2025.2 | CMPLRLIBS-35326 | source/applications/gtensor_bench | Colleen Bertoni |  |  | 2025.3 | 2025-07-22 | 2025-07-23 |
 | [56](https://github.com/argonne-lcf/AuroraBugTracking/issues/56) | RSBench-SYCL incorrect answers with 1146.10 | GSD-11247 | source/applications/RSBench/ | John Tramm, Colleen Bertoni |  |  | LTS2 branch as part of IGC 2.15 series update | 2025-07-22 | 2025-07-25 |
@@ -44,6 +43,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | Date Opened | Closed Date |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [59](https://github.com/argonne-lcf/AuroraBugTracking/issues/59) | [ISHMEM] Unit test fails with ishmem 1.4.0 | https://github.com/oneapi-src/ishmem/issues/10 | https://github.com/oneapi-src/ishmem/issues/10 and source/applications/ishmem_sos | Abhi |  | 2025-07-25 | 2025-07-31 |
 | [53](https://github.com/argonne-lcf/AuroraBugTracking/issues/53) | IFX Compiler reads and stores floating point values from a text file at single-precision | _No response_ | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/ifx/fp_precision | Victor Anisimov | 🚨 | 2025-07-09 | 2025-07-10 |
 | [50](https://github.com/argonne-lcf/AuroraBugTracking/issues/50) | OpenMP Thread binding | _No response_ | See bellow | Romain PEREIRA |  | 2025-07-02 | 2025-07-02 |
 | [44](https://github.com/argonne-lcf/AuroraBugTracking/issues/44) | QMCPACK segfault in libomp | _No response_ | Not yet created | Ye Luo | 🚨 | 2025-06-12 | 2025-07-23 |
