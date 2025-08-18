@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | Pre-production? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [63](https://github.com/argonne-lcf/AuroraBugTracking/issues/63) | Kokkos kernels fails to build with kokkos built with openmp enabled | _No response_ | source/applications/kokkos-kernels | Sean Koyama / Colleen Bertoni |  |  | _No response_ | 2025-08-18 | 2025-08-18 |
 | [62](https://github.com/argonne-lcf/AuroraBugTracking/issues/62) | -ftarget-register-alloc-mode=pvc:large and "-device 12.60.7" for AOT | GSD-11490 | source/reproducers/general/ftarget-register-alloc-mode_flag | Steve Rangel |  |  | _No response_ | 2025-08-14 | 2025-08-14 |
 | [61](https://github.com/argonne-lcf/AuroraBugTracking/issues/61) | Failing unit tests on PVCs with 2025.2 oneAPI SDK -- is it expected? | https://github.com/uxlfoundation/oneMath/issues/703 | https://github.com/uxlfoundation/oneMath/issues/703 | Colleen Bertoni |  |  | _No response_ | 2025-07-30 | 2025-07-30 |
 | [60](https://github.com/argonne-lcf/AuroraBugTracking/issues/60) | ext_oneapi_memcpy2d is significantly slower with implicit scaling than explicit | CMPLRLLVM-69398, GSD-11459 | source/reproducers/dpcpp/ext_oneapi_memcpy2d_perf | Natalie Beams |  |  | _No response_ | 2025-07-29 | 2025-08-06 |
