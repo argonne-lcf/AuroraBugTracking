@@ -4,7 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | Pre-production? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [64](https://github.com/argonne-lcf/AuroraBugTracking/issues/64) | E3SM fortran compile ICE | CMPLRLLVM-69862 | source/reproducers/ifx/e3sm_homme_ICE_error | Abhi |  |  | _No response_ | 2025-08-18 | 2025-08-18 |
+| [64](https://github.com/argonne-lcf/AuroraBugTracking/issues/64) | E3SM fortran compile ICE | CMPLRLLVM-69862 | source/reproducers/ifx/e3sm_homme_ICE_error | Abhi |  |  | _No response_ | 2025-08-18 | 2025-08-20 |
 | [63](https://github.com/argonne-lcf/AuroraBugTracking/issues/63) | Kokkos kernels fails to build with kokkos built with openmp enabled | _No response_ | source/applications/kokkos-kernels | Sean Koyama / Colleen Bertoni |  |  | gone starting with 4.19 (fixed in 2025.3 branch, any chance of getting it sooner?) | 2025-08-18 | 2025-08-18 |
 | [62](https://github.com/argonne-lcf/AuroraBugTracking/issues/62) | -ftarget-register-alloc-mode=pvc:large and "-device 12.60.7" for AOT | GSD-11490 | source/reproducers/general/ftarget-register-alloc-mode_flag | Steve Rangel |  |  | _No response_ | 2025-08-14 | 2025-08-14 |
 | [61](https://github.com/argonne-lcf/AuroraBugTracking/issues/61) | Failing unit tests on PVCs with 2025.2 oneAPI SDK -- is it expected? | https://github.com/uxlfoundation/oneMath/issues/703 | https://github.com/uxlfoundation/oneMath/issues/703 | Colleen Bertoni |  |  | _No response_ | 2025-07-30 | 2025-07-30 |
