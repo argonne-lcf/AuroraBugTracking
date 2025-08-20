@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | Pre-production? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [65](https://github.com/argonne-lcf/AuroraBugTracking/issues/65) | Clarification requested about ZE_DEVICE_PROPERTY_FLAG_ONDEMANDPAGING on PVC | _No response_ | source/reproducers/l0/ondemand_paging/ | Colleen |  |  | _No response_ | 2025-08-20 | 2025-08-20 |
 | [64](https://github.com/argonne-lcf/AuroraBugTracking/issues/64) | E3SM fortran compile ICE | CMPLRLLVM-69862 | source/reproducers/ifx/e3sm_homme_ICE_error | Abhi |  |  | _No response_ | 2025-08-18 | 2025-08-20 |
 | [63](https://github.com/argonne-lcf/AuroraBugTracking/issues/63) | Kokkos kernels fails to build with kokkos built with openmp enabled | _No response_ | source/applications/kokkos-kernels | Sean Koyama / Colleen Bertoni |  |  | gone starting with 4.19 (fixed in 2025.3 branch, any chance of getting it sooner?) | 2025-08-18 | 2025-08-18 |
 | [62](https://github.com/argonne-lcf/AuroraBugTracking/issues/62) | -ftarget-register-alloc-mode=pvc:large and "-device 12.60.7" for AOT | GSD-11490 | source/reproducers/general/ftarget-register-alloc-mode_flag | Steve Rangel |  |  | _No response_ | 2025-08-14 | 2025-08-14 |
