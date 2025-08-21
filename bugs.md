@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | Pre-production? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [67](https://github.com/argonne-lcf/AuroraBugTracking/issues/67) | warpx Debug build crashes oneAPI compiler | _No response_ | /lus/flare/projects/catalyst/world_shared/zippy/reproducers/issue52/ | Tim Williams |  |  | _No response_ | 2025-08-21 | 2025-08-21 |
 | [66](https://github.com/argonne-lcf/AuroraBugTracking/issues/66) | Compiling with "-g" leads to a much larger binary than without | CMPLRLLVM-69909 | lammps + -g | Brian Holland |  |  | _No response_ | 2025-08-20 | 2025-08-21 |
 | [65](https://github.com/argonne-lcf/AuroraBugTracking/issues/65) | Clarification requested about ZE_DEVICE_PROPERTY_FLAG_ONDEMANDPAGING on PVC | GSD-11510 | source/reproducers/l0/ondemand_paging/ | Colleen |  |  | _No response_ | 2025-08-20 | 2025-08-21 |
 | [64](https://github.com/argonne-lcf/AuroraBugTracking/issues/64) | E3SM fortran compile ICE | CMPLRLLVM-69862 | source/reproducers/ifx/e3sm_homme_ICE_error | Abhi |  |  | _No response_ | 2025-08-18 | 2025-08-20 |
