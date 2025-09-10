@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | Pre-production? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [70](https://github.com/argonne-lcf/AuroraBugTracking/issues/70) | PALS gpu-bind, composite, envall lead to "launch failed" | _No response_ | applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/mpi/envall | Thomas Applencourt |  |  | _No response_ | 2025-09-10 | 2025-09-10 |
 | [68](https://github.com/argonne-lcf/AuroraBugTracking/issues/68) | warpx segfaults/hangs with OpenPMD enabled | _No response_ | /lus/flare/projects/catalyst/world_shared/zippy/reproducers/issue52/ | Tim Williams |  |  | _No response_ | 2025-08-23 | 2025-08-23 |
 | [67](https://github.com/argonne-lcf/AuroraBugTracking/issues/67) | warpx Debug build crashes oneAPI compiler | CMPLRLLVM-24314 | /lus/flare/projects/catalyst/world_shared/zippy/reproducers/issue52/ | Tim Williams |  |  | _No response_ | 2025-08-21 | 2025-09-03 |
 | [66](https://github.com/argonne-lcf/AuroraBugTracking/issues/66) | Compiling with "-g" leads to a much larger binary than without | CMPLRLLVM-69909, CMPLRLLVM-24314 | lammps + -g | Brian Holland |  |  | _No response_ | 2025-08-20 | 2025-08-27 |
