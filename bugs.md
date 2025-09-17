@@ -46,7 +46,7 @@
 | [20](https://github.com/argonne-lcf/AuroraBugTracking/issues/20) | Issue with gpu-bind for mpiexec under ZE_FLAT_DEVICE_HIERARCHY=FLAT mode | ANL-283/HPE Support Case 5390607860 | See below | Abhishek, Nathan, Khalid |  |  | Likely March 2026 (Servesh requested HPE's gpu-bind match gpu_tile_compact.sh at least) | 2025-04-16 | 2025-08-20 |
 | [18](https://github.com/argonne-lcf/AuroraBugTracking/issues/18) | Ping failures and hangs with production runs using GPT/GRID | ANL-251, RITM0404147, RITM0404148, RITM0405730, GSD-11441 | /lus/flare/projects/LatticeFlavor/lehner | Xiao-Yong Jin | 🚨 |  | _No response_ | 2025-04-04 | 2025-08-18 |
 | [17](https://github.com/argonne-lcf/AuroraBugTracking/issues/17) | hang with MPI pipelining | https://github.com/pmodels/mpich/issues/7373 | Build and run commands are in the MPICH issue. | James Osborn |  |  | Should be fixed in top of aurora_test | 2025-04-03 | 2025-08-20 |
-| [13](https://github.com/argonne-lcf/AuroraBugTracking/issues/13) | XGC hangs at scale | _No response_ | xgc-es-cpp-gpu app, ES_ITER test case | Tim Williams | 🚨 |  | _No response_ | 2025-04-03 | 2025-04-03 |
+| [13](https://github.com/argonne-lcf/AuroraBugTracking/issues/13) | XGC hangs at scale | CMPLRTST-27836 | xgc-es-cpp-gpu app, ES_ITER test case | Tim Williams | 🚨 |  | _No response_ | 2025-04-03 | 2025-09-17 |
 | [12](https://github.com/argonne-lcf/AuroraBugTracking/issues/12) | CXI alloc failed on cxi1: request exceeds ACs limits | _No response_ | None | Not Thomas |  |  | _No response_ | 2025-04-01 | 2025-08-04 |
 
 ### Closed Issues
