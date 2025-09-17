@@ -52,7 +52,7 @@ jobs:
               echo "| --- | --- | --- | --- | --- | --- | --- | --- |" >> "$output_file"
             else
               echo "| Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |" > "$output_file"
-              echo "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |" >> "$output_file"
+              echo "| --- | --- | --- | --- | --- | --- | --- | --- | --- |" >> "$output_file"
             fi
 
             # Fetch and process issues
