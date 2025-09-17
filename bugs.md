@@ -3,7 +3,7 @@
 ### Open Issues
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [73](https://github.com/argonne-lcf/AuroraBugTracking/issues/73) | "error: undefined reference to `old_llvm.umul.with.overflow.i64'" in newer kokkos | cmplrllvm-70603 | source/reproducers/dpcpp/kokkos_mdspan_umul | Daniel Arndt |  | _No response_ | 2025-09-17 | 2025-09-17 |
 | [72](https://github.com/argonne-lcf/AuroraBugTracking/issues/72) | MPI_aborts in many applications in next-eval at larger scales | _No response_ | N/A | Brian Holland / Tim Williams |  | _No response_ | 2025-09-16 | 2025-09-17 |
 | [71](https://github.com/argonne-lcf/AuroraBugTracking/issues/71) | RPC launch error tracking |  |  |  |  |  | 2025-09-15 | 2025-09-15 |
