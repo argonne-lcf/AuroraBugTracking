@@ -6,7 +6,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [73](https://github.com/argonne-lcf/AuroraBugTracking/issues/73) | "error: undefined reference to `old_llvm.umul.with.overflow.i64'" in newer kokkos | cmplrllvm-70603 | source/reproducers/dpcpp/kokkos_mdspan_umul | Daniel Arndt |  | _No response_ | 2025-09-17 | 2025-09-17 |
 | [72](https://github.com/argonne-lcf/AuroraBugTracking/issues/72) | MPI_aborts in many applications in next-eval at larger scales | _No response_ | N/A | Brian Holland / Tim Williams |  | _No response_ | 2025-09-16 | 2025-09-17 |
-| [71](https://github.com/argonne-lcf/AuroraBugTracking/issues/71) | RPC launch error tracking |  |  |  |  |  | 2025-09-15 | 2025-09-22 |
+| [71](https://github.com/argonne-lcf/AuroraBugTracking/issues/71) | RPC launch error tracking |  |  |  |  |  | 2025-09-15 | 2025-09-23 |
 | [70](https://github.com/argonne-lcf/AuroraBugTracking/issues/70) | PALS gpu-bind, composite, envall lead to "launch failed" | DCE Case 5392152905 | applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/mpi/envall | Thomas Applencourt |  | _No response_ | 2025-09-10 | 2025-09-15 |
 | [68](https://github.com/argonne-lcf/AuroraBugTracking/issues/68) | warpx segfaults/hangs with OpenPMD enabled | _No response_ | /lus/flare/projects/catalyst/world_shared/zippy/reproducers/issue52/ | Tim Williams |  | _No response_ | 2025-08-23 | 2025-08-23 |
 | [67](https://github.com/argonne-lcf/AuroraBugTracking/issues/67) | warpx Debug build crashes oneAPI compiler | CMPLRLLVM-24314 | /lus/flare/projects/catalyst/world_shared/zippy/reproducers/issue52/ | Tim Williams |  | _No response_ | 2025-08-21 | 2025-09-03 |
