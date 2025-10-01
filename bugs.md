@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [76](https://github.com/argonne-lcf/AuroraBugTracking/issues/76) | Segfaults in MPICH routines in next-eval | _No response_ | for XGC: /lus/flare/projects/catalyst/world_shared/zippy/xgc | Tim Williams | 🚨 | _No response_ | 2025-10-01 | 2025-10-01 |
 | [75](https://github.com/argonne-lcf/AuroraBugTracking/issues/75) | "MPL_gpu_query_is_same_dev(int, int): Assertion `global_dev1 >= 0 && global_dev1 < known_ze_device_count' failed." with mpich.dbg | _No response_ | https://github.com/pmodels/mpich/issues/7602 | Tim, JaeHyuk, Colleen |  | _No response_ | 2025-09-30 | 2025-09-30 |
 | [74](https://github.com/argonne-lcf/AuroraBugTracking/issues/74) | ZES_ENABLE_SYSMAN should default to 1 in the oneapi module | _No response_ | see Details | Tim Williams |  | _No response_ | 2025-09-29 | 2025-09-29 |
 | [73](https://github.com/argonne-lcf/AuroraBugTracking/issues/73) | "error: undefined reference to `old_llvm.umul.with.overflow.i64'" in newer kokkos | cmplrllvm-70603 | source/reproducers/dpcpp/kokkos_mdspan_umul | Daniel Arndt |  | _No response_ | 2025-09-17 | 2025-09-17 |
