@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [78](https://github.com/argonne-lcf/AuroraBugTracking/issues/78) | ExchCXX fails to compile with `is too large for Clang to process` | _No response_ | source/reproducers/dpcpp/jit_too_large_for_Clang | Abhi |  | _No response_ | 2025-10-06 | 2025-10-06 |
 | [77](https://github.com/argonne-lcf/AuroraBugTracking/issues/77) | [SYCL] Function pointers compilation issue | CMPLRLLVM-16317 | Reproducer below | Abhi, Patrick Steinbrecher | 🚨 | _No response_ | 2025-10-06 | 2025-10-06 |
 | [76](https://github.com/argonne-lcf/AuroraBugTracking/issues/76) | Segfaults in MPICH routines in next-eval | _No response_ | for XGC: /lus/flare/projects/catalyst/world_shared/zippy/xgc | Tim Williams | 🚨 | _No response_ | 2025-10-01 | 2025-10-01 |
 | [75](https://github.com/argonne-lcf/AuroraBugTracking/issues/75) | "MPL_gpu_query_is_same_dev(int, int): Assertion `global_dev1 >= 0 && global_dev1 < known_ze_device_count' failed." with mpich.dbg | _No response_ | https://github.com/pmodels/mpich/issues/7602 | Tim, JaeHyuk, Colleen |  | _No response_ | 2025-09-30 | 2025-09-30 |
