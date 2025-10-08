@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [79](https://github.com/argonne-lcf/AuroraBugTracking/issues/79) | Advisor fail with "advisor: Warning: The application returned a non-zero exit value." | ADV-10687 | source/reproducers/tools/advisor_gflop | JaeHyuk Kwack |  | Fixed with `advisor --version == 616302`, which should be in 202.3 | 2025-10-08 | 2025-10-08 |
 | [78](https://github.com/argonne-lcf/AuroraBugTracking/issues/78) | ExchCXX fails to compile with `is too large for Clang to process` | CMPLRLLVM-70962 | source/reproducers/dpcpp/jit_too_large_for_Clang | Abhi |  | _No response_ | 2025-10-06 | 2025-10-07 |
 | [77](https://github.com/argonne-lcf/AuroraBugTracking/issues/77) | [SYCL] Function pointers compilation issue | CMPLRLLVM-16317 | Reproducer below | Abhi, Patrick Steinbrecher | 🚨 | _No response_ | 2025-10-06 | 2025-10-06 |
 | [76](https://github.com/argonne-lcf/AuroraBugTracking/issues/76) | Segfaults in MPICH routines in next-eval | _No response_ | for XGC: /lus/flare/projects/catalyst/world_shared/zippy/xgc | Tim Williams | 🚨 | _No response_ | 2025-10-01 | 2025-10-01 |
