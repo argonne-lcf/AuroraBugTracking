@@ -9,7 +9,6 @@
 | [78](https://github.com/argonne-lcf/AuroraBugTracking/issues/78) | ExchCXX fails to compile with `is too large for Clang to process` | CMPLRLLVM-70962 | source/reproducers/dpcpp/jit_too_large_for_Clang | Abhi |  | _No response_ | 2025-10-06 | 2025-10-07 |
 | [77](https://github.com/argonne-lcf/AuroraBugTracking/issues/77) | [SYCL] Function pointers compilation issue | CMPLRLLVM-16317 | Reproducer below | Abhi, Patrick Steinbrecher | 🚨 | _No response_ | 2025-10-06 | 2025-10-06 |
 | [76](https://github.com/argonne-lcf/AuroraBugTracking/issues/76) | Segfaults in MPICH routines in next-eval | _No response_ | for XGC: /lus/flare/projects/catalyst/world_shared/zippy/xgc | Tim Williams | 🚨 | _No response_ | 2025-10-01 | 2025-10-01 |
-| [75](https://github.com/argonne-lcf/AuroraBugTracking/issues/75) | "MPL_gpu_query_is_same_dev(int, int): Assertion `global_dev1 >= 0 && global_dev1 < known_ze_device_count' failed." with mpich.dbg | _No response_ | https://github.com/pmodels/mpich/issues/7602 | Tim, JaeHyuk, Colleen |  | _No response_ | 2025-09-30 | 2025-09-30 |
 | [74](https://github.com/argonne-lcf/AuroraBugTracking/issues/74) | ZES_ENABLE_SYSMAN should default to 1 in the oneapi module | _No response_ | see Details | Tim Williams |  | _No response_ | 2025-09-29 | 2025-10-01 |
 | [73](https://github.com/argonne-lcf/AuroraBugTracking/issues/73) | "error: undefined reference to `old_llvm.umul.with.overflow.i64'" in newer kokkos | CMPLRLLVM-70603 | source/reproducers/dpcpp/kokkos_mdspan_umul | Daniel Arndt |  | Being worked internally | 2025-09-17 | 2025-10-07 |
 | [71](https://github.com/argonne-lcf/AuroraBugTracking/issues/71) | RPC launch error tracking |  |  |  |  |  | 2025-09-15 | 2025-09-23 |
@@ -52,6 +51,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | Date Opened | Closed Date |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [75](https://github.com/argonne-lcf/AuroraBugTracking/issues/75) | "MPL_gpu_query_is_same_dev(int, int): Assertion `global_dev1 >= 0 && global_dev1 < known_ze_device_count' failed." with mpich.dbg | _No response_ | https://github.com/pmodels/mpich/issues/7602 | Tim, JaeHyuk, Colleen |  | 2025-09-30 | 2025-10-13 |
 | [72](https://github.com/argonne-lcf/AuroraBugTracking/issues/72) | MPI_aborts in many applications in next-eval at larger scales | _No response_ | N/A | Brian Holland / Tim Williams |  | 2025-09-16 | 2025-09-30 |
 | [59](https://github.com/argonne-lcf/AuroraBugTracking/issues/59) | [ISHMEM] Unit test fails with ishmem 1.4.0 | https://github.com/oneapi-src/ishmem/issues/10 | https://github.com/oneapi-src/ishmem/issues/10 and source/applications/ishmem_sos | Abhi |  | 2025-07-25 | 2025-07-31 |
 | [53](https://github.com/argonne-lcf/AuroraBugTracking/issues/53) | IFX Compiler reads and stores floating point values from a text file at single-precision | _No response_ | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/ifx/fp_precision | Victor Anisimov | 🚨 | 2025-07-09 | 2025-07-10 |
