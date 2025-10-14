@@ -4,7 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [80](https://github.com/argonne-lcf/AuroraBugTracking/issues/80) | VTune fails with "Assertion failed: tool_gtpin_support:126: (buffer) " | _No response_ | /lus/flare/projects/Aurora_deployment/jkwack/JK_AT_Tools/Apps/GAMESS_RI-MP2_MiniApp  source/reproducers/tools/vtune_gtpin_fail in the test set | JaeHyuk Kwack | 🚨 | 2025.3 | 2025-10-10 | 2025-10-14 |
+| [80](https://github.com/argonne-lcf/AuroraBugTracking/issues/80) | VTune fails with "Assertion failed: tool_gtpin_support:126: (buffer) " | VASP-32612, GTPIN-1169 | /lus/flare/projects/Aurora_deployment/jkwack/JK_AT_Tools/Apps/GAMESS_RI-MP2_MiniApp  source/reproducers/tools/vtune_gtpin_fail in the test set | JaeHyuk Kwack | 🚨 | 2025.3 | 2025-10-10 | 2025-10-14 |
 | [79](https://github.com/argonne-lcf/AuroraBugTracking/issues/79) | Advisor fail with "advisor: Warning: The application returned a non-zero exit value." | ADV-10687 | source/reproducers/tools/advisor_gflop | JaeHyuk Kwack |  | Fixed with `advisor --version == 616302`, which should be in 2025.3 | 2025-10-08 | 2025-10-10 |
 | [78](https://github.com/argonne-lcf/AuroraBugTracking/issues/78) | ExchCXX fails to compile with `is too large for Clang to process` | CMPLRLLVM-70962 | source/reproducers/dpcpp/jit_too_large_for_Clang | Abhi |  | _No response_ | 2025-10-06 | 2025-10-07 |
 | [77](https://github.com/argonne-lcf/AuroraBugTracking/issues/77) | [SYCL] Function pointers compilation issue | CMPLRLLVM-16317 | Reproducer below | Abhi, Patrick Steinbrecher | 🚨 | _No response_ | 2025-10-06 | 2025-10-06 |
