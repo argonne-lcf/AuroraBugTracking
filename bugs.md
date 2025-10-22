@@ -4,7 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [84](https://github.com/argonne-lcf/AuroraBugTracking/issues/84) | Device Sanitizer is not functional with OpenMP C/Fortran codes | _No response_ | /lus/flare/projects/Aurora_deployment/jkwack/JK_AT_Tools/sanitizer | JaeHyuk Kwack | 🚨 | 2025.3 + 1146.36 | 2025-10-22 | 2025-10-22 |
+| [84](https://github.com/argonne-lcf/AuroraBugTracking/issues/84) | Device Sanitizer is not functional with OpenMP C/Fortran codes | _No response_ | /lus/flare/projects/Aurora_deployment/jkwack/JK_AT_Tools/sanitizer | JaeHyuk Kwack | 🚨 | 2025.3 | 2025-10-22 | 2025-10-22 |
 | [83](https://github.com/argonne-lcf/AuroraBugTracking/issues/83) | With ifx, `openmp_version` is missing from omp_lib | CMPLRLIBS-35365 | /home/kweide/tests/test_openmp_version.f90  and source/reproducers/openmp/omp_version in the test set | Klaus Weide |  | 2025.3 | 2025-10-20 | 2025-10-22 |
 | [82](https://github.com/argonne-lcf/AuroraBugTracking/issues/82) | Symbol missing issue with 1.3 version onwards in SLES and Intel Datacenter Max GPU on Aurora | https://github.com/intel/xpumanager/issues/113 | https://github.com/intel/xpumanager/issues/113 | Servesh |  | _No response_ | 2025-10-16 | 2025-10-16 |
 | [81](https://github.com/argonne-lcf/AuroraBugTracking/issues/81) | IGC_StackOverflowDetection not working | GSD-11763 | source/reproducers/openmp/stack_overflow_not_working | Brian |  | _No response_ | 2025-10-15 | 2025-10-15 |
