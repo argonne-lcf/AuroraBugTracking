@@ -4,7 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [87](https://github.com/argonne-lcf/AuroraBugTracking/issues/87) | QUDA compile fail | cmplrllvm-70981 | TBD | Xiayong Jin / Brian W |  | _No response_ | 2025-10-28 | 2025-10-28 |
+| [87](https://github.com/argonne-lcf/AuroraBugTracking/issues/87) | QUDA compile fail | cmplrllvm-70981 | source/reproducers/openmp/quda_crash | Xiayong Jin / Brian W |  | _No response_ | 2025-10-28 | 2025-10-28 |
 | [86](https://github.com/argonne-lcf/AuroraBugTracking/issues/86) | omp_alloc should support pinned memory, or implement proper fallback behavior | _No response_ | /home/kweide/projects/OpenMP_VV/tests/5.1/allocate/test_omp_alloctrait_pinned.c | Klaus Weide |  | _No response_ | 2025-10-28 | 2025-10-28 |
 | [85](https://github.com/argonne-lcf/AuroraBugTracking/issues/85) | zeEventQueryKernelTimestampsExt is broken with IMM command lists | GSD-11124 | source/reproducers/l0/zeEventQueryKernelTimestampsExt_clock | Thomas/John Mellor-Crummey |  | _No response_ | 2025-10-27 | 2025-10-27 |
 | [84](https://github.com/argonne-lcf/AuroraBugTracking/issues/84) | Device Sanitizer is not functional with OpenMP C/Fortran codes | _No response_ | /lus/flare/projects/Aurora_deployment/jkwack/JK_AT_Tools/sanitizer and source/reproducers/tools/sanitizer in the test set | JaeHyuk Kwack | 🚨 | 2025.3 | 2025-10-22 | 2025-10-22 |
