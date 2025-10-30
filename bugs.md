@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [88](https://github.com/argonne-lcf/AuroraBugTracking/issues/88) | RPATH issue when mixing and matching SDK and spack built library | _No response_ | No need. reprdducer attached in this ticket | Ye Luo |  | _No response_ | 2025-10-30 | 2025-10-30 |
 | [87](https://github.com/argonne-lcf/AuroraBugTracking/issues/87) | QUDA compile fail | cmplrllvm-70981 | source/reproducers/openmp/quda_crash | Xiayong Jin / Brian W |  | In progress | 2025-10-28 | 2025-10-29 |
 | [86](https://github.com/argonne-lcf/AuroraBugTracking/issues/86) | omp_alloc should support pinned memory, or implement proper fallback behavior | CMPLRLIBS-35442 | /home/kweide/projects/OpenMP_VV/tests/5.1/allocate/test_omp_alloctrait_pinned.c | Klaus Weide |  | In progress | 2025-10-28 | 2025-10-29 |
 | [85](https://github.com/argonne-lcf/AuroraBugTracking/issues/85) | zeEventQueryKernelTimestampsExt is broken with IMM command lists | GSD-11124 | source/reproducers/l0/zeEventQueryKernelTimestampsExt_clock | Thomas/John Mellor-Crummey |  | _No response_ | 2025-10-27 | 2025-10-29 |
