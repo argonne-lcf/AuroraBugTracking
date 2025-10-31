@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [91](https://github.com/argonne-lcf/AuroraBugTracking/issues/91) | sycl failed malloc_device on GPU takes 20 seconds | _No response_ | source/reproducers/dpcpp/slow_alloc/ | Jakub H |  | _No response_ | 2025-10-31 | 2025-10-31 |
 | [90](https://github.com/argonne-lcf/AuroraBugTracking/issues/90) | Device Sanitizer + LIBOMPTARGET_DEBUG=1 issues for the GAMESS RI-MP2 mini-app | CMPLRLLVM-71455 | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/tools/sanitizer_rimp2_test | Brian |  | _No response_ | 2025-10-31 | 2025-10-31 |
 | [89](https://github.com/argonne-lcf/AuroraBugTracking/issues/89) | Device Sanitizer breaks with MKL DGEMM call in GAMESS RI-MP2 mini-app | MKLD-19334 | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/tools/sanitizer_rimp2_test | Brian, JaeHyuk |  | _No response_ | 2025-10-31 | 2025-10-31 |
 | [88](https://github.com/argonne-lcf/AuroraBugTracking/issues/88) | RPATH issue when mixing and matching SDK and spack packages built by another SDK | _No response_ | No need. reprdducer attached in this ticket | Ye Luo |  | _No response_ | 2025-10-30 | 2025-10-30 |
