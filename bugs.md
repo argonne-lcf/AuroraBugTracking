@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [89](https://github.com/argonne-lcf/AuroraBugTracking/issues/89) | Device Sanitizer breaks with MKL DGEMM call in GAMESS RI-MP2 mini-app | MKLD-19334 | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/tools/sanitizer_rimp2_test | Brian, JaeHyuk |  | _No response_ | 2025-10-31 | 2025-10-31 |
 | [88](https://github.com/argonne-lcf/AuroraBugTracking/issues/88) | RPATH issue when mixing and matching SDK and spack packages built by another SDK | _No response_ | No need. reprdducer attached in this ticket | Ye Luo |  | _No response_ | 2025-10-30 | 2025-10-30 |
 | [87](https://github.com/argonne-lcf/AuroraBugTracking/issues/87) | QUDA compile fail | cmplrllvm-70981 | source/reproducers/openmp/quda_crash | Xiayong Jin / Brian W |  | In progress | 2025-10-28 | 2025-10-29 |
 | [86](https://github.com/argonne-lcf/AuroraBugTracking/issues/86) | omp_alloc should support pinned memory, or implement proper fallback behavior | CMPLRLIBS-35442 | /home/kweide/projects/OpenMP_VV/tests/5.1/allocate/test_omp_alloctrait_pinned.c and source/reproducers/openmp/omp_alloctrait_pinned in the test set | Klaus Weide |  | In progress | 2025-10-28 | 2025-10-31 |
