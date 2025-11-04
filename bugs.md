@@ -4,7 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [92](https://github.com/argonne-lcf/AuroraBugTracking/issues/92) | SYCL device info free_memory wrong on 2-stack PVC1550 GPU | CMPLRLLVM-71510 | source/reproducers/dpcpp/sycl_free_flat | Jakub H |  | _No response_ | 2025-10-31 | 2025-11-03 |
+| [92](https://github.com/argonne-lcf/AuroraBugTracking/issues/92) | SYCL device info free_memory wrong on 2-stack PVC1550 GPU | CMPLRLLVM-71510 | source/reproducers/dpcpp/sycl_free_flat | Jakub H |  | _No response_ | 2025-10-31 | 2025-11-04 |
 | [91](https://github.com/argonne-lcf/AuroraBugTracking/issues/91) | sycl failed malloc_device on GPU takes 20 seconds | GSD-10587 | source/reproducers/dpcpp/slow_alloc/ | Jakub H |  | _No response_ | 2025-10-31 | 2025-11-03 |
 | [90](https://github.com/argonne-lcf/AuroraBugTracking/issues/90) | Device Sanitizer + LIBOMPTARGET_DEBUG=1 issues for the GAMESS RI-MP2 mini-app | CMPLRLLVM-71455 | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/tools/sanitizer_rimp2_test | Brian |  | _No response_ | 2025-10-31 | 2025-10-31 |
 | [89](https://github.com/argonne-lcf/AuroraBugTracking/issues/89) | Device Sanitizer breaks with MKL DGEMM call in GAMESS RI-MP2 mini-app | MKLD-19334 | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/tools/sanitizer_rimp2_test | Brian, JaeHyuk |  | _No response_ | 2025-10-31 | 2025-10-31 |
