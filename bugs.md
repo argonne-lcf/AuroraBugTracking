@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [95](https://github.com/argonne-lcf/AuroraBugTracking/issues/95) | Memory leak in Libfabric | _No response_ | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/mpi/cxi_memory_lead | Rob Lathan |  | _No response_ | 2025-11-13 | 2025-11-13 |
 | [94](https://github.com/argonne-lcf/AuroraBugTracking/issues/94) | zeMemFree slowdown in a loop | GSD-11962 | source/reproducers/l0/zememfree_slowdown/ | Colleen |  | _No response_ | 2025-11-08 | 2025-11-12 |
 | [93](https://github.com/argonne-lcf/AuroraBugTracking/issues/93) | oneCCL exeption with PyTorch DTensor: SYCL recv is not supported for multi-node case | MLSL-3951 | In the text body | Väinö Hatanpää |  | Assigned | 2025-11-05 | 2025-11-12 |
 | [92](https://github.com/argonne-lcf/AuroraBugTracking/issues/92) | SYCL device info free_memory wrong on 2-stack PVC1550 GPU | CMPLRLLVM-71510, URLZA-691 | source/reproducers/dpcpp/sycl_free_flat | Jakub H |  | Working on it | 2025-10-31 | 2025-11-12 |
