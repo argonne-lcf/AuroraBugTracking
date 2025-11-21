@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [97](https://github.com/argonne-lcf/AuroraBugTracking/issues/97) | SHMEM on Aurora: Unit test wait_until_all-on_queue-2 hanging | https://github.com/oneapi-src/ishmem/issues/15 | source/applications/ishmem_sis | Colleen / Abhi |  | _No response_ | 2025-11-21 | 2025-11-21 |
 | [96](https://github.com/argonne-lcf/AuroraBugTracking/issues/96) | Sporadic libze_intel_gpu.so segmentation fault when running QMCPACK | _No response_ | See attached reproducer | Ye Luo |  | _No response_ | 2025-11-17 | 2025-11-21 |
 | [95](https://github.com/argonne-lcf/AuroraBugTracking/issues/95) | Memory leak in Libfabric | _No response_ | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/mpi/cxi_memory_lead | Rob Lathan |  | _No response_ | 2025-11-13 | 2025-11-13 |
 | [94](https://github.com/argonne-lcf/AuroraBugTracking/issues/94) | zeMemFree slowdown in a loop | GSD-11962 | source/reproducers/l0/zememfree_slowdown/ | Colleen |  | _No response_ | 2025-11-08 | 2025-11-12 |
