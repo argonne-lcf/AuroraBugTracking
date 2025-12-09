@@ -6,7 +6,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [98](https://github.com/argonne-lcf/AuroraBugTracking/issues/98) | Hanging OpenCL code when one command queue waits on an event from another command queue | CMPLRLLVM-72048 | source/reproducers/opencl/hanging_marker | Colleen |  | _No response_ | 2025-12-02 | 2025-12-02 |
 | [97](https://github.com/argonne-lcf/AuroraBugTracking/issues/97) | SHMEM on Aurora: Unit test wait_until_all-on_queue-2 hanging | https://github.com/oneapi-src/ishmem/issues/15 | source/applications/ishmem_sis | Colleen / Abhi |  | _No response_ | 2025-11-21 | 2025-11-21 |
-| [96](https://github.com/argonne-lcf/AuroraBugTracking/issues/96) | Sporadic libze_intel_gpu.so segmentation fault when running QMCPACK | GSD-12033 | See attached reproducer | Ye Luo |  | _No response_ | 2025-11-17 | 2025-12-02 |
+| [96](https://github.com/argonne-lcf/AuroraBugTracking/issues/96) | Sporadic libze_intel_gpu.so segmentation fault when running QMCPACK | GSD-12033 | See attached reproducer | Ye Luo | 🚨 | _No response_ | 2025-11-17 | 2025-12-09 |
 | [95](https://github.com/argonne-lcf/AuroraBugTracking/issues/95) | Memory leak in Libfabric | _No response_ | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/mpi/cxi_memory_lead | Rob Lathan |  | _No response_ | 2025-11-13 | 2025-11-13 |
 | [94](https://github.com/argonne-lcf/AuroraBugTracking/issues/94) | zeMemFree slowdown in a loop | GSD-11962 | source/reproducers/l0/zememfree_slowdown/ | Colleen |  | _No response_ | 2025-11-08 | 2025-11-12 |
 | [93](https://github.com/argonne-lcf/AuroraBugTracking/issues/93) | oneCCL exeption with PyTorch DTensor: SYCL recv is not supported for multi-node case | MLSL-3951 | In the text body | Väinö Hatanpää |  | Assigned | 2025-11-05 | 2025-11-12 |
@@ -58,7 +58,6 @@
 | [18](https://github.com/argonne-lcf/AuroraBugTracking/issues/18) | Ping failures and hangs with production runs using GPT/GRID | ANL-251, RITM0404147, RITM0404148, RITM0405730, GSD-11441 | /lus/flare/projects/LatticeFlavor/lehner | Xiao-Yong Jin | 🚨 | _No response_ | 2025-04-04 | 2025-08-18 |
 | [17](https://github.com/argonne-lcf/AuroraBugTracking/issues/17) | hang with MPI pipelining | https://github.com/pmodels/mpich/issues/7373 | Build and run commands are in the MPICH issue. | James Osborn |  | Merged in https://github.com/pmodels/mpich/pull/7622 | 2025-04-03 | 2025-10-14 |
 | [13](https://github.com/argonne-lcf/AuroraBugTracking/issues/13) | XGC hangs at scale | CMPLRTST-27836 | xgc-es-cpp-gpu app, ES_ITER test case | Tim Williams | 🚨 | _No response_ | 2025-04-03 | 2025-09-17 |
-| [12](https://github.com/argonne-lcf/AuroraBugTracking/issues/12) | CXI alloc failed on cxi1: request exceeds ACs limits | _No response_ | None | Not Thomas |  | _No response_ | 2025-04-01 | 2025-08-04 |
 
 ### Closed Issues
 
@@ -92,6 +91,7 @@
 | [20](https://github.com/argonne-lcf/AuroraBugTracking/issues/20) | Issue with gpu-bind for mpiexec under ZE_FLAT_DEVICE_HIERARCHY=FLAT mode | ANL-283/HPE Support Case 5390607860 | See below | Abhishek, Nathan, Khalid |  | 2025-04-16 | 2025-10-01 |
 | [19](https://github.com/argonne-lcf/AuroraBugTracking/issues/19) | Severe CPU memory growth in MPICH | _No response_ | /flare/catalyst/world_shared/zippy/reproducers/issue19 | Tim Williams |  | 2025-04-04 | 2025-07-31 |
 | [16](https://github.com/argonne-lcf/AuroraBugTracking/issues/16) | Catastrophic memory error in context lmp_aurora_kokkos | _No response_ | public LAMMPS | Chris Knight |  | 2025-04-03 | 2025-07-23 |
+| [12](https://github.com/argonne-lcf/AuroraBugTracking/issues/12) | CXI alloc failed on cxi1: request exceeds ACs limits | _No response_ | None | Not Thomas |  | 2025-04-01 | 2025-12-09 |
 | [9](https://github.com/argonne-lcf/AuroraBugTracking/issues/9) | Multithreaded data-transfer can cause page-fault | N/A | Full QMCPACK | Ye Luo |  | 2025-04-01 | 2025-05-08 |
 | [8](https://github.com/argonne-lcf/AuroraBugTracking/issues/8) | Lots of H2D copies produce CPU I9 error and incorrect value | N/A | Full QMCPACK | Ye Luo | 🚨 | 2025-04-01 | 2025-05-28 |
 | [7](https://github.com/argonne-lcf/AuroraBugTracking/issues/7) | MPI_Bcast gets faster when turning off XPMEM | [pmodels/mpich#7334](https://github.com/pmodels/mpich/issues/7334) | see Issue on MPICH GitHub repo | Ye Luo |  | 2025-04-01 | 2025-04-24 |
