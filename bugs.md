@@ -4,7 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [99](https://github.com/argonne-lcf/AuroraBugTracking/issues/99) | Advisor tripcounts analysis fails with a PyTorch example. | ADV-10735 | /flare/Performance/jkwack/Tools/Roofline/SC25_tutorial/ai_ml_profiling/reproducer or  /lus/flare/projects/Tools/jkwack-tools-reproducer/JaeHyuk/advisor_pytorch/reproducer | JaeHyuk Kwack | 🚨 | _No response_ | 2025-12-09 | 2025-12-10 |
+| [99](https://github.com/argonne-lcf/AuroraBugTracking/issues/99) | Advisor tripcounts analysis fails with a PyTorch example. | ADV-10735 | /flare/Performance/jkwack/Tools/Roofline/SC25_tutorial/ai_ml_profiling/reproducer or  /lus/flare/projects/Tools/jkwack-tools-reproducer/JaeHyuk/advisor_pytorch/reproducer or  source/reproducers/tools/pytorch_advisor | JaeHyuk Kwack | 🚨 | _No response_ | 2025-12-09 | 2025-12-11 |
 | [98](https://github.com/argonne-lcf/AuroraBugTracking/issues/98) | Hanging OpenCL code when one command queue waits on an event from another command queue | CMPLRLLVM-72048 | source/reproducers/opencl/hanging_marker | Colleen |  | Under investigation | 2025-12-02 | 2025-12-11 |
 | [97](https://github.com/argonne-lcf/AuroraBugTracking/issues/97) | SHMEM on Aurora: Unit test wait_until_all-on_queue-2 hanging | https://github.com/oneapi-src/ishmem/issues/15 | source/applications/ishmem_sis | Colleen / Abhi |  | Actively working on it | 2025-11-21 | 2025-12-10 |
 | [96](https://github.com/argonne-lcf/AuroraBugTracking/issues/96) | Sporadic libze_intel_gpu.so segmentation fault when running QMCPACK | GSD-12033 | See attached reproducer | Ye Luo | 🚨 | _No response_ | 2025-11-17 | 2025-12-09 |
