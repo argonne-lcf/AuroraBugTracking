@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [104](https://github.com/argonne-lcf/AuroraBugTracking/issues/104) | Crashing with UseKMDMigration | GSD-12102 | source/reproducers/dpcpp/supercontext | Thomas |  | _No response_ | 2025-12-17 | 2025-12-17 |
 | [103](https://github.com/argonne-lcf/AuroraBugTracking/issues/103) | [Frameworks][PyTorch][IPEX] PyTorch Complex Matmul support W/O IPEX | _No response_ | /lus/flare/projects/datasets/softwares/testing/ptychi_tests/complex.py | Khalid Hossain |  | _No response_ | 2025-12-17 | 2025-12-17 |
 | [102](https://github.com/argonne-lcf/AuroraBugTracking/issues/102) | [Frameworks][Triton] "No device of requested type available" when ONEAPI_DEVICE_SELECTOR="level_zero:gpu" | _No response_ | source/reproducers/frameworks/triton_get_device | Nathan Nichols |  | WA: `ONEAPI_DEVICE_SELECTOR="*:gpu"` | 2025-12-17 | 2025-12-17 |
 | [101](https://github.com/argonne-lcf/AuroraBugTracking/issues/101) | Signalling a clSetUserEventStatus does not wake up barriers a barrier depending on it for in-order queues. | GSD-12087 | source/reproducers/opencl/user_event_in_order | Paulius Velesko |  | _No response_ | 2025-12-11 | 2025-12-12 |
