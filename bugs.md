@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [105](https://github.com/argonne-lcf/AuroraBugTracking/issues/105) | PCIe counters not working on LTS2 2523.31 and xpu-smi 1.2.X | https://github.com/intel/xpumanager/issues/114 | in issue | Servesh |  | _No response_ | 2026-01-06 | 2026-01-06 |
 | [104](https://github.com/argonne-lcf/AuroraBugTracking/issues/104) | [LZ] Crashing with UseKMDMigration | GSD-12102 | source/reproducers/dpcpp/supercontext | Thomas |  | _No response_ | 2025-12-17 | 2025-12-17 |
 | [103](https://github.com/argonne-lcf/AuroraBugTracking/issues/103) | [Frameworks][PyTorch][IPEX] PyTorch Complex Matmul support W/O IPEX | _No response_ | /lus/flare/projects/datasets/softwares/testing/ptychi_tests/complex.py in test set at: source/reproducers/frameworks/pytorch_matmul_ipex | Khalid Hossain |  | PyTorch-2.10 | 2025-12-17 | 2026-01-05 |
 | [102](https://github.com/argonne-lcf/AuroraBugTracking/issues/102) | [Frameworks][Triton] "No device of requested type available" when ONEAPI_DEVICE_SELECTOR="level_zero:gpu" | PYTORCHDCQ-7882 | source/reproducers/frameworks/triton_get_device | Nathan Nichols |  | WA: `ONEAPI_DEVICE_SELECTOR="*:gpu"` https://github.com/intel/intel-xpu-backend-for-triton/pull/5745 | 2025-12-17 | 2026-01-06 |
