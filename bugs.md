@@ -63,7 +63,7 @@
 | [30](https://github.com/argonne-lcf/AuroraBugTracking/issues/30) | Copy 2D/3D are broken (zeCommandListAppendMemoryCopyRegion) | NEO-14954, GSD-11132 | https://github.com/rpereira-dev/ze-zoo | Romain PEREIRA and Thomas APPLENCOURT | 🚨 | _No response_ | 2025-05-10 | 2025-09-17 |
 | [29](https://github.com/argonne-lcf/AuroraBugTracking/issues/29) | Significant slowdown with LAMMPS in first run, subsequent runs much faster | _No response_ | /flare/catalyst/proj_shared/knight/projects/ExtremeCarbon/snap-carbon-scaling/1B/ | Christopher Knight |  | _No response_ | 2025-05-09 | 2026-01-06 |
 | [17](https://github.com/argonne-lcf/AuroraBugTracking/issues/17) | hang with MPI pipelining | https://github.com/pmodels/mpich/issues/7373 | Build and run commands are in the MPICH issue. | James Osborn |  | Merged in https://github.com/pmodels/mpich/pull/7622 | 2025-04-03 | 2025-10-14 |
-| [13](https://github.com/argonne-lcf/AuroraBugTracking/issues/13) | XGC hangs at scale | CMPLRTST-27836 | xgc-es-cpp-gpu app, ES_ITER test case | Tim Williams | 🚨 | _No response_ | 2025-04-03 | 2025-09-17 |
+| [13](https://github.com/argonne-lcf/AuroraBugTracking/issues/13) | XGC hangs at scale | CMPLRTST-27836 | xgc-es-cpp-gpu app, ES_ITER test case | Tim Williams | 🚨 | _No response_ | 2025-04-03 | 2026-01-07 |
 
 ### Closed Issues
 
