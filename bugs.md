@@ -4,7 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [107](https://github.com/argonne-lcf/AuroraBugTracking/issues/107) | Vtune times out even when run with collection paused | _No response_ | /lus/flare/projects/CoreCollapseModel/rcaddy/vtune_issue /lus/flare/projects/Tools/jkwack-tools-reproducer/Robert_Caddy/vtune_issue | Robert Caddy |  | _No response_ | 2026-01-07 | 2026-01-14 |
+| [107](https://github.com/argonne-lcf/AuroraBugTracking/issues/107) | Vtune times out even when run with collection paused | _No response_ | /lus/flare/projects/CoreCollapseModel/rcaddy/vtune_issue /lus/flare/projects/Tools/jkwack-tools-reproducer/Robert_Caddy/vtune_issue | Robert Caddy |  | _No response_ | 2026-01-07 | 2026-01-15 |
 | [106](https://github.com/argonne-lcf/AuroraBugTracking/issues/106) | [LZ] Hang on zeEventPoolDestroy when called before a non-related non-same-pool signal | GSD-12152 | source/reproducers/l0/multi_event_pools_hang | Colleen, Paulius |  | _No response_ | 2026-01-07 | 2026-01-07 |
 | [105](https://github.com/argonne-lcf/AuroraBugTracking/issues/105) | PCIe counters not working on LTS2 2523.31 and xpu-smi 1.2.X | https://github.com/intel/xpumanager/issues/114 GSD-12079 | in issue | Servesh |  | _No response_ | 2026-01-06 | 2026-01-07 |
 | [104](https://github.com/argonne-lcf/AuroraBugTracking/issues/104) | [LZ] Crashing with UseKMDMigration | GSD-12102 | source/reproducers/dpcpp/supercontext | Thomas |  | Under investigation | 2025-12-17 | 2026-01-07 |
