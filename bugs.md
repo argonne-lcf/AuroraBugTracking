@@ -4,7 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [108](https://github.com/argonne-lcf/AuroraBugTracking/issues/108) | [LZ] Hanging on event with multiple immediate command lists | _No response_ | source/reproducers/l0/synch_hang_multi_imm | Paulius Velesko |  | _No response_ | 2026-01-27 | 2026-01-27 |
+| [108](https://github.com/argonne-lcf/AuroraBugTracking/issues/108) | [LZ] Hanging on event with multiple immediate command lists | _No response_ | source/reproducers/l0/synch_hang_multi_imm | Paulius Velesko |  | Working with 2025.3 SDK + 1146.40 runtime | 2026-01-27 | 2026-01-27 |
 | [107](https://github.com/argonne-lcf/AuroraBugTracking/issues/107) | Vtune times out even when run with collection paused | VASP-33391 | /lus/flare/projects/CoreCollapseModel/rcaddy/vtune_issue /lus/flare/projects/Tools/jkwack-tools-reproducer/Robert_Caddy/vtune_issue | Robert Caddy |  | _No response_ | 2026-01-07 | 2026-01-16 |
 | [106](https://github.com/argonne-lcf/AuroraBugTracking/issues/106) | [LZ] Hang on zeEventPoolDestroy when called before a non-related non-same-pool signal | GSD-12152 | source/reproducers/l0/multi_event_pools_hang | Colleen, Paulius |  | _No response_ | 2026-01-07 | 2026-01-07 |
 | [105](https://github.com/argonne-lcf/AuroraBugTracking/issues/105) | PCIe counters not working on LTS2 2523.31 and xpu-smi 1.2.X | https://github.com/intel/xpumanager/issues/114 GSD-12079 | in issue | Servesh |  | _No response_ | 2026-01-06 | 2026-01-07 |
