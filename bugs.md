@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [110](https://github.com/argonne-lcf/AuroraBugTracking/issues/110) | degraded Ptycho_Vit performance Vs A100 | _No response_ | https://github.com/SYNAPS-I/ptycho-vit/tree/aurora_port | Varuni Katti Sastry |  | _No response_ | 2026-02-03 | 2026-02-03 |
 | [109](https://github.com/argonne-lcf/AuroraBugTracking/issues/109) | Global MPI rank issue with STAT | HPE ticket CPE-13691 | /home/jkwack/Tools/STAT/Multi-node_test           on Sunspot | JaeHyuk Kwack | 🚨 | _No response_ | 2026-02-02 | 2026-02-02 |
 | [108](https://github.com/argonne-lcf/AuroraBugTracking/issues/108) | [LZ] Hanging on event with multiple immediate command lists | _No response_ | source/reproducers/l0/synch_hang_multi_imm | Paulius Velesko |  | Working with 2025.3 SDK + 1146.40 runtime | 2026-01-27 | 2026-01-27 |
 | [107](https://github.com/argonne-lcf/AuroraBugTracking/issues/107) | Vtune times out even when run with collection paused | VASP-33391 | /lus/flare/projects/CoreCollapseModel/rcaddy/vtune_issue /lus/flare/projects/Tools/jkwack-tools-reproducer/Robert_Caddy/vtune_issue | Robert Caddy |  | _No response_ | 2026-01-07 | 2026-01-16 |
