@@ -5,7 +5,6 @@
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [113](https://github.com/argonne-lcf/AuroraBugTracking/issues/113) | Engineering version of `vtune-backend` is extremely slow | VASP-33498 | /tmp/rcaddy/tmp on Aurora head node 11 | Robert Caddy |  | _No response_ | 2026-02-11 | 2026-02-11 |
-| [112](https://github.com/argonne-lcf/AuroraBugTracking/issues/112) | [MPI] MPI_probe crashing with H/W event overflow | CAST-39582 | in the issue and source/reproducers/mpi/mpi_probe | Colleen |  | _No response_ | 2026-02-09 | 2026-02-12 |
 | [111](https://github.com/argonne-lcf/AuroraBugTracking/issues/111) | [Frameworks] alltoallv with zero-sized buffer from pytorch | https://github.com/uxlfoundation/oneCCL/issues/190 MLSL-4075 | https://github.com/argonne-lcf/nekRS-ML/blob/alcf4/3rd_party/dist-gnn/run_all2all_bench.sh | Riccardo Balin |  | _No response_ | 2026-02-05 | 2026-02-06 |
 | [110](https://github.com/argonne-lcf/AuroraBugTracking/issues/110) | [Frameworks] degraded Ptycho_Vit performance Vs A100 | _No response_ | https://github.com/SYNAPS-I/ptycho-vit/tree/aurora_port | Varuni Katti Sastry |  | _No response_ | 2026-02-03 | 2026-02-04 |
 | [109](https://github.com/argonne-lcf/AuroraBugTracking/issues/109) | Global MPI rank issue with STAT | HPE ticket CPE-13691 | /home/jkwack/Tools/STAT/Multi-node_test           on Sunspot | JaeHyuk Kwack | 🚨 | _No response_ | 2026-02-02 | 2026-02-02 |
@@ -75,6 +74,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | Date Opened | Closed Date |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [112](https://github.com/argonne-lcf/AuroraBugTracking/issues/112) | [MPI] MPI_probe crashing with H/W event overflow | CAST-39582 | in the issue and source/reproducers/mpi/mpi_probe | Colleen |  | 2026-02-09 | 2026-02-13 |
 | [78](https://github.com/argonne-lcf/AuroraBugTracking/issues/78) | Applications failing to compile with `is too large for Clang to process` or generating significantly larger exes with "-g" | CMPLRLLVM-70962, (general and related: CMPLRLLVM-53145, CMPLRLLVM-69909, CMPLRLLVM-24314) | source/reproducers/dpcpp/jit_too_large_for_Clang | Abhi | 🚨 | 2025-10-06 | 2026-01-06 |
 | [75](https://github.com/argonne-lcf/AuroraBugTracking/issues/75) | "MPL_gpu_query_is_same_dev(int, int): Assertion `global_dev1 >= 0 && global_dev1 < known_ze_device_count' failed." with mpich.dbg | _No response_ | https://github.com/pmodels/mpich/issues/7602 | Tim, JaeHyuk, Colleen |  | 2025-09-30 | 2025-10-13 |
 | [72](https://github.com/argonne-lcf/AuroraBugTracking/issues/72) | MPI_aborts in many applications in next-eval at larger scales | _No response_ | N/A | Brian Holland / Tim Williams |  | 2025-09-16 | 2025-09-30 |
