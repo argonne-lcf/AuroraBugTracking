@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [115](https://github.com/argonne-lcf/AuroraBugTracking/issues/115) | flash attn and fused_moe/test_grouped_gemm tests fail in the VLLM framework | _No response_ | N/A | Servesh / Nathan |  | _No response_ | 2026-02-16 | 2026-02-16 |
 | [114](https://github.com/argonne-lcf/AuroraBugTracking/issues/114) | Offline debugging issues | _No response_ | N/A | Servesh |  | _No response_ | 2026-02-16 | 2026-02-16 |
 | [113](https://github.com/argonne-lcf/AuroraBugTracking/issues/113) | Engineering version of `vtune-backend` is extremely slow | VASP-33498 | /tmp/rcaddy/tmp on Aurora head node 11 | Robert Caddy |  | _No response_ | 2026-02-11 | 2026-02-11 |
 | [111](https://github.com/argonne-lcf/AuroraBugTracking/issues/111) | [Frameworks] alltoallv with zero-sized buffer from pytorch | https://github.com/uxlfoundation/oneCCL/issues/190 MLSL-4075 | https://github.com/argonne-lcf/nekRS-ML/blob/alcf4/3rd_party/dist-gnn/run_all2all_bench.sh | Riccardo Balin |  | _No response_ | 2026-02-05 | 2026-02-06 |
