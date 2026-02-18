@@ -4,7 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [117](https://github.com/argonne-lcf/AuroraBugTracking/issues/117) | Fortran ICE module + input)in) | cmplrllvm-73523 | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/ifx/ice_module_in | Thomas / Victor |  | _No response_ | 2026-02-18 | 2026-02-18 |
+| [117](https://github.com/argonne-lcf/AuroraBugTracking/issues/117) | Fortran ICE module + input)in) | CMPLRLLVM-73523 | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/ifx/ice_module_in | Thomas / Victor |  | _No response_ | 2026-02-18 | 2026-02-18 |
 | [116](https://github.com/argonne-lcf/AuroraBugTracking/issues/116) | PCIe counters has a regression on 1.3.X for Datacenter Max GPUs | https://github.com/intel/xpumanager/issues/119 | https://github.com/intel/xpumanager/issues/119 | Servesh |  | _No response_ | 2026-02-18 | 2026-02-18 |
 | [115](https://github.com/argonne-lcf/AuroraBugTracking/issues/115) | flash attn and fused_moe/test_grouped_gemm tests fail in the VLLM framework | _No response_ | source/reproducers/frameworks/vllm/ | Servesh / Nathan |  | _No response_ | 2026-02-16 | 2026-02-17 |
 | [114](https://github.com/argonne-lcf/AuroraBugTracking/issues/114) | Offline debugging issues | _No response_ | N/A | Servesh |  | _No response_ | 2026-02-16 | 2026-02-16 |
