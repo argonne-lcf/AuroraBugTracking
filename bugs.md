@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [119](https://github.com/argonne-lcf/AuroraBugTracking/issues/119) | [IntelPython] Indexing bug with dpnp nd-array | _No response_ | https://github.com/IntelPython/dpnp/issues/2783 | Abhi | 🚨 | _No response_ | 2026-02-23 | 2026-02-23 |
 | [118](https://github.com/argonne-lcf/AuroraBugTracking/issues/118) | Incorrect RUNPATH in libimf.so and libirng.so | _No response_ | Embeded | Ye Luo |  | _No response_ | 2026-02-19 | 2026-02-19 |
 | [117](https://github.com/argonne-lcf/AuroraBugTracking/issues/117) | Fortran ICE module + input)in) | CMPLRLLVM-73523 | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/ifx/ice_module_in | Thomas / Victor |  | _No response_ | 2026-02-18 | 2026-02-18 |
 | [116](https://github.com/argonne-lcf/AuroraBugTracking/issues/116) | PCIe counters has a regression on 1.3.X for Datacenter Max GPUs | https://github.com/intel/xpumanager/issues/119 | https://github.com/intel/xpumanager/issues/119 | Servesh |  | _No response_ | 2026-02-18 | 2026-02-18 |
