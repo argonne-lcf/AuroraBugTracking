@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [120](https://github.com/argonne-lcf/AuroraBugTracking/issues/120) | [IntelPython] dpnp array `.data.ptr` on array views ignores USM offset | _No response_ | https://github.com/IntelPython/dpnp/issues/2781 | Abhi | 🚨 | _No response_ | 2026-02-23 | 2026-02-23 |
 | [119](https://github.com/argonne-lcf/AuroraBugTracking/issues/119) | [IntelPython] Indexing bug with dpnp nd-array | _No response_ | https://github.com/IntelPython/dpnp/issues/2783 | Abhi | 🚨 | _No response_ | 2026-02-23 | 2026-02-23 |
 | [118](https://github.com/argonne-lcf/AuroraBugTracking/issues/118) | Incorrect RUNPATH in libimf.so and libirng.so | _No response_ | Embeded | Ye Luo |  | _No response_ | 2026-02-19 | 2026-02-19 |
 | [117](https://github.com/argonne-lcf/AuroraBugTracking/issues/117) | Fortran ICE module + input)in) | CMPLRLLVM-73523 | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/ifx/ice_module_in | Thomas / Victor |  | _No response_ | 2026-02-18 | 2026-02-18 |
