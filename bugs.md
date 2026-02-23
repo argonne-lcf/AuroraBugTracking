@@ -5,7 +5,7 @@
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [122](https://github.com/argonne-lcf/AuroraBugTracking/issues/122) | [IntelPython] Bug in DPCTL to support for `order` parameter for `dpt.asnumpy` | _No response_ | https://github.com/IntelPython/dpctl/issues/2138 | Abhi |  | _No response_ | 2026-02-23 | 2026-02-23 |
-| [121](https://github.com/argonne-lcf/AuroraBugTracking/issues/121) | [IntelPython] Feature request for sub-class support for dpnp arrays | _No response_ | https://github.com/IntelPython/dpnp/issues/2764 | Abhi |  | _No response_ | 2026-02-23 | 2026-02-23 |
+| [121](https://github.com/argonne-lcf/AuroraBugTracking/issues/121) | [IntelPython] Feature request for sub-class support in dpnp arrays | _No response_ | https://github.com/IntelPython/dpnp/issues/2764 | Abhi |  | _No response_ | 2026-02-23 | 2026-02-23 |
 | [120](https://github.com/argonne-lcf/AuroraBugTracking/issues/120) | [IntelPython] dpnp array `.data.ptr` on array views ignores USM offset | _No response_ | https://github.com/IntelPython/dpnp/issues/2781 | Abhi | 🚨 | _No response_ | 2026-02-23 | 2026-02-23 |
 | [119](https://github.com/argonne-lcf/AuroraBugTracking/issues/119) | [IntelPython] Indexing bug with dpnp nd-array | _No response_ | https://github.com/IntelPython/dpnp/issues/2783 | Abhi | 🚨 | _No response_ | 2026-02-23 | 2026-02-23 |
 | [118](https://github.com/argonne-lcf/AuroraBugTracking/issues/118) | Incorrect RUNPATH in libimf.so and libirng.so | _No response_ | Embeded | Ye Luo |  | _No response_ | 2026-02-19 | 2026-02-19 |
