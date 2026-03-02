@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [124](https://github.com/argonne-lcf/AuroraBugTracking/issues/124) | [LZ] Clarification about zeCommandListHostSynchronize and multiple IMM in-order queues | _No response_ | source/reproducers/l0/why_event_not_ready/ | Colleen |  | _No response_ | 2026-03-02 | 2026-03-02 |
 | [123](https://github.com/argonne-lcf/AuroraBugTracking/issues/123) | Various MPI crashes in pytorch at larger scales | _No response_ | below | Khalid |  | _No response_ | 2026-02-26 | 2026-02-26 |
 | [122](https://github.com/argonne-lcf/AuroraBugTracking/issues/122) | [IntelPython] Bug in DPCTL to support for `order` parameter for `dpt.asnumpy` | _No response_ | https://github.com/IntelPython/dpctl/issues/2138 | Abhi |  | _No response_ | 2026-02-23 | 2026-02-23 |
 | [121](https://github.com/argonne-lcf/AuroraBugTracking/issues/121) | [IntelPython] Feature request for sub-class support in dpnp arrays | _No response_ | https://github.com/IntelPython/dpnp/issues/2764 | Abhi |  | _No response_ | 2026-02-23 | 2026-02-23 |
