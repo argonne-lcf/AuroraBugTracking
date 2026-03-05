@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [127](https://github.com/argonne-lcf/AuroraBugTracking/issues/127) | next-eval generates bad code from warpx kernel with -O3 | GSD-12419 | /flare/catalyst/world_shared/zippy/warpx | Tim Williams |  | _No response_ | 2026-03-05 | 2026-03-05 |
 | [126](https://github.com/argonne-lcf/AuroraBugTracking/issues/126) | Incorrect answers for OpenMP + SIMD code | CMPLRLLVM-73901 | source/reproducer/icx/simd_omp | Lehman / Thomas |  | _No response_ | 2026-03-03 | 2026-03-03 |
 | [125](https://github.com/argonne-lcf/AuroraBugTracking/issues/125) | [Frameworks] vLLM async scheduler fail | _No response_ | see issue | Nathan and Khalid |  | _No response_ | 2026-03-02 | 2026-03-02 |
 | [124](https://github.com/argonne-lcf/AuroraBugTracking/issues/124) | [LZ] Clarification about zeCommandListHostSynchronize and multiple IMM in-order queues | GSD-12406 | source/reproducers/l0/why_event_not_ready/ | Colleen | 🚨 | _No response_ | 2026-03-02 | 2026-03-02 |
