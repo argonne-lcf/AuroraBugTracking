@@ -8,7 +8,6 @@
 | [126](https://github.com/argonne-lcf/AuroraBugTracking/issues/126) | Incorrect answers for OpenMP + SIMD code | CMPLRLLVM-73901 | source/reproducer/icx/simd_omp | Lehman / Thomas |  | _No response_ | 2026-03-03 | 2026-03-03 |
 | [125](https://github.com/argonne-lcf/AuroraBugTracking/issues/125) | [Frameworks] vLLM async scheduler fail | _No response_ | see issue | Nathan and Khalid |  | _No response_ | 2026-03-02 | 2026-03-02 |
 | [124](https://github.com/argonne-lcf/AuroraBugTracking/issues/124) | [LZ] Clarification about zeCommandListHostSynchronize and multiple IMM in-order queues | GSD-12406 | source/reproducers/l0/why_event_not_ready/ | Colleen | 🚨 | _No response_ | 2026-03-02 | 2026-03-02 |
-| [123](https://github.com/argonne-lcf/AuroraBugTracking/issues/123) | Various MPI crashes in pytorch at larger scales | _No response_ | below | Khalid |  | _No response_ | 2026-02-26 | 2026-02-26 |
 | [122](https://github.com/argonne-lcf/AuroraBugTracking/issues/122) | [IntelPython] Bug in DPCTL to support for `order` parameter for `dpt.asnumpy` | _No response_ | https://github.com/IntelPython/dpctl/issues/2138 | Abhi |  | _No response_ | 2026-02-23 | 2026-02-23 |
 | [121](https://github.com/argonne-lcf/AuroraBugTracking/issues/121) | [IntelPython] Feature request for sub-class support in dpnp arrays | _No response_ | https://github.com/IntelPython/dpnp/issues/2764 | Abhi |  | _No response_ | 2026-02-23 | 2026-02-23 |
 | [120](https://github.com/argonne-lcf/AuroraBugTracking/issues/120) | [IntelPython] dpnp array `.data.ptr` on array views ignores USM offset | _No response_ | https://github.com/IntelPython/dpnp/issues/2781 | Abhi | 🚨 | _No response_ | 2026-02-23 | 2026-02-23 |
@@ -85,6 +84,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | Date Opened | Closed Date |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [123](https://github.com/argonne-lcf/AuroraBugTracking/issues/123) | Various MPI crashes in pytorch at larger scales | _No response_ | below | Khalid |  | 2026-02-26 | 2026-03-05 |
 | [112](https://github.com/argonne-lcf/AuroraBugTracking/issues/112) | [MPI] MPI_probe crashing with H/W event overflow | CAST-39582 | in the issue and source/reproducers/mpi/mpi_probe | Colleen |  | 2026-02-09 | 2026-02-13 |
 | [107](https://github.com/argonne-lcf/AuroraBugTracking/issues/107) | Vtune times out even when run with collection paused | VASP-33391 | /lus/flare/projects/CoreCollapseModel/rcaddy/vtune_issue /lus/flare/projects/Tools/jkwack-tools-reproducer/Robert_Caddy/vtune_issue | Robert Caddy |  | 2026-01-07 | 2026-03-05 |
 | [88](https://github.com/argonne-lcf/AuroraBugTracking/issues/88) | RPATH issue when mixing and matching SDK and spack packages built by another SDK | _No response_ | No need. reprdducer attached in this ticket | Ye Luo |  | 2025-10-30 | 2026-02-18 |
