@@ -63,7 +63,6 @@
 | [33](https://github.com/argonne-lcf/AuroraBugTracking/issues/33) | Crash when calling too many MPI_Probe | https://github.com/pmodels/mpich/issues/7427 | https://github.com/pmodels/mpich/issues/7427 | David--Cléris Timothée |  | _No response_ | 2025-05-15 | 2025-05-15 |
 | [30](https://github.com/argonne-lcf/AuroraBugTracking/issues/30) | Copy 2D/3D are broken (zeCommandListAppendMemoryCopyRegion) | NEO-14954, GSD-11132 | https://github.com/rpereira-dev/ze-zoo also source/reproducers/l0/copyRegionPitch | Romain PEREIRA and Thomas APPLENCOURT | 🚨 | _No response_ | 2025-05-10 | 2026-02-18 |
 | [29](https://github.com/argonne-lcf/AuroraBugTracking/issues/29) | Significant slowdown with LAMMPS in first run, subsequent runs much faster | _No response_ | /flare/catalyst/proj_shared/knight/projects/ExtremeCarbon/snap-carbon-scaling/1B/ | Christopher Knight |  | _No response_ | 2025-05-09 | 2026-01-06 |
-| [17](https://github.com/argonne-lcf/AuroraBugTracking/issues/17) | hang with MPI pipelining | https://github.com/pmodels/mpich/issues/7373 | Build and run commands are in the MPICH issue. | James Osborn |  | Merged in https://github.com/pmodels/mpich/pull/7622 | 2025-04-03 | 2026-02-20 |
 | [13](https://github.com/argonne-lcf/AuroraBugTracking/issues/13) | XGC hangs at scale | CMPLRTST-27836 | xgc-es-cpp-gpu app, ES_ITER test case | Tim Williams | 🚨 | _No response_ | 2025-04-03 | 2026-01-07 |
 
 ### Closed Issues
@@ -120,6 +119,7 @@
 | [20](https://github.com/argonne-lcf/AuroraBugTracking/issues/20) | Issue with gpu-bind for mpiexec under ZE_FLAT_DEVICE_HIERARCHY=FLAT mode | ANL-283/HPE Support Case 5390607860 | See below | Abhishek, Nathan, Khalid |  | 2025-04-16 | 2025-10-01 |
 | [19](https://github.com/argonne-lcf/AuroraBugTracking/issues/19) | Severe CPU memory growth in MPICH | _No response_ | /flare/catalyst/world_shared/zippy/reproducers/issue19 | Tim Williams |  | 2025-04-04 | 2025-07-31 |
 | [18](https://github.com/argonne-lcf/AuroraBugTracking/issues/18) | Ping failures and hangs with production runs using GPT/GRID | ANL-251, RITM0404147, RITM0404148, RITM0405730, GSD-11441 | /lus/flare/projects/LatticeFlavor/lehner | Xiao-Yong Jin | 🚨 | 2025-04-04 | 2025-12-11 |
+| [17](https://github.com/argonne-lcf/AuroraBugTracking/issues/17) | hang with MPI pipelining | https://github.com/pmodels/mpich/issues/7373 | Build and run commands are in the MPICH issue. | James Osborn |  | 2025-04-03 | 2026-03-13 |
 | [16](https://github.com/argonne-lcf/AuroraBugTracking/issues/16) | Catastrophic memory error in context lmp_aurora_kokkos | _No response_ | public LAMMPS | Chris Knight |  | 2025-04-03 | 2025-07-23 |
 | [12](https://github.com/argonne-lcf/AuroraBugTracking/issues/12) | CXI alloc failed on cxi1: request exceeds ACs limits | _No response_ | None | Not Thomas |  | 2025-04-01 | 2025-12-09 |
 | [9](https://github.com/argonne-lcf/AuroraBugTracking/issues/9) | Multithreaded data-transfer can cause page-fault | N/A | Full QMCPACK | Ye Luo |  | 2025-04-01 | 2025-05-08 |
