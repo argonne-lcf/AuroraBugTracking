@@ -5,7 +5,6 @@
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [134](https://github.com/argonne-lcf/AuroraBugTracking/issues/134) | [Advisor] Incorrect lower precision data | _No response_ | https://github.com/jkwack/JKBench_Tools/tree/Low_Precision/Low_Precision | JaeHyuk Kwack, Riccardo Balin | 🚨 | _No response_ | 2026-04-13 | 2026-04-13 |
-| [133](https://github.com/argonne-lcf/AuroraBugTracking/issues/133) | Advisor slowdown with SP7 vs SP4 | _No response_ | source/reproducers/tools/advisor_gflop | JaeHyuk |  | _No response_ | 2026-04-13 | 2026-04-13 |
 | [132](https://github.com/argonne-lcf/AuroraBugTracking/issues/132) | [DPC++] Print not working at O0 | CMPLRLLVM-74689 | source/reproducers/dpcpp/print_bug/ | Thomas |  | _No response_ | 2026-04-07 | 2026-04-07 |
 | [131](https://github.com/argonne-lcf/AuroraBugTracking/issues/131) | [Runtime] magma test failing | GSD-12314 | source/reproducers/dpcpp/magama_crash | Natalie Beam, Colleen |  | Under investigation | 2026-03-18 | 2026-03-18 |
 | [130](https://github.com/argonne-lcf/AuroraBugTracking/issues/130) | [LZ] Timestamp and in-order queues leads to wrong answers | GSD-12468 | source/reproducers/l0/timestamp_wrong_answer | Colleen |  | _No response_ | 2026-03-14 | 2026-03-16 |
@@ -73,6 +72,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | Date Opened | Closed Date |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [133](https://github.com/argonne-lcf/AuroraBugTracking/issues/133) | Advisor slowdown with SP7 vs SP4 | _No response_ | source/reproducers/tools/advisor_gflop | JaeHyuk |  | 2026-04-13 | 2026-04-13 |
 | [123](https://github.com/argonne-lcf/AuroraBugTracking/issues/123) | Various MPI crashes in pytorch at larger scales | _No response_ | below | Khalid |  | 2026-02-26 | 2026-03-05 |
 | [112](https://github.com/argonne-lcf/AuroraBugTracking/issues/112) | [MPI] MPI_probe crashing with H/W event overflow | CAST-39582 | in the issue and source/reproducers/mpi/mpi_probe | Colleen |  | 2026-02-09 | 2026-02-13 |
 | [108](https://github.com/argonne-lcf/AuroraBugTracking/issues/108) | [LZ] Hanging on event with multiple immediate command lists | _No response_ | source/reproducers/l0/synch_hang_multi_imm | Paulius Velesko |  | 2026-01-27 | 2026-03-13 |
