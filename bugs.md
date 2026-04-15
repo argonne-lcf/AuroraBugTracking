@@ -4,7 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [134](https://github.com/argonne-lcf/AuroraBugTracking/issues/134) | [Advisor] Incorrect lower precision data | ADV-7898 | https://github.com/jkwack/JKBench_Tools/tree/Low_Precision/Low_Precision | JaeHyuk Kwack, Riccardo Balin | 🚨 | _No response_ | 2026-04-13 | 2026-04-14 |
+| [134](https://github.com/argonne-lcf/AuroraBugTracking/issues/134) | [Advisor] Incorrect lower precision data | ADV-7898 | https://github.com/jkwack/JKBench_Tools/tree/Low_Precision/Low_Precision | JaeHyuk Kwack, Riccardo Balin | 🚨 | Fix in place, ETA: estimate is oneAPI 2026.1 | 2026-04-13 | 2026-04-15 |
 | [132](https://github.com/argonne-lcf/AuroraBugTracking/issues/132) | [DPC++] Print not working at O0 | CMPLRLLVM-74689 | source/reproducers/dpcpp/print_bug/ | Thomas |  | _No response_ | 2026-04-07 | 2026-04-07 |
 | [131](https://github.com/argonne-lcf/AuroraBugTracking/issues/131) | [Runtime] magma test failing | GSD-12314 | source/reproducers/dpcpp/magama_crash | Natalie Beam, Colleen |  | Under investigation | 2026-03-18 | 2026-03-18 |
 | [130](https://github.com/argonne-lcf/AuroraBugTracking/issues/130) | [LZ] Timestamp and in-order queues leads to wrong answers | GSD-12468 | source/reproducers/l0/timestamp_wrong_answer | Colleen |  | _No response_ | 2026-03-14 | 2026-03-16 |
