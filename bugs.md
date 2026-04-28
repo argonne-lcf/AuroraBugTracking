@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [136](https://github.com/argonne-lcf/AuroraBugTracking/issues/136) | Unexplained slowdown in | _No response_ | /lus/flare/projects/Aurora_deployment/harvey/simple_reproducer.tar.gz | Brian Holland | 🚨 | _No response_ | 2026-04-28 | 2026-04-28 |
 | [135](https://github.com/argonne-lcf/AuroraBugTracking/issues/135) | Miscompile: OpSubgroupShuffleINTEL with OpUConvert ushort<->uint and OpBranchConditional consumer | _No response_ | Attached in the body of the issue | Paulius Velesko |  | _No response_ | 2026-04-23 | 2026-04-28 |
 | [134](https://github.com/argonne-lcf/AuroraBugTracking/issues/134) | [Advisor] Incorrect lower precision data | ADV-7898 | https://github.com/jkwack/JKBench_Tools/tree/Low_Precision/Low_Precision | JaeHyuk Kwack, Riccardo Balin | 🚨 | Fix in place, ETA: estimate is oneAPI 2026.1 | 2026-04-13 | 2026-04-15 |
 | [132](https://github.com/argonne-lcf/AuroraBugTracking/issues/132) | [DPC++] Print not working at O0 | CMPLRLLVM-74689 | source/reproducers/dpcpp/print_bug/ | Thomas |  | _No response_ | 2026-04-07 | 2026-04-07 |
