@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [138](https://github.com/argonne-lcf/AuroraBugTracking/issues/138) | DAOS write from sycl::malloc_host and sycl::malloc_shared | _No response_ | /lus/flare/projects/gpu_hack/oracle-erf/mbuehlmann/daos_repro | Michael Buehlmann |  | _No response_ | 2026-04-30 | 2026-04-30 |
 | [137](https://github.com/argonne-lcf/AuroraBugTracking/issues/137) | Non-bit-for-bit output with some ifx flags | CMPLRLLVM-75238 | /flare/E3SMinput/world-shared/azamat/intel-sqrt-flags | Abhishek Baghusetty |  | _No response_ | 2026-04-29 | 2026-04-29 |
 | [136](https://github.com/argonne-lcf/AuroraBugTracking/issues/136) | Unexplained slowdown in isend/irecv simple reproducer (from INCITE code) | _No response_ | /lus/flare/projects/Aurora_deployment/harvey/simple_reproducer.tar.gz | Brian Holland | 🚨 | _No response_ | 2026-04-28 | 2026-04-29 |
 | [135](https://github.com/argonne-lcf/AuroraBugTracking/issues/135) | Miscompile: OpSubgroupShuffleINTEL with OpUConvert ushort<->uint and OpBranchConditional consumer | _No response_ | Attached in the body of the issue | Paulius Velesko |  | _No response_ | 2026-04-23 | 2026-04-28 |
