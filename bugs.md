@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [139](https://github.com/argonne-lcf/AuroraBugTracking/issues/139) | `libkokkoskernels.so: PC-relative offset overflow in PLT entry` | CMPLRLLVM-75321 | source/application/kokkos-kernels + -g | Junchao Zhang |  | _No response_ | 2026-05-04 | 2026-05-04 |
 | [138](https://github.com/argonne-lcf/AuroraBugTracking/issues/138) | DAOS write from sycl::malloc_host and sycl::malloc_shared | _No response_ | /lus/flare/projects/gpu_hack/oracle-erf/mbuehlmann/daos_repro | Michael Buehlmann |  | _No response_ | 2026-04-30 | 2026-04-30 |
 | [137](https://github.com/argonne-lcf/AuroraBugTracking/issues/137) | Non-bit-for-bit output with some ifx flags | CMPLRLLVM-75238 | /flare/E3SMinput/world-shared/azamat/intel-sqrt-flags | Abhishek Baghusetty |  | _No response_ | 2026-04-29 | 2026-04-29 |
 | [136](https://github.com/argonne-lcf/AuroraBugTracking/issues/136) | Unexplained slowdown in isend/irecv simple reproducer (from INCITE code) | _No response_ | Simplified procedurally generated communication pattern - reproduces at 2 nodes - runs at any node scale /lus/flare/projects/Aurora_deployment/reproducers/bug136/reproducer_2node_simplified.tar.gz [Original Reproducer - From User - 128 node & 1 node - fixed input files for communication pattern] /lus/flare/projects/Aurora_deployment/reproducers/bug136/simple_reproducer.tar.gz | Brian Holland | 🚨 | _No response_ | 2026-04-28 | 2026-05-04 |
