@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [140](https://github.com/argonne-lcf/AuroraBugTracking/issues/140) | qsig is useless on Aurora | _No response_ | /flare/catalyst/world_shared/zippy/AuroraBugTracking/reproducers/issue140 | Tim Williams |  | _No response_ | 2026-05-14 | 2026-05-14 |
 | [139](https://github.com/argonne-lcf/AuroraBugTracking/issues/139) | `libkokkoskernels.so: PC-relative offset overflow in PLT entry` | CMPLRLLVM-75321 | source/application/kokkos-kernels + -g | Junchao Zhang |  | _No response_ | 2026-05-04 | 2026-05-04 |
 | [138](https://github.com/argonne-lcf/AuroraBugTracking/issues/138) | DAOS write from sycl::malloc_host and sycl::malloc_shared | _No response_ | /lus/flare/projects/gpu_hack/oracle-erf/mbuehlmann/daos_repro | Michael Buehlmann |  | trying to get fix into the 2.6 branch. If not, we have to wait until 2.8 at end of year | 2026-04-30 | 2026-05-12 |
 | [137](https://github.com/argonne-lcf/AuroraBugTracking/issues/137) | Non-bit-for-bit output with some ifx flags | CMPLRLLVM-75238 | /flare/E3SMinput/world-shared/azamat/intel-sqrt-flags source/reproducers/ifx/bit_for_bit | Abhishek Baghusetty |  | Fixed in oneAPI 2026.0 | 2026-04-29 | 2026-05-12 |
