@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [141](https://github.com/argonne-lcf/AuroraBugTracking/issues/141) | ASAN HOST got GEGV on multiple nodes | _No response_ | /lus/flare/projects/Tools/jkwack-tools-reproducer/JaeHyuk/ASAN_host_multinodes | JaeHyuk Kwack, Saumil Patel, Wendy Wu | 🚨 | _No response_ | 2026-05-15 | 2026-05-15 |
 | [140](https://github.com/argonne-lcf/AuroraBugTracking/issues/140) | qsig is useless on Aurora | _No response_ | /flare/catalyst/world_shared/zippy/AuroraBugTracking/reproducers/issue140 | Tim Williams |  | _No response_ | 2026-05-14 | 2026-05-14 |
 | [139](https://github.com/argonne-lcf/AuroraBugTracking/issues/139) | `libkokkoskernels.so: PC-relative offset overflow in PLT entry` | CMPLRLLVM-75321 | source/application/kokkos-kernels + -g | Junchao Zhang |  | _No response_ | 2026-05-04 | 2026-05-04 |
 | [138](https://github.com/argonne-lcf/AuroraBugTracking/issues/138) | DAOS write from sycl::malloc_host and sycl::malloc_shared | _No response_ | /lus/flare/projects/gpu_hack/oracle-erf/mbuehlmann/daos_repro | Michael Buehlmann |  | trying to get fix into the 2.6 branch. If not, we have to wait until 2.8 at end of year | 2026-04-30 | 2026-05-12 |
