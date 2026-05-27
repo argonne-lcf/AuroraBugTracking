@@ -4,7 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [143](https://github.com/argonne-lcf/AuroraBugTracking/issues/143) | [Frameworks] XPU/XCCL all_gather + torch.xpu.empty_cache leaks device-global memory | https://github.com/intel/torch-xpu-ops/issues/3744 | See issue source/reproducers_frameworks/allgather_hidden_temp_memleak | Nathan Nichols | 🚨 | _No response_ | 2026-05-22 | 2026-05-27 |
+| [143](https://github.com/argonne-lcf/AuroraBugTracking/issues/143) | [Frameworks] XPU/XCCL all_gather + torch.xpu.empty_cache leaks device-global memory | https://github.com/intel/torch-xpu-ops/issues/3744 | See issue source/reproducers_frameworks/allgather_hidden_temp_memleak | Nathan Nichols | 🚨 | Intel can update internally | 2026-05-22 | 2026-05-27 |
 | [142](https://github.com/argonne-lcf/AuroraBugTracking/issues/142) | Cutlass fails to build | GSD-12541 | source/reproducers/dpcpp/cutlass-sycl | Colleen |  | _No response_ | 2026-05-21 | 2026-05-21 |
 | [141](https://github.com/argonne-lcf/AuroraBugTracking/issues/141) | ASAN HOST got SEGV on multiple nodes | CMPLRLLVM-75815 | /lus/flare/projects/Tools/jkwack-tools-reproducer/JaeHyuk/ASAN_host_multinodes source/reproducers/tools/asan_multinode/ | JaeHyuk Kwack, Saumil Patel, Wendy Wu | 🚨 | Intel can reproduce internally | 2026-05-15 | 2026-05-26 |
 | [140](https://github.com/argonne-lcf/AuroraBugTracking/issues/140) | qsig is useless on Aurora | _No response_ | /flare/catalyst/world_shared/zippy/AuroraBugTracking/reproducers/issue140 | Tim Williams |  | _No response_ | 2026-05-14 | 2026-05-14 |
