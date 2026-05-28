@@ -71,7 +71,7 @@
 | [36](https://github.com/argonne-lcf/AuroraBugTracking/issues/36) | (Occasional Interruptible) hangs in applications | Possibly related to ANL-215 | /lus/flare/projects/Aurora_deployment/xyjin/W/test_example_detar.skel | Xiao-Yong Jin | 🚨 | _No response_ | 2025-05-15 | 2025-07-09 |
 | [33](https://github.com/argonne-lcf/AuroraBugTracking/issues/33) | Crash when calling too many MPI_Probe | https://github.com/pmodels/mpich/issues/7427 | https://github.com/pmodels/mpich/issues/7427 | David--Cléris Timothée |  | _No response_ | 2025-05-15 | 2025-05-15 |
 | [30](https://github.com/argonne-lcf/AuroraBugTracking/issues/30) | Copy 2D/3D are broken (zeCommandListAppendMemoryCopyRegion) | NEO-14954, GSD-11132 | https://github.com/rpereira-dev/ze-zoo also source/reproducers/l0/copyRegionPitch | Romain PEREIRA and Thomas APPLENCOURT | 🚨 | Backport fixes from newer runtime to LTS (ETA: ww22, end of May) ~1146.74 | 2025-05-10 | 2026-05-27 |
-| [13](https://github.com/argonne-lcf/AuroraBugTracking/issues/13) | XGC hangs at scale | CMPLRTST-27836 | xgc-es-cpp-gpu app, ES_ITER test case | Tim Williams | 🚨 | _No response_ | 2025-04-03 | 2026-01-07 |
+| [13](https://github.com/argonne-lcf/AuroraBugTracking/issues/13) | XGC hangs at scale | CMPLRTST-27836 | xgc-es-cpp-gpu app, ES_ITER test case | Tim Williams | 🚨 | _No response_ | 2025-04-03 | 2026-05-28 |
 
 ### Closed Issues
 
