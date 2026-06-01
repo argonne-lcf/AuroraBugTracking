@@ -4,7 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [145](https://github.com/argonne-lcf/AuroraBugTracking/issues/145) | MSAN Host fails with a simple SYCL code | CMPLRLLVM-75894 | /lus/flare/projects/Tools/jkwack-tools-reproducer/JaeHyuk/SAN_host_syclQ | JaeHyuk Kwack, Renzo Bustamante | 🚨 | _No response_ | 2026-05-28 | 2026-05-29 |
+| [145](https://github.com/argonne-lcf/AuroraBugTracking/issues/145) | MSAN Host fails with a simple SYCL code | CMPLRLLVM-75894 | /lus/flare/projects/Tools/jkwack-tools-reproducer/JaeHyuk/SAN_host_syclQ source/reproducers/tools/msan_sycl_host | JaeHyuk Kwack, Renzo Bustamante | 🚨 | _No response_ | 2026-05-28 | 2026-06-01 |
 | [144](https://github.com/argonne-lcf/AuroraBugTracking/issues/144) | [OpenMP] Macro + Printf + do_while : "PluginInterface" error | CMPLRLLVM-75813 | source/reproducers/openmp/printf_macro | Thomas |  | _No response_ | 2026-05-27 | 2026-05-27 |
 | [143](https://github.com/argonne-lcf/AuroraBugTracking/issues/143) | [Frameworks] XPU/XCCL all_gather + torch.xpu.empty_cache leaks device-global memory | https://github.com/intel/torch-xpu-ops/issues/3744 | See issue source/reproducers_frameworks/allgather_hidden_temp_memleak | Nathan Nichols | 🚨 | Intel can update internally | 2026-05-22 | 2026-05-27 |
 | [142](https://github.com/argonne-lcf/AuroraBugTracking/issues/142) | Cutlass fails to build | GSD-12541 | source/reproducers/dpcpp/cutlass-sycl | Colleen |  | Fixed, 1146.74 | 2026-05-21 | 2026-05-27 |
