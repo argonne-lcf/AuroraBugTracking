@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [147](https://github.com/argonne-lcf/AuroraBugTracking/issues/147) | icx -shared option adding unncessary libraries | _No response_ | N/A | Ye Luo |  | _No response_ | 2026-06-16 | 2026-06-16 |
 | [146](https://github.com/argonne-lcf/AuroraBugTracking/issues/146) | PMIx_Fence_nb result in `shepherd died from signal 11` | _No response_ | None | Hui Zhou |  | _No response_ | 2026-06-04 | 2026-06-04 |
 | [145](https://github.com/argonne-lcf/AuroraBugTracking/issues/145) | MSAN Host fails with a simple SYCL code | CMPLRLLVM-75894, CMPLRLLVM-75881 | /lus/flare/projects/Tools/jkwack-tools-reproducer/JaeHyuk/SAN_host_syclQ source/reproducers/tools/msan_sycl_host | JaeHyuk Kwack, Renzo Bustamante | 🚨 | _No response_ | 2026-05-28 | 2026-06-08 |
 | [144](https://github.com/argonne-lcf/AuroraBugTracking/issues/144) | [OpenMP] Macro + Printf + do_while : "PluginInterface" error | CMPLRLLVM-75813 | source/reproducers/openmp/printf_macro | Thomas |  | _No response_ | 2026-05-27 | 2026-05-27 |
