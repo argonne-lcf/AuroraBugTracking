@@ -4,7 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [150](https://github.com/argonne-lcf/AuroraBugTracking/issues/150) | ifx ICE when building a do concurrent offloaded example | _No response_ | /home/jg4/ice | Colleen Bertoni |  | _No response_ | 2026-07-08 | 2026-07-08 |
+| [150](https://github.com/argonne-lcf/AuroraBugTracking/issues/150) | ifx ICE when building a do concurrent offloaded example | _No response_ | /home/jg4/ice | Jorge Galvez |  | _No response_ | 2026-07-08 | 2026-07-08 |
 | [149](https://github.com/argonne-lcf/AuroraBugTracking/issues/149) | SYCL_PI_LEVEL_ZERO_USE_NATIVE_USM_MEMCPY2D=1 leads to crashes | CMPLRLLVM-76543 | source/reproducers/dpcpp/sycl_native_memcpy_2d | Thomas/Colleen |  | _No response_ | 2026-06-29 | 2026-06-30 |
 | [148](https://github.com/argonne-lcf/AuroraBugTracking/issues/148) | Parallel HDF5 write failure | _No response_ | See attached | Ye Luo | 🚨 | _No response_ | 2026-06-19 | 2026-06-22 |
 | [147](https://github.com/argonne-lcf/AuroraBugTracking/issues/147) | icx -shared option adding unncessary libraries | CMPLRLLVM-76266 | N/A | Ye Luo |  | _No response_ | 2026-06-16 | 2026-07-07 |
