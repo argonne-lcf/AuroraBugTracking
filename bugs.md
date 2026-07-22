@@ -4,7 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [152](https://github.com/argonne-lcf/AuroraBugTracking/issues/152) | OpenMC test giving incorrect answers with 2026.1 | _No response_ | source/applications/openmc, smaller: source/reproducers/openmp/global_target_to/ | John Tramm |  | _No response_ | 2026-07-22 | 2026-07-22 |
+| [152](https://github.com/argonne-lcf/AuroraBugTracking/issues/152) | OpenMC test giving incorrect answers with 2026.1 | CMPLRLLVM-77111 | source/applications/openmc, smaller: source/reproducers/openmp/global_target_to/ | John Tramm |  | _No response_ | 2026-07-22 | 2026-07-22 |
 | [151](https://github.com/argonne-lcf/AuroraBugTracking/issues/151) | strided batched getrs is about 2x slower than batched getrs for small n | MKLD-20053 | source/reproducers/mkl/getrs_strided_group_compare | Colleen |  | _No response_ | 2026-07-20 | 2026-07-20 |
 | [150](https://github.com/argonne-lcf/AuroraBugTracking/issues/150) | ifx ICE when building a do concurrent offloaded example | CMPLRLLVM-76737 | /home/jg4/ice | Jorge Galvez |  | 2026.2 | 2026-07-08 | 2026-07-08 |
 | [149](https://github.com/argonne-lcf/AuroraBugTracking/issues/149) | SYCL_PI_LEVEL_ZERO_USE_NATIVE_USM_MEMCPY2D=1 leads to crashes | CMPLRLLVM-76543 | source/reproducers/dpcpp/sycl_native_memcpy_2d | Thomas/Colleen |  | _No response_ | 2026-06-29 | 2026-06-30 |
