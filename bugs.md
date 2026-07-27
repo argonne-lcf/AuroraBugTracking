@@ -4,7 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [153](https://github.com/argonne-lcf/AuroraBugTracking/issues/153) | icx `undefined reference to ` issue | CMPLRLLVM-77235 | source/reproducers/icx/weak_symbols | Hui / Colleen |  | _No response_ | 2026-07-27 | 2026-07-27 |
+| [153](https://github.com/argonne-lcf/AuroraBugTracking/issues/153) | icx: weak global symbols not showing up | CMPLRLLVM-77235 | source/reproducers/icx/weak_symbols | Hui / Colleen |  | _No response_ | 2026-07-27 | 2026-07-27 |
 | [152](https://github.com/argonne-lcf/AuroraBugTracking/issues/152) | OpenMC test giving incorrect answers with 2026.1 | CMPLRLLVM-77111 | source/applications/openmc, smaller: source/reproducers/openmp/global_target_to/ | John Tramm |  | _No response_ | 2026-07-22 | 2026-07-22 |
 | [151](https://github.com/argonne-lcf/AuroraBugTracking/issues/151) | strided batched getrs is about 2x slower than batched getrs for small n | MKLD-20053 | source/reproducers/mkl/getrs_strided_group_compare | Colleen |  | Discussed internally, possible fix.  ~ 2026.2-3 | 2026-07-20 | 2026-07-22 |
 | [150](https://github.com/argonne-lcf/AuroraBugTracking/issues/150) | ifx ICE when building a do concurrent offloaded example | CMPLRLLVM-76737 | /home/jg4/ice | Jorge Galvez |  | 2026.2 | 2026-07-08 | 2026-07-08 |
