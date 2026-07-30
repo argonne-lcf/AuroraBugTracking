@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [154](https://github.com/argonne-lcf/AuroraBugTracking/issues/154) | MPI_Reduce produces garbage when using MPI_REAL + MPI_SUM for MPICH 5.0 | _No response_ | /flare/dHybridR-gpu/alcf-bug-reports/mpich-mpi-real-reduce | Tim Williams |  | _No response_ | 2026-07-30 | 2026-07-30 |
 | [153](https://github.com/argonne-lcf/AuroraBugTracking/issues/153) | icx: weak global symbols not showing up | CMPLRLLVM-77235 | source/reproducers/icx/weak_symbols | Hui / Colleen |  | _No response_ | 2026-07-27 | 2026-07-27 |
 | [152](https://github.com/argonne-lcf/AuroraBugTracking/issues/152) | OpenMC test giving incorrect answers with 2026.1 | CMPLRLLVM-77111 | source/applications/openmc, smaller: source/reproducers/openmp/global_target_to/ | John Tramm |  | _No response_ | 2026-07-22 | 2026-07-22 |
 | [151](https://github.com/argonne-lcf/AuroraBugTracking/issues/151) | strided batched getrs is about 2x slower than batched getrs for small n | MKLD-20053 | source/reproducers/mkl/getrs_strided_group_compare | Colleen |  | Discussed internally, possible fix.  ~ 2026.2-3 | 2026-07-20 | 2026-07-22 |
