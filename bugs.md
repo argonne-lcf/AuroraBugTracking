@@ -4,7 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [155](https://github.com/argonne-lcf/AuroraBugTracking/issues/155) | OpenMP GPU kernel can read freed memory after derived-type component reallocation | CMPLRLLVM-77342 | /flare/dHybridR-gpu/alcf-bug-reports/ifx-stale-descriptor | Tim Williams |  | _No response_ | 2026-07-30 | 2026-07-31 |
+| [155](https://github.com/argonne-lcf/AuroraBugTracking/issues/155) | OpenMP GPU kernel can read freed memory after derived-type component reallocation | CMPLRLLVM-77342 | /flare/dHybridR-gpu/alcf-bug-reports/ifx-stale-descriptor source/reproducers/ifx/ifx-stale-descriptor in the test set | Tim Williams |  | _No response_ | 2026-07-30 | 2026-07-31 |
 | [154](https://github.com/argonne-lcf/AuroraBugTracking/issues/154) | MPI_Reduce produces garbage when using MPI_REAL + MPI_SUM for MPICH 5.0 | _No response_ | /flare/dHybridR-gpu/alcf-bug-reports/mpich-mpi-real-reduce | Tim Williams |  | _No response_ | 2026-07-30 | 2026-07-30 |
 | [153](https://github.com/argonne-lcf/AuroraBugTracking/issues/153) | icx: weak global symbols not showing up | CMPLRLLVM-77235 | source/reproducers/icx/weak_symbols | Hui / Colleen |  | _No response_ | 2026-07-27 | 2026-07-27 |
 | [152](https://github.com/argonne-lcf/AuroraBugTracking/issues/152) | OpenMC test giving incorrect answers with 2026.1 | CMPLRLLVM-77111 | source/applications/openmc, smaller: source/reproducers/openmp/global_target_to/ | John Tramm |  | _No response_ | 2026-07-22 | 2026-07-22 |
