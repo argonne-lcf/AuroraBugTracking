@@ -4,7 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [156](https://github.com/argonne-lcf/AuroraBugTracking/issues/156) | "ur_die: urEventWait must not be called for an internal event" error | https://github.com/intel/llvm/issues/21704 | source/reproducers/dpcpp/sycl_event_barrier_shenanigans | Filippo / Nathan | 🚨 | _No response_ | 2026-08-10 | 2026-08-10 |
+| [156](https://github.com/argonne-lcf/AuroraBugTracking/issues/156) | "ur_die: urEventWait must not be called for an internal event" error | https://github.com/intel/llvm/issues/21704 | source/reproducers/dpcpp/sycl_event_barrier_shenanigans | Filippo / Nathan | 🚨 | 2026.2 (late Oct) | 2026-08-10 | 2026-08-10 |
 | [155](https://github.com/argonne-lcf/AuroraBugTracking/issues/155) | OpenMP GPU kernel can read freed memory after derived-type component reallocation | CMPLRLLVM-77342 | /flare/dHybridR-gpu/alcf-bug-reports/ifx-stale-descriptor source/reproducers/ifx/ifx-stale-descriptor in the test set | Tim Williams |  | _No response_ | 2026-07-30 | 2026-07-31 |
 | [154](https://github.com/argonne-lcf/AuroraBugTracking/issues/154) | MPI_Reduce produces garbage when using MPI_REAL + MPI_SUM for MPICH 5.0 | https://github.com/pmodels/mpich/issues/7911 | /flare/dHybridR-gpu/alcf-bug-reports/mpich-mpi-real-reduce | Tim Williams |  | _No response_ | 2026-07-30 | 2026-08-03 |
 | [153](https://github.com/argonne-lcf/AuroraBugTracking/issues/153) | icx: weak global symbols not showing up | CMPLRLLVM-77235 | source/reproducers/icx/weak_symbols | Hui / Colleen |  | _No response_ | 2026-07-27 | 2026-07-27 |
