@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [158](https://github.com/argonne-lcf/AuroraBugTracking/issues/158) | [IGC] Request for shader override support in public agama for SLES | GSD-10827 | n/a | Thomas |  | _No response_ | 2026-08-14 | 2026-08-14 |
 | [157](https://github.com/argonne-lcf/AuroraBugTracking/issues/157) | [SYCL] Hanging with threads and hosttask | _No response_ | source/reproducers/dpcpp/sycl_gil_inorder_queue_hang https://github.com/intel/llvm/issues/22943 | Abhi / Thomas | 🚨 | _No response_ | 2026-08-14 | 2026-08-14 |
 | [156](https://github.com/argonne-lcf/AuroraBugTracking/issues/156) | "ur_die: urEventWait must not be called for an internal event" error | https://github.com/intel/llvm/issues/21704 | source/reproducers/dpcpp/sycl_event_barrier_shenanigans | Filippo / Nathan | 🚨 | 2026.2 (late Oct) | 2026-08-10 | 2026-08-10 |
 | [155](https://github.com/argonne-lcf/AuroraBugTracking/issues/155) | OpenMP GPU kernel can read freed memory after derived-type component reallocation | CMPLRLLVM-77342 | /flare/dHybridR-gpu/alcf-bug-reports/ifx-stale-descriptor source/reproducers/ifx/ifx-stale-descriptor in the test set | Tim Williams |  | _No response_ | 2026-07-30 | 2026-07-31 |
