@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [160](https://github.com/argonne-lcf/AuroraBugTracking/issues/160) | AMReX applications slow-down on Sunspot | GSD-13276 | https://github.com/spatel81/amrex-halo-miniapp/tree/main | JaeHyuk Kwack, Saumil Patel | 🚨 | _No response_ | 2026-08-28 | 2026-08-28 |
 | [159](https://github.com/argonne-lcf/AuroraBugTracking/issues/159) | MPICH 5 GPU-aware MPI failure @ 64 nodes | _No response_ | /home/bostler/public/alcf-bug-reports/mpich5-gpu-aware-neighbor-segfault | Tim Williams |  | _No response_ | 2026-08-24 | 2026-08-25 |
 | [158](https://github.com/argonne-lcf/AuroraBugTracking/issues/158) | [IGC] Request for shader override support in public agama for SLES | GSD-10827 | n/a | Thomas |  | _No response_ | 2026-08-14 | 2026-08-14 |
 | [157](https://github.com/argonne-lcf/AuroraBugTracking/issues/157) | [SYCL] Hanging with threads and hosttask | CMPLRLLVM-77682 | source/reproducers/dpcpp/sycl_gil_inorder_queue_hang https://github.com/intel/llvm/issues/22943 | Abhi / Thomas | 🚨 | _No response_ | 2026-08-14 | 2026-08-17 |
