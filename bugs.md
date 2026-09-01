@@ -4,7 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [163](https://github.com/argonne-lcf/AuroraBugTracking/issues/163) | LZ IPC handle calls significantly slower with KMD/UMD/kernel on Sunspot | _No response_ | source/reproducers/l0/slow_ipchandle | Colleen |  | _No response_ | 2026-08-31 | 2026-08-31 |
+| [163](https://github.com/argonne-lcf/AuroraBugTracking/issues/163) | LZ IPC handle calls significantly slower with KMD/UMD/kernel on Sunspot | GSD-13373 | source/reproducers/l0/slow_ipchandle | Colleen |  | _No response_ | 2026-08-31 | 2026-09-01 |
 | [162](https://github.com/argonne-lcf/AuroraBugTracking/issues/162) | [SYCL][MKL] In-order dependency lost with `opencl:cpu` | _No response_ | source/reproducers/dpcpp/sycl_onemkl_inorder_openclcpu | Abhi |  | _No response_ | 2026-08-29 | 2026-08-29 |
 | [161](https://github.com/argonne-lcf/AuroraBugTracking/issues/161) | zeCommandListAppendMemoryCopy fails with OUT_OF_DEVICE_MEMORY when copying from an imported IPC pointer to an mmap'd dma-buf` | GSD-13372 | source/reproducers/l0/copy_ipc_mmap | Colleen Bertoni |  | _No response_ | 2026-08-28 | 2026-09-01 |
 | [160](https://github.com/argonne-lcf/AuroraBugTracking/issues/160) | AMReX applications slow-down on Sunspot | GSD-13276 | https://github.com/spatel81/amrex-halo-miniapp/tree/main | JaeHyuk Kwack, Saumil Patel, Michael D'mello, Tom Musta | 🚨 | _No response_ | 2026-08-28 | 2026-08-28 |
