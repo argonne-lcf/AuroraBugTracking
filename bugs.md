@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [164](https://github.com/argonne-lcf/AuroraBugTracking/issues/164) | GPU segfault and zombie process | _No response_ | source/reproducers/dpcpp/gpu_segfault_dplscan | Thomas / Jakob H |  | _No response_ | 2026-09-03 | 2026-09-03 |
 | [163](https://github.com/argonne-lcf/AuroraBugTracking/issues/163) | LZ IPC handle calls significantly slower with KMD/UMD/kernel on Sunspot | GSD-13373 | source/reproducers/l0/slow_ipchandle | Colleen |  | Under investigation | 2026-08-31 | 2026-09-02 |
 | [162](https://github.com/argonne-lcf/AuroraBugTracking/issues/162) | [SYCL][MKL] In-order dependency lost with `opencl:cpu` | CMPLRLLVM-77999 | source/reproducers/dpcpp/sycl_onemkl_inorder_openclcpu | Abhi |  | _No response_ | 2026-08-29 | 2026-09-01 |
 | [161](https://github.com/argonne-lcf/AuroraBugTracking/issues/161) | zeCommandListAppendMemoryCopy fails with OUT_OF_DEVICE_MEMORY when copying from an imported IPC pointer to an mmap'd dma-buf` | GSD-13372 | source/reproducers/l0/copy_ipc_mmap | Colleen Bertoni |  | Under investigation, likely just an issue with error code and code is still not doing right thing. | 2026-08-28 | 2026-09-02 |
