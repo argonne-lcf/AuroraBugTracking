@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [168](https://github.com/argonne-lcf/AuroraBugTracking/issues/168) | Question: Future support of #pragma omp requires_shared_memory | _No response_ | n/a | Ye Luo |  | _No response_ | 2026-09-18 | 2026-09-18 |
 | [167](https://github.com/argonne-lcf/AuroraBugTracking/issues/167) | Compiler ICE in openmp code | _No response_ | source/reproducers/openmp/icpx_omp_crash | Xiao-Yong Jin |  | _No response_ | 2026-09-18 | 2026-09-18 |
 | [166](https://github.com/argonne-lcf/AuroraBugTracking/issues/166) | Looping over `std::map<std::string,int>::[]` is about 1.5-1.7x slower on a next-eval node | _No response_ | source/reproducers/icx/nexteval-slow | Colleen / Varun |  | _No response_ | 2026-09-17 | 2026-09-17 |
 | [165](https://github.com/argonne-lcf/AuroraBugTracking/issues/165) | GPU-aware MPI significantly slower on next-eval when using many device buffers (MPICH IPC handle cache misses) | Related: [#163](https://github.com/argonne-lcf/AuroraBugTracking/issues/163) (GSD-13373), [#160](https://github.com/argonne-lcf/AuroraBugTracking/issues/160) (GSD-13276) | /flare/catalyst/world_shared/mbuehlmann/AthenaK/benchmark/share/ipc_cache_bench/ | Michael Buehlmann | 🚨 | _No response_ | 2026-09-08 | 2026-09-08 |
