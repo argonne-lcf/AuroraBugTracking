@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [169](https://github.com/argonne-lcf/AuroraBugTracking/issues/169) | Pytorch with DDP and a single rank hangs | _No response_ | source/reproducers_frameworks/pytorch_ddp_single_rank | JaeHyuk |  | _No response_ | 2026-09-24 | 2026-09-24 |
 | [168](https://github.com/argonne-lcf/AuroraBugTracking/issues/168) | Question: Future support of #pragma omp requires_shared_memory | _No response_ | n/a | Ye Luo |  | _No response_ | 2026-09-18 | 2026-09-19 |
 | [167](https://github.com/argonne-lcf/AuroraBugTracking/issues/167) | Compiler ICE in openmp code | _No response_ | source/reproducers/openmp/icpx_omp_crash | Xiao-Yong Jin |  | 2026.2.0 | 2026-09-18 | 2026-09-23 |
 | [166](https://github.com/argonne-lcf/AuroraBugTracking/issues/166) | Looping over `std::map<std::string,int>::[]` is about 1.5-1.7x slower on a next-eval node | CMPLRLLVM-78363 | source/reproducers/icx/nexteval-slow | Colleen / Varun |  | _No response_ | 2026-09-17 | 2026-09-21 |
