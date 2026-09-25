@@ -4,7 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [170](https://github.com/argonne-lcf/AuroraBugTracking/issues/170) | L0 break User Signal Handler | _No response_ | source/reproducers/l0/handler_thread_safety | Michel Schanen |  | _No response_ | 2026-09-25 | 2026-09-25 |
+| [170](https://github.com/argonne-lcf/AuroraBugTracking/issues/170) | L0 break User Signal Handler | CMPLRLLVM-78465 | source/reproducers/l0/handler_thread_safety | Michel Schanen |  | _No response_ | 2026-09-25 | 2026-09-25 |
 | [169](https://github.com/argonne-lcf/AuroraBugTracking/issues/169) | Pytorch with DDP and a single rank hangs | _No response_ | source/reproducers_frameworks/pytorch_ddp_single_rank | JaeHyuk |  | _No response_ | 2026-09-24 | 2026-09-24 |
 | [168](https://github.com/argonne-lcf/AuroraBugTracking/issues/168) | Question: Future support of #pragma omp requires_shared_memory | _No response_ | n/a | Ye Luo |  | _No response_ | 2026-09-18 | 2026-09-19 |
 | [167](https://github.com/argonne-lcf/AuroraBugTracking/issues/167) | Compiler ICE in openmp code | _No response_ | source/reproducers/openmp/icpx_omp_crash | Xiao-Yong Jin |  | 2026.2.0 | 2026-09-18 | 2026-09-23 |
