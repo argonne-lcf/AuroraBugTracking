@@ -4,3 +4,4 @@
 - Don't remove any section from the issue template.
 - For the section starting "### Is this a priority/blocking bug?" retain the check box form "- [ ] Priority" or "- [X] Priority"
 - Try hard to make the reproducer as minimal as possible LOC-wise and without dependencies.
+- Apply at least one label from the repo's existing set (e.g. `hang`, `AI framework`, `MPICH`, `GPU runtime`, `compiler`). `sync-issues-to-table.yml` already reads labels, and unlabeled issues cannot be grouped in the published bugs table.
