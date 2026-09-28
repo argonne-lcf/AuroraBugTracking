@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [174](https://github.com/argonne-lcf/AuroraBugTracking/issues/174) | FSDP2 + TP>1 hangs in reduce_scatter on XPU; CCL_OP_SYNC=1 is a complete workaround | https://github.com/saforem2/ezpz/issues/252 | `/lus/flare/projects/AuroraGPT/foremans/reproducers/fsdp-tp-xccl-hang/` | Sam Foreman |  | None requested. `CCL_OP_SYNC=1` is a complete workaround at ~11% throughput cost. | 2026-09-28 | 2026-09-28 |
 | [171](https://github.com/argonne-lcf/AuroraBugTracking/issues/171) | Inconsistent GPU binaries (reported by HPCToolkit team) | _No response_ | /home/johnmc/qmcpack-2026.1.0.m/gpubins/e2b521f0bf490df9517157f19165a7dd.gpubin, /home/johnmc/qmcpack-2026.1.0.m/gpubins/b06ab0189c2241f4269dda6bfcf4900a.gpubin | John Mellor-Crummey, JaeHyuk | 🚨 | _No response_ | 2026-09-28 | 2026-09-28 |
 | [170](https://github.com/argonne-lcf/AuroraBugTracking/issues/170) | L0 break User Signal Handler | CMPLRLLVM-78465 | source/reproducers/l0/handler_thread_safety | Michel Schanen |  | _No response_ | 2026-09-25 | 2026-09-25 |
 | [169](https://github.com/argonne-lcf/AuroraBugTracking/issues/169) | Pytorch with DDP and a single rank hangs | _No response_ | source/reproducers_frameworks/pytorch_ddp_single_rank | JaeHyuk |  | _No response_ | 2026-09-24 | 2026-09-24 |
