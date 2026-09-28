@@ -1,5 +1,5 @@
-When writing the issue description, only include a (inline if reasonable) minimal standalone reproducer, how to run, and expected behavior.
-Any root cause discussion should be in a comment on the issue and not in the issue description itself.
-Vendor/ALCF/other tickets/IDs should be direct link to the exact issue on another repo or an internal ticket number like MLSL-3951. No description or speculation.
-Don't remove any section from the issue template.
-For the section starting "### Is this a priority/blocking bug?" retain the check box form "- [ ] Priority" or "- [X] Priority"
+- When writing the issue description, only include a (inline if reasonable) minimal standalone reproducer, how to run, and expected behavior.
+- Any root cause discussion should be in a comment on the issue and not in the issue description itself.
+- Vendor/ALCF/other tickets/IDs should be direct link to the exact issue on another repo or an internal ticket number like MLSL-3951. No description or speculation.
+- Don't remove any section from the issue template.
+- For the section starting "### Is this a priority/blocking bug?" retain the check box form "- [ ] Priority" or "- [X] Priority"
