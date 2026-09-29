@@ -73,7 +73,6 @@
 | [68](https://github.com/argonne-lcf/AuroraBugTracking/issues/68) | warpx segfaults/hangs with OpenPMD enabled | _No response_ | /lus/flare/projects/catalyst/world_shared/zippy/reproducers/issue52/ | Tim Williams |  | _No response_ | 2025-08-23 | 2026-05-29 |
 | [60](https://github.com/argonne-lcf/AuroraBugTracking/issues/60) | ext_oneapi_memcpy2d is significantly slower with implicit scaling than explicit and on PVC vs A100 | GSD-11132, GSD-12277 | source/reproducers/dpcpp/ext_oneapi_memcpy2d_perf | Natalie Beams |  | _No response_ | 2025-07-29 | 2026-02-03 |
 | [55](https://github.com/argonne-lcf/AuroraBugTracking/issues/55) | Linking in LZ causes changes in signal handling | cmplrlibs-35385, GSD-11413 | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/l0/signal_handler/ | Thomas Applencourt, Colleen Bertoni |  | Fixed internally, still in vetting | 2025-07-22 | 2025-12-10 |
-| [47](https://github.com/argonne-lcf/AuroraBugTracking/issues/47) | Non standard MPI knobs suggested for performance | ANL-291 | N/A | Servesh M |  | _No response_ | 2025-06-23 | 2026-09-29 |
 | [38](https://github.com/argonne-lcf/AuroraBugTracking/issues/38) | Application hangs in GRID and QUDA due to copy engine hangs | HPCS-15357 | /lus/flare/projects/Aurora_deployment/xyjin/W/test_grid_g5r5_paboyle | Xiao-Yong Jin | 🚨 | working on smaller reproducer | 2025-05-27 | 2026-07-22 |
 | [13](https://github.com/argonne-lcf/AuroraBugTracking/issues/13) | XGC hangs at scale | CMPLRTST-27836 | xgc-es-cpp-gpu app, ES_ITER test case | Tim Williams | 🚨 | _No response_ | 2025-04-03 | 2026-05-28 |
 
@@ -138,6 +137,7 @@
 | [50](https://github.com/argonne-lcf/AuroraBugTracking/issues/50) | OpenMP Thread binding | _No response_ | See bellow | Romain PEREIRA |  | 2025-07-02 | 2025-07-02 |
 | [49](https://github.com/argonne-lcf/AuroraBugTracking/issues/49) | [E3SM] MPICH bug related to collectives tunning | https://github.com/pmodels/mpich/issues/7456 | https://github.com/pmodels/mpich/issues/7456 | Abhi | 🚨 | 2025-06-27 | 2025-10-09 |
 | [48](https://github.com/argonne-lcf/AuroraBugTracking/issues/48) | Zombie Processes | GSD-11266 | none yet | Servesh M | 🚨 | 2025-06-25 | 2025-10-29 |
+| [47](https://github.com/argonne-lcf/AuroraBugTracking/issues/47) | Non standard MPI knobs suggested for performance | ANL-291 | N/A | Servesh M |  | 2025-06-23 | 2026-09-29 |
 | [45](https://github.com/argonne-lcf/AuroraBugTracking/issues/45) | DDT issues since Aurora upgrade | _No response_ | /lus/flare/projects/catalyst/world_shared/zippy/ddt | Tim Williams |  | 2025-06-12 | 2025-11-03 |
 | [44](https://github.com/argonne-lcf/AuroraBugTracking/issues/44) | QMCPACK segfault in libomp | _No response_ | Not yet created | Ye Luo | 🚨 | 2025-06-12 | 2025-07-23 |
 | [43](https://github.com/argonne-lcf/AuroraBugTracking/issues/43) | CMake can't find `MKL::MKL_SYCL` with MPI wrapper compilers | _No response_ | https://github.com/thilinarmtb/onemkl_cmake_mpi_bug | Thilina Ratnayaka, Colleen Bertoni |  | 2025-06-11 | 2026-03-13 |
