@@ -1,6 +1,6 @@
 # :bug: Aurora Bug Tracking System
 
-This repository serves as a public, centralized bug tracking system for ALCF Aurora at Argonne National Laboratory. It provides a structured way to document, track, and manage issues related to the system.
+This repository serves as a public, centralized bug tracking system for ALCF Aurora at Argonne National Laboratory (ANL). It provides a structured way to document, track, and manage issues related to the system.
 
 > [!IMPORTANT]
 > The main bug tracking table is available in [`bugs.md`](bugs.md). This comprehensive reference summarizes all currently-known and recently-closed bugs on Aurora.
