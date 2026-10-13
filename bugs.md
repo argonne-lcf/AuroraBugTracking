@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [178](https://github.com/argonne-lcf/AuroraBugTracking/issues/178) | Julia: Internal Segfault in IGC | _No response_ | source/reproducers/igc/julia_igc_seg | Michel Schanen |  | `module load intel_gpu_umd_aicoe` works | 2026-10-13 | 2026-10-13 |
 | [177](https://github.com/argonne-lcf/AuroraBugTracking/issues/177) | Internal segfault in IGC | _No response_ | reproducers/igc/igc_seg | Hyokyung L. |  | works with `module load intel_gpu_umd_aicoe` | 2026-10-13 | 2026-10-13 |
 | [176](https://github.com/argonne-lcf/AuroraBugTracking/issues/176) | torch.distributed.destroy_process_group() segfaults on the xccl backend | https://github.com/saforem2/ezpz/issues/266 | `/lus/flare/projects/AuroraGPT/foremans/reproducers/xccl-destroy-segv/` | Sam Foreman |  | None requested. The workaround is to omit the call. | 2026-09-29 | 2026-09-30 |
 | [174](https://github.com/argonne-lcf/AuroraBugTracking/issues/174) | FSDP2 + TP>1 hangs in reduce_scatter on XPU; CCL_OP_SYNC=1 is a complete workaround | https://github.com/saforem2/ezpz/issues/252 | `/lus/flare/projects/AuroraGPT/foremans/reproducers/fsdp-tp-xccl-hang/` | Sam Foreman |  | None requested. `CCL_OP_SYNC=1` is a complete workaround at ~11% throughput cost. | 2026-09-28 | 2026-09-29 |
