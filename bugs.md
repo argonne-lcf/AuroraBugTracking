@@ -68,7 +68,7 @@
 | [68](https://github.com/argonne-lcf/AuroraBugTracking/issues/68) | warpx segfaults/hangs with OpenPMD enabled | _No response_ | /lus/flare/projects/catalyst/world_shared/zippy/reproducers/issue52/ | Tim Williams |  | _No response_ | 2025-08-23 | 2026-05-29 |
 | [60](https://github.com/argonne-lcf/AuroraBugTracking/issues/60) | ext_oneapi_memcpy2d is significantly slower with implicit scaling than explicit and on PVC vs A100 | GSD-12277 | source/reproducers/dpcpp/ext_oneapi_memcpy2d_perf | Natalie Beams |  | Under investigation | 2025-07-29 | 2026-10-14 |
 | [55](https://github.com/argonne-lcf/AuroraBugTracking/issues/55) | Linking in LZ causes changes in signal handling | cmplrlibs-35385, GSD-11413 | /lus/flare/projects/Aurora_deployment/applications.hpc.argonne-national-lab.aurora.anl-testing/source/reproducers/l0/signal_handler/ | Thomas Applencourt, Colleen Bertoni |  | Fixed internally, still in vetting | 2025-07-22 | 2025-12-10 |
-| [38](https://github.com/argonne-lcf/AuroraBugTracking/issues/38) | Application hangs in GRID and QUDA due to copy engine hangs | HPCS-15357/ANL-280 | /lus/flare/projects/Aurora_deployment/xyjin/W/test_grid_g5r5_paboyle | Xiao-Yong Jin | 🚨 | working on smaller reproducer | 2025-05-27 | 2026-10-14 |
+| [38](https://github.com/argonne-lcf/AuroraBugTracking/issues/38) | Application hangs in GRID and QUDA due to copy engine hangs | HPCS-15357 | /lus/flare/projects/Aurora_deployment/xyjin/W/test_grid_g5r5_paboyle | Xiao-Yong Jin | 🚨 | Intel still investigating | 2025-05-27 | 2026-10-15 |
 | [13](https://github.com/argonne-lcf/AuroraBugTracking/issues/13) | XGC hangs at scale | CMPLRTST-27836 | xgc-es-cpp-gpu app, ES_ITER test case | Tim Williams | 🚨 | _No response_ | 2025-04-03 | 2026-05-28 |
 
 ### Closed Issues
