@@ -4,7 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [182](https://github.com/argonne-lcf/AuroraBugTracking/issues/182) | PyTorch XPU FSDP workload exits with SIGABRT during shutdown |  | `/lus/flare/projects/datascience/nscottnichols/aurora_bugs/180/repro_fsdp_shutdown.py` | Nathan S. Nichols |  |  | 2026-10-28 | 2026-10-28 |
+| [182](https://github.com/argonne-lcf/AuroraBugTracking/issues/182) | PyTorch XPU: SIGABRT during interpreter shutdown after backward() |  | `/lus/flare/projects/datascience/nscottnichols/aurora_bugs/180/repro_fsdp_shutdown.py` | Nathan S. Nichols |  |  | 2026-10-28 | 2026-10-28 |
 | [181](https://github.com/argonne-lcf/AuroraBugTracking/issues/181) | # [Frameworks] [PyTorch] Intermittent NaN/Inf from fused SDPA (bf16/fp16) — oneDNN `ocl:micro:reusable` | #REQ-16685 | /lus/flare/projects/datasets/softwares/testing/pytorch_non_finite_output_bug | Khalid Hossain |  | _No response_ | 2026-10-24 | 2026-10-24 |
 | [180](https://github.com/argonne-lcf/AuroraBugTracking/issues/180) | libfabric cleanup issue with MR cache monitor set to memhooks | _No response_ | https://github.com/seonghapark/xpu_launcher/blob/dev/test_job_osexit_ccl_conditions.sh  and   https://github.com/seonghapark/xpu_launcher/blob/dev/test_job_osexit_experiment.sh | Seongha Park |  | Now it is bypassed using os._exit(). | 2026-10-20 | 2026-10-28 |
 | [179](https://github.com/argonne-lcf/AuroraBugTracking/issues/179) | IGC fails to build any SPIR-V module that contains the core instructions `OpIAddCarry` or `OpISubBorrow` | GSD-13859 | source/reproducers/igc/iaddcarry | Michel Schanen |  | _No response_ | 2026-10-20 | 2026-10-20 |
