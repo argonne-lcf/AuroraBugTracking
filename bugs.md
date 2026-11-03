@@ -4,7 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [184](https://github.com/argonne-lcf/AuroraBugTracking/issues/184) | oneMKL potrf on GPU reports the wrong column in computation_error::info() after column 32 | _No response_ | Inline in Details | Michel Schanen |  | _No response_ | 2026-11-03 | 2026-11-03 |
+| [184](https://github.com/argonne-lcf/AuroraBugTracking/issues/184) | oneMKL potrf on GPU reports the wrong column in computation_error::info() after column 32 | _No response_ | mkl/mkl_potrf_info_offset | Michel Schanen |  | _No response_ | 2026-11-03 | 2026-11-03 |
 | [183](https://github.com/argonne-lcf/AuroraBugTracking/issues/183) | Wrong results from SYCL kernels accumulating a pair of half, short or char values in private memory (IGC 2.11.43) | _No response_ | Inline in Details | Michel Schanen |  | _No response_ | 2026-11-03 | 2026-11-03 |
 | [182](https://github.com/argonne-lcf/AuroraBugTracking/issues/182) | PyTorch XPU: SIGABRT during interpreter shutdown after backward() | _No response_ | `/lus/flare/projects/datascience/nscottnichols/aurora_bugs/180/repro_fsdp_shutdown.py` | Nathan S. Nichols |  | Not yet known. | 2026-10-28 | 2026-10-28 |
 | [181](https://github.com/argonne-lcf/AuroraBugTracking/issues/181) | # [Frameworks] [PyTorch] Intermittent NaN/Inf from fused SDPA (bf16/fp16) — oneDNN `ocl:micro:reusable` | #REQ-16685 | /lus/flare/projects/datasets/softwares/testing/pytorch_non_finite_output_bug | Khalid Hossain |  | _No response_ | 2026-10-24 | 2026-10-30 |
