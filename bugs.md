@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [187](https://github.com/argonne-lcf/AuroraBugTracking/issues/187) | [SYCL/L0] Internal event error with `ext_oneapi_submit_barrier` | _No response_ | dpcpp/sycl_ur_submitbarrier_event | Abhi |  | _No response_ | 2026-11-06 | 2026-11-06 |
 | [186](https://github.com/argonne-lcf/AuroraBugTracking/issues/186) | [MKL] `geqrf` produces NaNs | _No response_ | mkl/geqrf_twice_nans | Abhi |  | _No response_ | 2026-11-06 | 2026-11-06 |
 | [185](https://github.com/argonne-lcf/AuroraBugTracking/issues/185) | [oneCCL] oneCCL on PVC issues (missing ONECCL_WINDOW_DEFAULT and questions about Xelink) | MLSL-5186 | https://github.com/uxlfoundation/oneCCL/issues/241 | Ye Luo |  | _No response_ | 2026-11-06 | 2026-11-06 |
 | [184](https://github.com/argonne-lcf/AuroraBugTracking/issues/184) | oneMKL potrf on GPU reports the wrong column in computation_error::info() after column 32 | MKLD-20379 | mkl/mkl_potrf_info_offset | Michel Schanen |  | _No response_ | 2026-11-03 | 2026-11-03 |
