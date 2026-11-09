@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [189](https://github.com/argonne-lcf/AuroraBugTracking/issues/189) | [SYCL] Printing a bool in a SYCL kernel crashes | _No response_ | source/reproducers/dpcpp/bool_fail | Thomas |  | _No response_ | 2026-11-09 | 2026-11-09 |
 | [188](https://github.com/argonne-lcf/AuroraBugTracking/issues/188) | [LZ] Abort in drm_memory_manager.cpp | GSD-14157 | source/reproducers/dpcpp/fdrace | ANL ticket |  | Fixed upstream, needs backporting | 2026-11-09 | 2026-11-09 |
 | [186](https://github.com/argonne-lcf/AuroraBugTracking/issues/186) | [MKL] `geqrf` produces NaNs | MKLD-20402 | mkl/geqrf_twice_nans | Abhi |  | _No response_ | 2026-11-06 | 2026-11-09 |
 | [185](https://github.com/argonne-lcf/AuroraBugTracking/issues/185) | [oneCCL] oneCCL on PVC issues (missing ONECCL_WINDOW_DEFAULT and questions about Xelink) | MLSL-5186 | https://github.com/uxlfoundation/oneCCL/issues/241 | Ye Luo |  | _No response_ | 2026-11-06 | 2026-11-06 |
