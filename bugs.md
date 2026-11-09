@@ -5,7 +5,7 @@
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [188](https://github.com/argonne-lcf/AuroraBugTracking/issues/188) | [LZ] Abort in drm_memory_manager.cpp | _No response_ | source/reproducers/dpcpp/fdrace | ANL ticket |  | Fixed upstream, needs backporting | 2026-11-09 | 2026-11-09 |
-| [186](https://github.com/argonne-lcf/AuroraBugTracking/issues/186) | [MKL] `geqrf` produces NaNs | _No response_ | mkl/geqrf_twice_nans | Abhi |  | _No response_ | 2026-11-06 | 2026-11-06 |
+| [186](https://github.com/argonne-lcf/AuroraBugTracking/issues/186) | [MKL] `geqrf` produces NaNs | MKLD-20402 | mkl/geqrf_twice_nans | Abhi |  | _No response_ | 2026-11-06 | 2026-11-09 |
 | [185](https://github.com/argonne-lcf/AuroraBugTracking/issues/185) | [oneCCL] oneCCL on PVC issues (missing ONECCL_WINDOW_DEFAULT and questions about Xelink) | MLSL-5186 | https://github.com/uxlfoundation/oneCCL/issues/241 | Ye Luo |  | _No response_ | 2026-11-06 | 2026-11-06 |
 | [184](https://github.com/argonne-lcf/AuroraBugTracking/issues/184) | oneMKL potrf on GPU reports the wrong column in computation_error::info() after column 32 | MKLD-20379 | mkl/mkl_potrf_info_offset | Michel Schanen |  | _No response_ | 2026-11-03 | 2026-11-03 |
 | [183](https://github.com/argonne-lcf/AuroraBugTracking/issues/183) | Wrong results from SYCL kernels accumulating a pair of half, short or char values in private memory (IGC 2.11.43) | GSD-14076 | igc/igc_pair_memcpy_miscompile and inline | Michel Schanen |  | _No response_ | 2026-11-03 | 2026-11-03 |
