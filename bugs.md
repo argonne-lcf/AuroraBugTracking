@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [191](https://github.com/argonne-lcf/AuroraBugTracking/issues/191) | [ifx][OpenMP] ICE (error #5623) mapping an array of an extended type whose allocatable component is in the extension | _No response_ | _No response_ | Jorge Galvez |  | _No response_ | 2026-11-24 | 2026-11-24 |
 | [190](https://github.com/argonne-lcf/AuroraBugTracking/issues/190) | [MKL] oneMKL SYCL gemm / gemm_batch return wrong results when k × sizeof(T) > 16 MiB | MKLD-20459 | /flare/catalyst/world_shared/knight/onemkl_large_k | Christopher Knight |  | 2026.3 | 2026-11-18 | 2026-11-19 |
 | [189](https://github.com/argonne-lcf/AuroraBugTracking/issues/189) | [SYCL] Printing a bool in a SYCL kernel crashes | GSD-14176 | source/reproducers/dpcpp/bool_fail | Thomas |  | _No response_ | 2026-11-09 | 2026-11-10 |
 | [188](https://github.com/argonne-lcf/AuroraBugTracking/issues/188) | [LZ] Abort in drm_memory_manager.cpp | GSD-14157 | source/reproducers/dpcpp/fdrace | ANL ticket |  | Fixed upstream, needs backporting | 2026-11-09 | 2026-11-09 |
