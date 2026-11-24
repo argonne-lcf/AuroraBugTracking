@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [198](https://github.com/argonne-lcf/AuroraBugTracking/issues/198) | [OpenMP][Level Zero] target update of a structure with many allocatable components leaves wrong data on the device (async command mode) | _No response_ | _No response_ | Jorge Galvez |  | _No response_ | 2026-11-24 | 2026-11-24 |
 | [197](https://github.com/argonne-lcf/AuroraBugTracking/issues/197) | [ifx][OpenMP] declare target on a separate module procedure: error #8682 when given in both the interface and the body | _No response_ | _No response_ | Jorge Galvez |  | _No response_ | 2026-11-24 | 2026-11-24 |
 | [196](https://github.com/argonne-lcf/AuroraBugTracking/issues/196) | [ifx][OpenMP] Conditional min reduction on the GPU returns its initial value at -O3 (do concurrent reduce and omp target reduction) | _No response_ | _No response_ | Jorge Galvez |  | _No response_ | 2026-11-24 | 2026-11-24 |
 | [195](https://github.com/argonne-lcf/AuroraBugTracking/issues/195) | [ifx][OpenMP] target update of a component transfers the whole parent when the parent is a pointer or allocatable | _No response_ | _No response_ | Jorge Galvez |  | _No response_ | 2026-11-24 | 2026-11-24 |
