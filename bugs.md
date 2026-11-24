@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [199](https://github.com/argonne-lcf/AuroraBugTracking/issues/199) | [Aurora] Investigation Request: 192-Rank Training Failures — Invalid Level Zero Event Passed to FSDP RS2 and Initial All-Gather Store Timeout | _No response_ | https://github.com/seonghapark/titanx/tree/main/192_rank_training_failures | Seongha Park |  | _No response_ | 2026-11-24 | 2026-11-24 |
 | [198](https://github.com/argonne-lcf/AuroraBugTracking/issues/198) | [OpenMP][Level Zero] target update of a structure with many allocatable components leaves wrong data on the device (async command mode) | _No response_ | _No response_ | Jorge Galvez |  | _No response_ | 2026-11-24 | 2026-11-24 |
 | [197](https://github.com/argonne-lcf/AuroraBugTracking/issues/197) | [ifx][OpenMP] declare target on a separate module procedure: error #8682 when given in both the interface and the body | _No response_ | _No response_ | Jorge Galvez |  | _No response_ | 2026-11-24 | 2026-11-24 |
 | [196](https://github.com/argonne-lcf/AuroraBugTracking/issues/196) | [ifx][OpenMP] Conditional min reduction on the GPU returns its initial value at -O3 (do concurrent reduce and omp target reduction) | _No response_ | _No response_ | Jorge Galvez |  | _No response_ | 2026-11-24 | 2026-11-24 |
