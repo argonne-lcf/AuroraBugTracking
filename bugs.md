@@ -4,6 +4,7 @@
 
 | Internal ID | Description | Vendor ID | Reproducer Path | PoC | Priority? | ETA | Date Opened | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [195](https://github.com/argonne-lcf/AuroraBugTracking/issues/195) | [ifx][OpenMP] target update of a component transfers the whole parent when the parent is a pointer or allocatable | _No response_ | _No response_ | Jorge Galvez |  | _No response_ | 2026-11-24 | 2026-11-24 |
 | [194](https://github.com/argonne-lcf/AuroraBugTracking/issues/194) | [ifx][OpenMP] Allocatable components mapped after their parent was sent to the device: wrong data after kernel writes (do concurrent and omp target) | _No response_ | _No response_ | Jorge Galvez |  | _No response_ | 2026-11-24 | 2026-11-24 |
 | [193](https://github.com/argonne-lcf/AuroraBugTracking/issues/193) | [ifx][OpenMP] Writes to an associate name inside an offloaded do concurrent are silently lost | _No response_ | _No response_ | Jorge Galvez |  | _No response_ | 2026-11-24 | 2026-11-24 |
 | [192](https://github.com/argonne-lcf/AuroraBugTracking/issues/192) | [ifx][OpenMP] Offloaded loop (do concurrent or omp target) over a non-contiguous assumed-shape dummy argument reads wrong data | _No response_ | _No response_ | Jorge Galvez |  | _No response_ | 2026-11-24 | 2026-11-24 |
